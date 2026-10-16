@@ -1,0 +1,10 @@
+{
+  "token": "aeo_e67122c7cd4191eee6f9df1d",
+  "targets": [
+    { "keyword": "見積書 ai", "volume": 50, "difficulty": null, "country": "jp", "note": "前日調査3語のうち唯一未使用。単票業務クラスタ（日報→AI-OCR→見積書）を補強するため採用。" },
+    { "keyword": "中小企業 ai活用", "volume": 100, "difficulty": null, "country": "jp", "note": "総論ハブ候補。既存のai導入支援FAQと重複するため後回し。" }
+  ],
+  "publishedSlugs": ["mitsumorisho-ai-koritsuka"],
+  "visibilityCheck": "yamashirogyomukaizen.com=jpオーガニック0件（status 200）／ai-i2gajxb-preview-4200.runable.site=jpオーガニック0件（status 200）。8/24の0件基準から差分なし。見積書 ai のSERP overviewは positions 空で、AI要約・PAAの引用元は取得できず。独自ドメイン未接続・公開数日のため想定内。",
+  "notes": "keyword ideas（questions・jp）は0〜20の長尾のみで採用可能な質問なし。当日確認した出典＝OpenAI ChatGPT料金／Anthropic Claude料金／Google Workspace料金／行政書士法。次はai研修 中小企業(50)と中小企業 ai活用(100)でクラスタを7〜8本に増やし、nippo-ai-sakusei-houhouをハブに内部リンクを集約。測定前進には独自ドメイン接続とSearch Console登録が必要（ユーザー判断待ち）。"
+}

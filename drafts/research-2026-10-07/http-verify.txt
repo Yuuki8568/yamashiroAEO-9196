@@ -1,0 +1,16 @@
+200 http://localhost:4200/
+200 http://localhost:4200/posts/gemini-gem-towa
+200 http://localhost:4200/posts/gemini-gem-towa.md
+200 http://localhost:4200/sitemap.xml
+200 http://localhost:4200/robots.txt
+200 http://localhost:4200/llms.txt
+200 https://ai-i2gajxb-preview-4200.runable.site/
+200 https://ai-i2gajxb-preview-4200.runable.site/posts/gemini-gem-towa
+200 https://ai-i2gajxb-preview-4200.runable.site/posts/gemini-gem-towa.md
+200 https://ai-i2gajxb-preview-4200.runable.site/sitemap.xml
+200 https://ai-i2gajxb-preview-4200.runable.site/robots.txt
+200 https://ai-i2gajxb-preview-4200.runable.site/llms.txt
+200 reciprocal prompt-towa
+200 reciprocal gyomu-manual-ai-sakusei
+200 reciprocal seisei-ai-guideline-shanai-tsukurikata
+Main site 200; blog host in HTML: False

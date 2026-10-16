@@ -1,0 +1,15 @@
+http://localhost:4200/ HTTP200 checked
+http://localhost:4200/posts/claude-code-tsukaikata HTTP200 checked
+http://localhost:4200/posts/claude-code-tsukaikata.md HTTP200 checked
+http://localhost:4200/sitemap.xml HTTP200 checked
+http://localhost:4200/robots.txt HTTP200 checked
+http://localhost:4200/llms.txt HTTP200 checked
+https://ai-i2gajxb-preview-4200.runable.site/ HTTP200 checked
+https://ai-i2gajxb-preview-4200.runable.site/posts/claude-code-tsukaikata HTTP200 checked
+https://ai-i2gajxb-preview-4200.runable.site/posts/claude-code-tsukaikata.md HTTP200 checked
+https://ai-i2gajxb-preview-4200.runable.site/sitemap.xml HTTP200 checked
+https://ai-i2gajxb-preview-4200.runable.site/robots.txt HTTP200 checked
+https://ai-i2gajxb-preview-4200.runable.site/llms.txt HTTP200 checked
+https://ai-i2gajxb-preview-4200.runable.site/posts/claude-towa.md HTTP200 backlink present
+https://ai-i2gajxb-preview-4200.runable.site/posts/ai-agent-tsukurikata.md HTTP200 backlink present
+https://ai-i2gajxb-preview-4200.runable.site/posts/seisei-ai-guideline-shanai-tsukurikata.md HTTP200 backlink present

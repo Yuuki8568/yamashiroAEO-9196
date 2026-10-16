@@ -1,0 +1,44 @@
+{
+  "token": "aeo_e67122c7cd4191eee6f9df1d",
+  "targets": [
+    {
+      "question": "AIで議事録を作るにはどうすればいいですか",
+      "keyword": "議事録 ai",
+      "volume": 7200,
+      "difficulty": 35,
+      "format": "how-to",
+      "decision": "採用。ただし本日のresearch_keywordsが403のため、7,200/KD35は前回計測値の再掲であり当日の再確認はできていない。議事録クラスタの内部リンクが積み上がったため頭の語に着手。既存2本（選び方・無料の範囲）と食い合わないよう録音から共有までの手順に絞ったhow-toとした。"
+    },
+    {
+      "question": "請求書処理をAIで効率化できますか",
+      "keyword": "請求書 ai",
+      "volume": null,
+      "difficulty": null,
+      "format": "how-to",
+      "decision": "需要を確認できず見送り。research_keywordsが403 Insufficient planで数値を取得できなかった。"
+    },
+    {
+      "question": "業務マニュアルをAIで作成できますか",
+      "keyword": "業務マニュアル 作成",
+      "volume": null,
+      "difficulty": null,
+      "format": "how-to",
+      "decision": "需要を確認できず見送り。research_keywordsが403 Insufficient planで数値を取得できなかった。"
+    },
+    {
+      "question": "カスタマーサポートにAIを使うとどうなりますか",
+      "keyword": "カスタマーサポート ai",
+      "volume": null,
+      "difficulty": null,
+      "format": "comparison",
+      "decision": "需要を確認できず見送り。research_keywordsが403 Insufficient planで数値を取得できなかった。既存の問い合わせ対応AI記事との重複確認も未実施。"
+    }
+  ],
+  "publishedSlugs": [
+    "ai-gijiroku-tsukurikata",
+    "ai-gijiroku-tool-erabikata",
+    "ai-gijiroku-muryo-doko-made"
+  ],
+  "visibilityCheck": "掲載確認は実施できず。get_organic_keywordsをyamashirogyomukaizen.comとai-i2gajxb-preview-4200.runable.siteの両方（mode=subdomains, country=jp, limit=10）に対して実行したが、いずれも403 Insufficient planで応答。2026-09-04に続き2日連続で計測不能のため、2026-08-24の基準日から2026-09-03まで11日連続で対象キーワード0件だった状態が継続しているのか改善したのかは不明。差分不明として記録する。SERP／AI Overviewの引用元調査もget_serp_overviewが同様に403のため今回は取得なし。",
+  "notes": "Ahrefs系エンドポイントは全滅。get_organic_keywords（2ドメイン）、research_keywords（3語）、get_keyword_ideas（terms=questions, ai 業務）のすべてが403 Insufficient plan。get_keyword_ideasは7回連続で使えるキーワードを返していないため、次回以降は主軸から外す判断が必要。代替としてsocial-dataのsearch_youtubeを使用し、クエリ「AI 議事録 作り方」で20件の実データを取得。上位はNotebookLM 226,677回、Gemini音声対応 41,652回および41,932回、Teams Copilot 30,019回で、いずれもツール比較ではなく既契約サービスの機能で議事録を作る手順の動画だった。これを受けて記事の導線を「ツール選定」ではなく「まず既契約の機能を確認する」から始める構成にした。なおYouTubeの再生数は需要の形を推測する補助材料であり、検索ボリュームの代用ではない。記事本文には一切数値として書いていない。出典は当日2件をmbで実確認。Google Meetヘルプ（文字起こしの対応環境・既定のオン/オフ・保存先・2026年7月以降のフォルダ改称・同意設定）とZoomサポートKB0080278（AIによるミーティング要約の対象プラン・ホスト権限・ブレイクアウトルーム非対応等、記事更新日2026-08-13）。従来参照していたZoomのKB0057521は404で消滅していたため、web_searchで現行記事KB0080278を特定して差し替えた。推測でのURL補完はしていない。公的統計以外の一次情報（各社公式サポート）に出典を寄せた点が従来との違い。FAQ5問はPAAデータが取得できなかったため検索意図から起こしたものであり、実データ由来ではない。内部リンクは新記事から選び方・無料の範囲・中小企業活用例・ハブ・ChatGPT業務活用の5本へ発リンクし、既存の議事録2本にも新記事への戻りリンクを追記して再公開、議事録クラスタ3本を相互に閉じた。lintはNo violations found／0 errors、buildは2タスク成功、/posts/ai-gijiroku-tsukurikataはHTTP 200、sitemap.xmlとllms.txtに反映、静的コピーは15本。累計公開記事15本。"
+}

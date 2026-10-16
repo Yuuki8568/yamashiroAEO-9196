@@ -1,0 +1,44 @@
+{
+  "targets": [
+    {
+      "question": "Geminiでは何ができますか。中小企業の仕事で試す用途5つと、無料版の制限は？",
+      "keyword": "gemini 何ができる",
+      "volume": 1200,
+      "difficulty": 0,
+      "decision": "published: gemini-nani-ga-dekiru / best-of。事務の用途5つを材料・確認点で整理。既存Gem手順/比較とは別意図。順位付けや性能保証はしない。"
+    },
+    {
+      "question": "Geminiとは何ですか",
+      "keyword": "geminiとは",
+      "volume": 31000,
+      "difficulty": 11,
+      "decision": "hold: gemini とは2600/KD11、geminiとは無料3400/KD16は同一意図で合算しない。今回はKD0の用途語に絞り、本記事冒頭で定義も補足。後続の定義記事は重複範囲を再確認。"
+    },
+    {
+      "question": "Claude Codeとは何ですか",
+      "keyword": "claude code とは",
+      "volume": 4900,
+      "difficulty": 4,
+      "decision": "next candidate: claude codeとは2400/KD0と同一意図で合算しない。権限・ファイル変更・検証を備えたhow-toを検討。"
+    },
+    {
+      "question": "GeminiのGemとは何ですか",
+      "keyword": "gemini gemとは",
+      "volume": 1900,
+      "difficulty": 0,
+      "decision": "existing: 前回gemini-gem-towa、今回相互リンク更新のみ。"
+    },
+    {
+      "question": "GeminiとChatGPTはどちらがよいですか",
+      "keyword": "gemini chatgpt どっちがいい",
+      "volume": 1500,
+      "difficulty": 0,
+      "decision": "existing: 比較記事があり新規は作らない。今回FAQは測定なしの優劣断定を避け、同じ架空入力での評価方法のみ。"
+    }
+  ],
+  "publishedSlugs": [
+    "gemini-nani-ga-dekiru"
+  ],
+  "visibilityCheck": "2026-10-08確認。対象期間2026-10-07 08:00 JST〜2026-10-08 08:00 JST。SEOツールは取得時の最新スナップショットで期間限定の測定ではない。get_organic_keywords（jp/subdomains）はyamashirogyomukaizen.comとai-i2gajxb-preview-4200.runable.siteが両方keywords: []。観測KW0件、2026-08-24起点0との差分0、順位データなし。未インデックスの証明ではない。選定語gemini 何ができるのAIO引用6URL: https://izanai.cloudcircus.jp/media/column/gemini-what ; https://shift-ai.co.jp/blog/10207/ ; https://googleworkspace.tscloud.co.jp/gemini/gemini-howto ; https://network.mobile.rakuten.co.jp/sumakatsu/contents/articles/2024/00190/ ; https://japan-ai.co.jp/media/7692/ ; https://www.youtube.com/watch?v=watp8CGPa6c&t=703。自社引用はこの結果内で0件。前回gemini gemとはとは別語で、同じ語の引用変化は比較不可。PAA4問: GeminiとChatgptのどちらがいいですか？／Geminiは無料で何回まで使えますか？／Geminiでできるすごいことは何ですか？／Geminiの月額料金はいくらですか？。各回答引用URLはnullで確認できない。狙ったSERPのみ1回取得。",
+  "notes": "新規1本gemini-nani-ga-dekiru公開、総46本。回答105字/本文6801字/FAQ5/公式出典7。用途5つと入力例3つは説明用で実績・実測の主張ではない。個人無料0円/Plus725円/Pro2900円と上限倍率は当日公式日本向けページ確認、日付とURL記載。利用回数は計算量依存・5時間/週の枠、個人有料と法人の情報保護を区別。ファイル生成と内容検証、メール下書きと送信、会議メモ整理と録音を区別。公式紹介のSpark近日予定、Gem移行予告も現利用と混同しない。X3件は2026-10-06T23:59:05〜20Zで対象期間内、古い回答や書式崩れの不満など補助のみ。仕様根拠・性能評価には使わない。相互リンク更新: gemini-gem-towa/seisei-ai-towa/business-mail-ai-shitagaki。lint0エラー、build成功（既存500KB超bundle警告）。ローカル/公開のトップ・記事・本文md・sitemap/robots/llms計12チェック200、逆リンク3件外部200。ブラウザH1/答え/読者/比較表3つ/FAQ5/出典/CTA4確認、横はみ出しなし、Article/FAQPage JSON-LD確認。deliver完了。本サイトHTMLにブログホストリンクなし。Search Console管理画面は未確認。次に本サイトからの導線、独自ドメインとSearch Console/サイトマップ送信状態を確認。次回新規候補はClaude Code4900/KD4。既存比較記事の文字化け修正は公式再確認と合わせる。"
+}

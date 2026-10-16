@@ -1,0 +1,37 @@
+{
+  "token": "aeo_e67122c7cd4191eee6f9df1d",
+  "targets": [
+    {
+      "question": "業務マニュアルをAIで作るにはどうすればいいですか",
+      "keyword": "業務マニュアル 作成",
+      "volume": null,
+      "difficulty": null,
+      "format": "how-to",
+      "decision": "採用。research_keywordsが403のため月間検索数とKDは取得できず、YouTubeの需要形状で代替判断した。既存15本のいずれとも重複しない未着手テーマである点、および作業記録から手順書を起こす動画に安定した再生数がある点から選定。"
+    },
+    {
+      "question": "請求書処理をAIで効率化できますか",
+      "keyword": "請求書 ai",
+      "volume": null,
+      "difficulty": null,
+      "format": "how-to",
+      "decision": "見送り。YouTubeの需要形状は強かったが（最上位11.2万回、以下2.3万回・1.8万回・1.7万回）、内容は受け取った請求書・領収書の読み取りと会計ソフト入力が中心で、既存のai-ocr-chusho-kigyo-hajimekata（対象を1種類に絞る→枚数を数える→10枚試す→修正時間で判断）と扱う範囲が重なるため、共食いを避けて次回以降に回した。切り口を変えるなら電子帳簿保存法まわりの確認事項に絞る必要がある。"
+    },
+    {
+      "question": "カスタマーサポートにAIを使うとどうなりますか",
+      "keyword": "カスタマーサポート ai",
+      "volume": null,
+      "difficulty": null,
+      "format": "comparison",
+      "decision": "見送り。research_keywordsが403で需要を確認できず、かつ既存のai-toiawase-taio-hajimekataと重複する可能性が高い。"
+    }
+  ],
+  "publishedSlugs": [
+    "gyomu-manual-ai-sakusei",
+    "ai-gyomu-koritsuka-doko-kara",
+    "ai-gijiroku-tsukurikata",
+    "chatgpt-gyomu-katsuyo-tejun"
+  ],
+  "visibilityCheck": "掲載確認は実施できず。get_organic_keywordsをyamashirogyomukaizen.comとai-i2gajxb-preview-4200.runable.siteの両方（mode=subdomains, country=jp, limit=10）に対して実行したが、いずれも403 Insufficient plan。2026-09-04、09-05に続き3日連続で計測不能。2026-08-24の起点から09-03までは11日連続で対象キーワード0件だったが、その後の変化は確認できていない。差分不明として記録する。get_serp_overviewによるAI OverviewとPAAの引用元調査も同じ理由で今回は取得なし。",
+  "notes": "Ahrefs系は3日連続で全滅。get_organic_keywords（2ドメイン）とresearch_keywords（請求書 ai／業務マニュアル 作成／カスタマーサポート ai）がいずれも403 Insufficient plan。get_keyword_ideasは直近7回連続で使える語を返していないため今回は呼ばず、API単位の消費を避けた。代替としてsocial-dataのsearch_youtubeを2クエリ実行。「請求書 AI 自動化 経理」は最上位112,981回、以下23,185回・18,222回・17,335回・7,441回で、内容は受け取った請求書・領収書の読み取りと会計ソフトへの入力が中心。「業務マニュアル AI 作成 方法」は44,358回・19,869回・18,793回・12,912回・10,791回・10,191回が並び、加えて現場マニュアル作成を扱う報道番組の動画が177,792回、マニュアルが放置される理由を扱う番組が72,142回。上位の内容は白紙から書かせる話ではなく、作業の録画や動画を素材にして手順書へ変換する話に集中していた。これを受けて記事は「対象を絞る→作業を記録する→AIに形へ整えさせる→人が確認する」の4工程構成にし、さらに使われないマニュアルの3条件（分量・置き場所・更新）を独立した章として入れた。YouTubeの再生数は需要の形を推定する補助材料であり検索ボリュームの代用ではないため、本文には数値として書いていない。出典は当日mbで2件実確認。Google ヘルプの「ノートブックの新しいソースを追加または検索する」（対応ソース形式、1ソース500,000語・200MB・無料は50ソースの上限、音声は取り込み時に文字起こし、YouTubeは字幕付き公開動画のみ・文字起こし部分のみ、ウェブURLはHTMLテキストのみ、脚注とコメントは非対応、スライドは最大100枚、スプレッドシートは10万トークン制限）と「Gemini Notebook をアップグレードする」（プラン別のノートブック数・ソース数上限）。調査中にNotebookLMのヘルプがGemini Notebookの名称に移行しており、URLもsupport.google.com/gemininotebook配下に変わっていることを確認したため、記事中では併記した。旧support.google.com/notebooklm配下の記事IDは404になるものがあるので、次回以降は新URLを使う。ヘルプに上限は変更される場合があると明記されているため、本文には2026年9月6日時点の注記を添えた。内部リンクは新記事から議事録の作り方・ChatGPT業務活用・生成AI研修・中小企業活用例・ハブの5本へ発リンクし、ハブ、議事録の作り方、ChatGPT業務活用の3本に戻りリンクを追加して再公開した。lintはNo violations found／0エラー、buildは2タスク成功、/posts/gyomu-manual-ai-sakuseiはHTTP 200、sitemap.xmlとllms.txtに反映、静的コピー16本。累計公開記事16本。"
+}

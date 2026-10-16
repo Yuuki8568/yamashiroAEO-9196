@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-26",
+  "targets": [
+    {
+      "question": "中小企業がAI-OCRで紙の書類をデータ化するには、何から始めればいいですか？",
+      "keyword": "ai-ocr 中小企業",
+      "volume": 80,
+      "difficulty": null,
+      "decision": "採用。単票業務クラスタ（日報・シフト表・議事録）に連なる具体的な単一タスク語で、既存記事と重複しない。SERP overviewは positions が空で上位ページの情報が取得できず、情報型の空きは判定できなかったが、記事側は手順型で一次情報のみ使用して公開。"
+    },
+    {
+      "question": "中小企業のAI活用は何から始めるべきか",
+      "keyword": "中小企業 ai活用",
+      "volume": 100,
+      "difficulty": null,
+      "decision": "見送り。ボリュームは最大だが範囲が広く、既存の ai-donyu-shien-towa と重複する。クラスタが厚くなってから総論ハブとして使う。"
+    },
+    {
+      "question": "見積書作成をAIでどう楽にするか",
+      "keyword": "見積書 ai",
+      "volume": 50,
+      "difficulty": null,
+      "decision": "次回以降に保留。"
+    }
+  ],
+  "publishedSlugs": [
+    "ai-ocr-chusho-kigyo-hajimekata"
+  ],
+  "visibilityCheck": "yamashirogyomukaizen.com（jp）: 0件 / status 200・keywords空。ai-i2gajxb-preview-4200.runable.site（jp）: 0件 / status 200・keywords空。SERP overview『ai-ocr 中小企業』（jp・topPositions 8）: positions空でAI要約・PAAの引用元は取得できず。Ahrefsのユニットは復活（前日は403）。両ドメインとも0件で8/24の起点から差分なし。独自ドメイン未接続・公開2日目のため想定内。",
+  "notes": "本文は最初の ## から開始（H1・答え・対象読者はテンプレが frontmatter から描画するため重複させない）。 / 内部リンクは [記事タイトル](/posts/slug) のMarkdown形式で4本（日報・議事録・シフト表・AI導入支援）。 / 当日確認した一次情報のみ使用：Googleドライブ ヘルプ（OCRの対応形式・2MB以下・文字高10px以上・表や列は検出されない可能性）、ChatGPT料金、Claude料金、行政書士法。OCRベンダー個社名は許可リスト外のため記載せず、進め方3種の比較表で代替。 / lint / build / ページ200 を確認済み。"
+}

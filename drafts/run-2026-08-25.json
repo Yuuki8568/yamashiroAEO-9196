@@ -1,0 +1,14 @@
+{
+  "targets": [
+    {
+      "question": "日報作成をAIで楽にするには、どの方法がいいですか？",
+      "keyword": "日報 ai",
+      "volume": 100,
+      "difficulty": null,
+      "decision": "採用。ただし今回はAhrefs系（website-data）のAPIユニットが上限到達（残0）で新規のキーワード調査・SERP調査・掲載確認がすべて403となったため、前回実行時に取得済みの候補リスト（日報 ai 100、見積書 ai 50、ai-ocr 中小企業 80、ai研修 中小企業 50）から、単票業務クラスタの起点として検索数が最大の 日報 ai を選んだ。難易度は今回取得できていないため null。既存4記事と重複なし。カテゴリは best-of（方法を5つ比較）。"
+    }
+  ],
+  "publishedSlugs": ["nippo-ai-sakusei-houhou"],
+  "visibilityCheck": "実施できず。get_organic_keywords が API units limit reached（残0）で403。yamashirogyomukaizen.com とブログの掲載状況、AI要約・PAAの引用元変化は今回測定できていない。前回（2026-08-24）時点では両ドメインともオーガニックキーワード0件、ai コンサル のAI要約引用元は persol-group.co.jp と japan-ai.co.jp。次回ユニット回復後に再測定する。",
+  "notes": "料金・機能は当日（2026年8月25日）に公式ページを実際に開いて確認: ChatGPT（無料$0／Go $8／Plus $20／Pro 月額$100から）、Claude（Free／Pro 年払い月$17・月払い$20／Max $100から）、Notta（税込・フリー¥0 120分月・1回3分・AI要約10回月／プレミアム年間払い月¥1,185 1,800分月・1回5時間・AI要約100回月／ビジネス年間払い月¥2,508 無制限）、Google Workspace（年間プラン Starter $7・Standard $14・Plus $22／ユーザー月、StarterにGmailのGeminiアシスタント、StandardにGmail・ドキュメント・Meetなど）。記事フォーマットの学び: 本文冒頭にH1と答え・対象読者を書くとテンプレート側の表示と二重になるため、本文は最初の見出し（##）から始める。内部リンクは素のパスではリンクにならないのでMarkdownリンク形式で書く。内部リンクは ai-gijiroku-tool-erabikata / excel-shift-hyo-jido-sakusei / ai-consul-igai-no-sentakushi の3本に接続。次回候補: 見積書 ai（50）、ai-ocr 中小企業（80）、ai研修 中小企業（50・best-of）、中小企業 ai活用。議事録 ai（7,200／KD35）はクラスタが厚くなってから。補助金クラスタは対象外。"
+}

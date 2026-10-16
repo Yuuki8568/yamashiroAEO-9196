@@ -1,0 +1,12 @@
+{
+  "targets": [
+    {"question": "AIエージェントの作り方は？", "keyword": "aiエージェント 作り方", "volume": 2900, "difficulty": 0, "decision": "公開（ai-agent-tsukurikata, how-to）。独立したparent topic、KD0、既存38本と重複なし。SERPのAI Overview引用元=japan-ai.co.jp / ai.sakura.ad.jp / syscomgs.com / circlace.com / ainow.ai / YouTube。PAA=開発費はいくら・ChatGPTはAIエージェントか・無料で構築できるか・無料で使えるか。PAAの4問をFAQに反映"},
+    {"question": "Copilot Studioの使い方は？", "keyword": "copilot studio 使い方", "volume": 600, "difficulty": 1, "decision": "保留。parent topicがcopilot studio とは（既存copilot-studio-towa）と重なるため、新規ではなく既存記事への手順節追加を検討"},
+    {"question": "AIエージェントとは？", "keyword": "aiエージェントとは", "volume": 16000, "difficulty": 7, "decision": "次回以降の候補。既存copilot-agent-towaはCopilot限定のため、汎用の定義記事として別slugで立てられる"},
+    {"question": "AIコンサル／日報AI／見積書AI／中小企業AI活用", "keyword": "ai コンサル ほか", "volume": 600, "difficulty": 1, "decision": "新規見送り。既存 ai-consul-igai-no-sentakushi / nippo-ai-sakusei-houhou / mitsumorisho-ai-koritsuka / chusho-kigyo-ai-katsuyo-rei と重複。改稿対象"},
+    {"question": "議事録 ai", "keyword": "議事録 ai", "volume": 7200, "difficulty": 35, "decision": "保留（内部リンク蓄積待ち、既定方針どおり）"}
+  ],
+  "publishedSlugs": ["ai-agent-tsukurikata"],
+  "visibilityCheck": "2026-09-30 get_organic_keywords（country jp, mode subdomains）: yamashirogyomukaizen.com 0件、ai-i2gajxb-preview-4200.runable.site 0件。2026-08-24起点から変化なし。aiエージェント 作り方 のAI Overview・PAA引用元に自社ドメインなし。",
+  "notes": "前回（2026-09-29）の実行が公開直後で中断していたため、今回の実行で同記事を今回分として仕上げ（内部リンク追加・再公開・lint・build・ログ）、新規記事の追加公開はしていない。相互リンクは copilot-agent-towa / rpa-ai-chigai-dochira / copilot-studio-ryokin に追加して再公開済み。OpenAIのカスタムGPT廃止予定・Agent Builder終了（2026-11-30）を公式ページで確認して本文に反映。構造上の課題（プレビュードメインで配信、Search Console未登録、被リンクなし）は継続。"
+}

@@ -1,0 +1,52 @@
+{
+  "token": "aeo_e67122c7cd4191eee6f9df1d",
+  "targets": [
+    {
+      "question": "経理の仕事はAIでどこまで任せられますか。経理の仕事はなくなりますか",
+      "keyword": "経理ai",
+      "volume": 200,
+      "difficulty": 1,
+      "decision": "published as keiri-ai-doko-made (category: faq). 既存27記事に経理・会計クラスタが存在せず空白（近接記事はexcel-shukei-ai-katsuyo、ai-ocr-chusho-kigyo-hajimekata、mitsumorisho-ai-koritsukaのみで、いずれも経理業務全体を扱っていない）。get_keyword_ideas（seed: ai 経理 / ai 請求書 処理 / ai 人事 採用 / ai 翻訳 業務、terms=all、country=jp、limit=40）で経理クラスタが最も厚く、本キーワードはKD1かつtraffic_potential 600で当該プル中の最高値。記事内で『ai 経理』SERPのPAA4件（経理に向いているAIは？／AIで経理の仕事はなくなりますか？／AIに奪われにくい職業は？／AIを経理業務に活用する方法は？）のうち業務改善の意図に合う3件をFAQで直接回収。差別化軸は、総務省白書の業務類型別データ（経理・財務の活用率4割台半ば・効果実感29.7％）と、税理士法第2条・第52条による人に残る領域の明示、電子帳簿保存法の保存義務への注意という3点。"
+    },
+    {
+      "keyword": "ai 経理",
+      "volume": 900,
+      "difficulty": 82,
+      "decision": "rejected as primary keyword. get_serp_overviewを実施（今回の課金1件）。AI Overview（position 1、sitelink 4件）が既に存在し、引用元はsmbc-card.com（DR82）、biz.moneyforward.com（DR84・traffic 223,436）、deloitte.com（DR92）、freee.co.jp（DR82・traffic 216,752）。上位organicも会計SaaS大手とコンサル大手（Concur DR62、OBC DR75、fastaccounting.jp DR50）で占められ、KD82。単独で上位を狙う面ではないため、より低競合の『経理ai』を主キーワードにし、本キーワードのPAAは記事内FAQで回収した。引用元4社はいずれも当事務所の記事で製品推奨が許可された名称リストに含まれないため、記事内では製品推奨として扱わず、事例は白書が引用するラクスの一次発表のみを使用。"
+    },
+    {
+      "keyword": "経理 ai なくなる",
+      "volume": 400,
+      "difficulty": 0,
+      "decision": "統合。単独記事にはせず、H1（『経理の仕事はなくなりますか』）とFAQ第1問、本文の専用セクションで回収した。不安系クエリのみで1本立てると業務改善の導線につながらないため。"
+    },
+    {
+      "keyword": "経理aiエージェント / ai 経理 業務 / 経理 ai 事例 / 生成ai 経理",
+      "volume": 250,
+      "difficulty": 3,
+      "decision": "hold: 同一クラスタのロングテール（各60〜250）。今回の記事が索引されて順位が確認できた段階で、2本目（経費精算または請求書処理に絞った how-to）の主キーワード候補として再評価する。"
+    },
+    {
+      "keyword": "ai 請求書 処理 / ai 人事 採用 / ai 翻訳 業務",
+      "volume": null,
+      "difficulty": null,
+      "decision": "rejected（今回のプルでは評価不能）: 上記seedで40件を取得したが、返却結果は経理クラスタに集中し、請求書処理・人事採用・翻訳業務に固有の候補が現れなかった。これらは未探索として扱い、次回は個別のseedで再プルする。"
+    },
+    {
+      "keyword": "議事録 ai",
+      "volume": 7200,
+      "difficulty": 35,
+      "decision": "hold: 議事録クラスタ3本の内部リンクが積み上がるまで据え置き（方針継続）。"
+    }
+  ],
+  "publishedSlugs": [
+    "keiri-ai-doko-made",
+    "excel-shukei-ai-katsuyo",
+    "ai-ocr-chusho-kigyo-hajimekata",
+    "ai-gyomu-koritsuka-doko-kara",
+    "mitsumorisho-ai-koritsuka",
+    "chatgpt-joho-roei-taisaku"
+  ],
+  "visibilityCheck": "get_organic_keywords（yamashirogyomukaizen.com、country=jp、mode=subdomains、limit=20）を2026-09-18に実行、結果は空配列。オーガニックキーワード0件、順位獲得0件、AI Overview/PAAでの引用0件で、2026-08-24のベースライン（0件）から変化なし。2026-09-17の前回実行時も0件で、3回連続で同じ状態。ブログ本体はRunableのプレビュー環境（ai-i2gajxb-preview-4200.runable.site）上にあり、公式ドメイン yamashirogyomukaizen.com 配下に接続されていないため、現状のクロール対象が公式ドメインではない点が0件の主因と考えられる。公開記事は28本、sitemap.xml・llms.txt・プレーンテキスト版はいずれも再生成済みで、技術面の出力は整っている。",
+  "notes": "①総務省白書の数値は、前回セッションで生の抽出テキストに文字化け（『企企企企』等）が混在していたため、今回 pdftotext -layout で再抽出して検証した。図表Ⅰ-2-1-7は左右2枚の図で構成され、左が活用状況（3段階の積み上げ）、右が『活用している』と回答した企業に限った効果実感。左図の3項目合計は議事録・メール作成補助71.2％（本文の約7割と一致）、営業・販売59.6％（約6割と一致）、社内ヘルプデスク50.9％（約5割と一致）で、抽出値と本文記述の整合を確認できた。経理・財務は9.3＋19.5＋15.9＝44.7％。右図の社内ヘルプデスク42.7％は、前日記事の『4割程度』という記述と矛盾しない（前回の懸念は解消）。記事では右図が条件付き集計である点を明記した。②ラクスの事例は白書の脚注*24をたどり、一次情報（2025年12月1日発表、HTTP 200で到達確認）で内容を照合してから記載。③税理士法は e-Gov法令検索の条文本体で第2条（税務代理・税務書類の作成・税務相談）と第52条（税理士でない者の業務禁止）を確認し、記事本文・表・フッターの3か所に境界を明示。行政書士法第19条第1項の注記と併記する形に更新した。④電子帳簿保存法は国税庁の電子帳簿等保存制度特設サイトで電子取引データの保存義務と保存方法が定められている点のみを記載し、要件の詳細な断定は避けた。⑤OpenAIのエンタープライズプライバシーページを2026-09-18に再確認し、法人向けプランでの既定の学習不使用と保持期間（削除した会話は原則30日以内）を引用。⑥内部リンクは新記事から5本へ発リンク、既存5記事（excel-shukei-ai-katsuyo、ai-ocr-chusho-kigyo-hajimekata、ai-gyomu-koritsuka-doko-kara、mitsumorisho-ai-koritsuka、chatgpt-joho-roei-taisaku）から新記事への相互リンクを追加し、各記事を再公開した。⑦NGパターン5種（太字・完全自動化系・ROI売上保証・体験談風・申請代行）を正規表現で自己点検し該当0件。単一値の削減効果は記載せず、件数と手順に依存する旨を明記。⑧bun run lint 違反0件・警告0件、bun run build 成功（既知のチャンクサイズ警告のみ）。⑨検証: /posts/keiri-ai-doko-made が HTTP 200、sitemap.xml と llms.txt に新スラッグを含む、packages/web/public/posts/ のファイル数28。⑩次回候補: 請求書処理・人事採用・翻訳業務の各クラスタを個別seedで再プル、または経理クラスタ2本目（経費精算のhow-to）。索引0件が続いているため、公式ドメイン配下への接続状況の確認を優先課題として記録する。"
+}

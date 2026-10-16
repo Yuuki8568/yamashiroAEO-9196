@@ -1,0 +1,11 @@
+{
+  "token": "aeo_e67122c7cd4191eee6f9df1d",
+  "targets": [
+    { "question": "AIで業務効率化を始めるなら、どの業務から手をつければいいですか？", "keyword": "ai 業務効率化", "volume": 700, "difficulty": 4, "country": "jp", "decision": "採用。需要700・KD4で既存6語より条件が良く、既存記事と重複せず、5記事へ内部リンクを送るハブ記事にできるため。" },
+    { "question": "中小企業がAIを活用するには？", "keyword": "中小企業 ai活用", "volume": 100, "difficulty": null, "country": "jp", "decision": "見送り。ai導入支援FAQと役割が重なるため、ハブ記事の後で総論として扱う。" },
+    { "question": "中小企業向けAI研修はどれを選ぶ？", "keyword": "ai研修 中小企業", "volume": 50, "difficulty": null, "country": "jp", "decision": "見送り。ボリュームが小さく、サービス寄りの語のため次回以降。" }
+  ],
+  "publishedSlugs": ["ai-gyomu-koritsuka-doko-kara"],
+  "visibilityCheck": "yamashirogyomukaizen.com=jpオーガニック0件（status 200）／ai-i2gajxb-preview-4200.runable.site=jpオーガニック0件（status 200）。8/24の0件基準から差分なし。ai 業務効率化 のSERPではAI概要が1位に表示され、引用元は nttdata-kansai.co.jp/media/038/、fujifilm.com/fb/ja/solutions/columns/ai-11868、exa-corp.co.jp、concur.co.jp、japan-it.jp。オーガニック上位は intra-mart.jp(DR68,2位)、nttdata-kansai(DR60,3位)、exa-corp(DR59,4位)、fujifilm(DR86,5位)、nttexc(DR58,7位)、concur(DR62,8位)。PAAは「AIを使って仕事を効率化するにはどうすればいいですか？」「業務効率化のためのAIツールは？」「生成AIで業務効率を上げる事例はありますか？」など4問。",
+  "notes": "公開記事は8本。今回の記事は議事録・日報・AI-OCR・見積書・シフト表・AI導入支援・AIコンサル代替の各記事へ内部リンクを張るハブとして設計。当日確認した出典＝OpenAI ChatGPT料金（無料0/Go 8/Plus 20/Pro 100ドル）とAnthropic Claude料金（Free 0/Pro 年払い月17・月払い20/Max 100ドルから）。次回はPAAの3問（ツール選定・事例）を個別記事化してハブに接続し、中小企業 ai活用(100)を総論として追加する。測定を前に進めるには独自ドメイン接続とSearch Console登録が必要（ユーザー判断待ち）。"
+}

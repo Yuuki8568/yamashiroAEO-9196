@@ -1,0 +1,23 @@
+{
+  "token": "aeo_e67122c7cd4191eee6f9df1d",
+  "targets": [
+    {
+      "keyword": "chatgpt 業務活用",
+      "volume": 80,
+      "difficulty": 1,
+      "trafficPotential": 2300,
+      "country": "jp",
+      "question": "ChatGPTを業務で活用するにはどうすればいいですか",
+      "format": "how-to",
+      "decision": "採用（volumeは80と小さいがKD1・トラフィックポテンシャル2300で親トピック chatgpt 活用 に接続。既存11本と重複なし）"
+    },
+    { "keyword": "問い合わせ対応 ai", "volume": 100, "difficulty": null, "trafficPotential": null, "decision": "見送り（volumeは上だがKD・TPともデータなし。次回候補として保留）" },
+    { "keyword": "中小企業 ai活用", "volume": 100, "difficulty": null, "trafficPotential": null, "decision": "見送り（KD・TPデータなし。既存ハブ記事と主題が重なる）" },
+    { "keyword": "社内 問い合わせ ai", "volume": 0, "difficulty": null, "decision": "見送り（volume0）" },
+    { "keyword": "ai チャットボット 中小企業", "volume": null, "difficulty": null, "decision": "データ返らず・需要を確認できず見送り" },
+    { "keyword": "業務効率化とは", "volume": 700, "difficulty": 1, "trafficPotential": 500, "decision": "見送り（get_keyword_ideas で検出。定義語で既存ハブ記事 ai-gyomu-koritsuka-doko-kara と主題が重複）" }
+  ],
+  "publishedSlugs": ["chatgpt-gyomu-katsuyo-tejun"],
+  "visibilityCheck": "yamashirogyomukaizen.com（subdomains/jp）オーガニックキーワード0件・status 200。ai-i2gajxb-preview-4200.runable.site も0件・status 200。8/24の0件起点から差分なし（9日連続0件）。SERP（chatgpt 業務活用 / jp・topPositions8）はAI Overviewが出ておらず、1位から通常のオーガニック枠。skillupai.com（DR56・#1・traffic2347・refdomains21）、rpa-technologies.com（DR60・#2・342・サイトリンク2本）、nkbb.nikkei.co.jp（DR86・#4・212）、coopel.ai（DR35・被リンク0・#5・195）、japan-ai.co.jp（DR51・#6・400）、persol-group.co.jp（DR77・#7・249）、dxpo.jp（DR75・#8・10）。PAAは「ChatGPTで聞いてはいけないことは？」「ChatGPTで業務改善するにはどうすればいいですか？」「ChatGPTを社内で活用するにはどうしたらいいですか？」「ChatGPTのビジネスでの使い方は？」の4問で、いずれも記事のFAQに反映済み。persol-group.co.jp は 8/24 の ai コンサル、8/31 の 生成ai 研修 に続き3語目で上位に登場。japan-ai.co.jp も 8/24 の ai コンサル のAI Overview引用元として記録済みで再登場。coopel.ai（DR35・被リンク0）が#5に入っており、8/30 remoba.biz（DR33）、8/31 proskilll.com（DR36）に続き低権威ページの上位表示を3日連続で確認。",
+  "notes": "本日の公開: chatgpt-gyomu-katsuyo-tejun（how-to）。累計12本。当日（2026-09-01）確認した出典2件＝OpenAI ChatGPT料金ページ日本語版（無料版0ドル、Go 8ドル、Plus 20ドル、Pro 100ドルから、いずれもユーザー1人あたり月額、BusinessとEnterpriseは2ユーザーから、入力内容の学習利用は各プランで無効化可能）、総務省 令和7年版 情報通信白書「企業におけるAI利用の現状」（方針策定49.7%・2023年度42.7%、中小企業は方針未策定が約半数、業務での生成AI利用55.2%、補助用途47.3%）。ChatGPT Businessの1人あたり単価は公式ページの本文から特定できなかったため記載せず。自社料金は書かずヒアリング後見積りのみ。削減時間は単一値で断定せず、自社で測る前提に統一。内部リンク: 新記事からハブ ai-gyomu-koritsuka-doko-kara / seisei-ai-koritsuka-jirei / seisei-ai-kenshu-chusho-kigyo / ai-donyu-shien-towa へ。lint 0違反、build 2タスク成功、記事URL 200、sitemap.xml と llms.txt に反映済み。get_keyword_ideas（terms:questions）は今回もvolume700の定義語1件を除き0〜40の長文質問ばかりで、実用候補はほぼ返らず（5回連続）。次回候補: 問い合わせ対応 ai（100）、中小企業 ai活用（100）、内部リンクが積み上がった後の 議事録 ai（7,200/KD35）。SERP定点観測として ai 業務効率化 を週次で再取得予定。測定を前に進めるには独自ドメイン接続とSearch Console登録が必要（ユーザー判断待ち）。補助金クラスタは対象外。"
+}

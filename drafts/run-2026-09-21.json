@@ -1,0 +1,66 @@
+{
+  "token": "aeo_e67122c7cd4191eee6f9df1d",
+  "targets": [
+    {
+      "question": "PDFや長文資料をAIで要約するには、どのAIをどう使えばいいですか",
+      "keyword": "pdf 要約 ai",
+      "volume": 500,
+      "difficulty": 0,
+      "decision": "採用。get_keyword_ideas（keywords: ai 文字起こし / pdf ai 要約 / ai 翻訳 業務 / 採用 ai、terms=all、jp、limit=40）でPDF要約クラスタを確認し、pdf 要約 ai が volume 500・KD 0。同バッチでは文字起こし ai 4600/KD52、ai 文字起こし 1600/KD49 など上位語も出たがKDが高く、KD0帯で既存記事と重複しないのは pdf 要約 ai だった。get_serp_overview（pdf 要約 ai、jp、topPositions=10）では、position1 smallpdf.com DR83、2 chatpdf.com DR72、3 adobe.com DR96、4 mapify.so「おすすめAI PDF要約ツール7選」DR65、5 xtech.nikkei.com DR91、6 ilovepdf.com DR83、7 Yahoo知恵袋 DR93、9 YouTube DR99、10 Google Play DR100。AI Overviewの枠はこのキーワードには出現せず、position8の枠にPAAが3問（「PDFを要約してくれるAIは？」adobe.com、「ChatGPTでPDFを要約するにはどうすればいいですか？」biz.moneyforward.com、「PDFの要約はCopilotでできますか？」tku.ac.jp）＋「AIに入力してはいけない情報は何ですか？」boostx-inc.com。organic上位は海外の高DRツールサイトとツール紹介型が中心で、各サービスの実際の上限（ページ数・ファイルサイズ・図表を読むかどうか）を横並びにした記事は不在。この差分で切り、PAA4問をFAQに吸収した（Copilotについては当事務所の指名可競合リストに含まれないため、製品名を出さず「ご契約中のグループウェアに付属するAIアシスタント」として一般化して回答）。既存30記事に PDF要約 を主題とする記事はなく重複なし（近接は ai-ocr-chusho-kigyo-hajimekata＝紙のデータ化、shanai-shiryo-ai-kensaku＝社内資料検索で、いずれも検索意図が別）。"
+    },
+    {
+      "question": "日報 ai",
+      "keyword": "日報 ai",
+      "volume": null,
+      "difficulty": null,
+      "decision": "不採用。今回の候補として提示されたが、既存記事 nippo-ai-sakusei-houhou（主KW=日報 ai）で既に公開済みのため重複。"
+    },
+    {
+      "question": "見積書 ai",
+      "keyword": "見積書 ai",
+      "volume": null,
+      "difficulty": null,
+      "decision": "不採用。今回の候補として提示されたが、既存記事 mitsumorisho-ai-koritsuka（主KW=見積書 ai）で既に公開済みのため重複。"
+    },
+    {
+      "question": "中小企業 ai活用",
+      "keyword": "中小企業 ai活用",
+      "volume": null,
+      "difficulty": null,
+      "decision": "不採用。今回の候補として提示されたが、既存記事 chusho-kigyo-ai-katsuyo-rei（主KW=中小企業 ai活用）で既に公開済みのため重複。"
+    },
+    {
+      "question": "ai コンサル",
+      "keyword": "ai コンサル",
+      "volume": 600,
+      "difficulty": 1,
+      "decision": "不採用（今回は見送り）。候補として提示されたが、既存記事 ai-consul-igai-no-sentakushi の主KWが ai コンサル であり、alternatives カテゴリで既に押さえている。別角度で切るには指名検索の意図分解が必要で、SERP課金を避けるため get_serp_overview は未実行。次回以降、既存記事の改稿（追記）で対応するほうが妥当と判断。"
+    },
+    {
+      "question": "AI活用の入口・エージェント系の質問形キーワード（ai エージェント 業務 / ai 使い方 仕事 / 社内 ai 活用 / ai ツール 選び方）",
+      "keyword": "業務自動化に使えるaiエージェントはどれ ほか",
+      "volume": 30,
+      "difficulty": 0,
+      "decision": "不採用。get_keyword_ideas（terms=questions、jp、limit=40）の結果がすべて volume 0〜30 のロングテールで、最上位が「業務自動化に使えるaiエージェントはどれ？」の30。単独記事化する価値がないと判断し get_serp_overview は未実行。既存記事のFAQへ吸収する余地のみ。"
+    },
+    {
+      "question": "文字起こしクラスタ（文字起こし ai 4600/KD52、ai 文字起こし 1600/KD49、文字起こし ai 無料 600/KD33）",
+      "keyword": "文字起こし ai",
+      "volume": 4600,
+      "difficulty": 52,
+      "decision": "保留。volumeは大きいがKD49〜52で、現状のドメイン状況（後述のvisibilityCheckのとおり被リンク・インデックスが立っていない）では上位を取れる段階にない。議事録クラスタ（議事録 ai 7200/KD35）と同様、内部リンクの蓄積と独自ドメイン接続が済んでから狙う。なお google ai studio 文字起こし 800/KD1、ai文字起こし 700/KD0、動画 文字起こし ai 700/KD4、youtube 文字起こし ai 600/KD1、aiボイスレコーダー 文字起こし 600/KD0 といったKD0〜4帯の派生語が多く、次回以降の候補として有望。"
+    },
+    {
+      "question": "議事録 ai",
+      "keyword": "議事録 ai",
+      "volume": 7200,
+      "difficulty": 35,
+      "decision": "継続保留。内部リンクの蓄積が進むまで着手しない方針を維持。なお今回、総務省令和8年版情報通信白書の図表Ⅰ-2-1-19にキリンホールディングスの「経営業務におけるAI活用」（取締役会・グループ経営戦略会議の10年分の議事録データ等からAI役員CoreMateを構築し、起案者が会議前の壁打ちに使用）を確認済み。議事録クラスタに着手する際の一次寄りの引用元として使える。"
+    }
+  ],
+  "publishedSlugs": [
+    "pdf-yoyaku-ai-tsukaiwake"
+  ],
+  "visibilityCheck": "2026-09-21時点、get_organic_keywords（yamashirogyomukaizen.com、jp、subdomains）の結果は0件。2026-08-24、2026-09-17、2026-09-18、2026-09-19、2026-09-20に続き6回連続で0件のままで、順位・AI Overview引用・PAA引用のいずれにも変化なし。追加で get_domain_metrics（ai-i2gajxb-preview-4200.runable.site、jp、subdomains）を確認したところ、org_keywords 0、org_traffic 0、org_keywords_1_3 0、paid_keywords 0 で、配信中のプレビュードメイン側にも計測可能な検索流入が立っていない。つまり記事内容の問題ではなく、ブログがRunableのプレビュードメインで配信されており、yamashirogyomukaizen.com 配下に接続されていないこと（および被リンク・インデックスの起点が存在しないこと）が原因。記事を追加しても解消しない構造的なブロッカーであり、プラットフォームUIからの独自ドメイン接続（yamashirogyomukaizen.com のサブディレクトリまたはサブドメイン）、Search Console登録、sitemap.xml送信が必要。6回連続0件のため、次回以降も記事本数の増加より接続作業の完了を最優先とする。",
+  "notes": "公開: pdf-yoyaku-ai-tsukaiwake（PDFや長文資料をAIで要約するには、どのAIをどう使えばいいですか、category=comparison、主KW=pdf 要約 ai 500/KD0）。記事構成: 選ぶ前に決まる資料側の条件3点（ページ数／図表の有無／1回読むか繰り返し参照するか）→4サービスを上限と読み取り方式で並べた比較表（6行×4列: 1ファイルのサイズ上限／分量の上限／一度に渡せる本数／図表・画像の読み取り／資料を溜めて繰り返し参照／向いている場面）→PDFの読み方3種類（テキスト抽出／視覚要素を含む読み取り／OCRでの起こし直し。加えてNotebookLMでは脚注・コメントが取り込まれない点、複数タブが1ソース扱いになる点）→用途別の使い分け表（6行）→指示の出し方5点（項目指定／参照ページ付与／書かないことの指示／用途の伝達／抜き出しと要約の分離）→白書数値による位置づけとハルシネーション・シカファンシーの注意→手をつける順番5段→1か月後に見る指標6項目→FAQ7問。出典6件（すべて2026-09-21に確認）: OpenAI Help Center「File Uploads FAQ」（ファイルアップロードは無料・有料両プランで利用可、1ファイル512MB、テキスト・ドキュメントは1ファイル200万トークン（スプレッドシートは対象外）、CSV・スプレッドシートは約50MBまで、画像20MB、ユーザー25GB／組織100GB、3時間あたり80ファイル・無料ユーザーは1日3ファイル・繁忙時は引き下げの可能性、プロジェクトのファイル上限 Free 5／Go・Plus 25／Edu・Pro・Business・Enterprise 40、PDFのVisual RetrievalはChatGPT Enterpriseのみでそれ以外のプランと文書ファイルはテキスト抽出のみ・画像は破棄、API等の法人向けサービスに提供されたコンテンツはモデル性能改善に使用しない）／Anthropic Help Center「Upload files to Claude」（2026年7月23日付。対応形式 PDF・DOCX・CSV・TXT・HTML・ODT・RTF・EPUB・JSON・XLSX、チャットは1ファイル500MB・1チャット20ファイル・画像は8000×8000pxまで・PDFは1000ページまで、プロジェクトファイルは1ファイル30MB・本数無制限だがコンテキストウィンドウ内・テキスト抽出のみ（マルチモーダルPDFを除く）、100ページ以内のPDFは画像やグラフ等の視覚要素も分析／101〜1000ページはテキストのみ／1000ページ超は不可、大きなファイルは分割を推奨、ページ指定はPDFビューアのページ番号を使用）／Google「Gemini アプリでファイルをアップロードして分析する」（同一プロンプトに最大10ファイル、動画は1ファイル2GB・その他の対応形式は1ファイル100MB、動画の長さ合計5分／音声10分、Google AI Pro・Ultraで動画1時間・音声3時間に引き上げ、コードフォルダまたはGitHubリポジトリは1チャット1つ・5000ファイル・合計100MB、ZIPは10ファイル・合計100MB・動画音声不可、Googleドライブからの追加はアクティビティの保存とWorkspace接続が必要）／Google「ノートブックの新しいソースを追加または検索する」（NotebookLM。1ソース最大500,000語・ファイルサイズ200MBまで・無料ユーザーは1ノートブックあたり50ソース、Googleスライドは最大100枚・Googleスプレッドシートは10万トークン、ウェブURLはHTML本文テキストのみで画像・埋め込み動画・ネストページは非取り込み・ペイウォール非対応、Googleファイルの脚注とコメントはインポートされない、複数タブは1ソース扱い）／Google「Gemini Notebook をアップグレードする」（プラン別使用量上限。ノートブック Standard 100／Plus 200／Pro・Ultra 500件、ソース 50／100／300／500／600件（1ノートブックあたり）、チャット 1日50／200／500／2,500／5,000回、変更される場合があると明記）／総務省「令和8年版 情報通信白書」第Ⅰ部第2章第1節（図表Ⅰ-2-1-7 議事録・メール作成補助は活用が11.3＋24.7＋35.2＝71.2％で最高・効果実感72.3％、社内ヘルプデスクは11.9＋20.7＋18.3＝50.9％・効果実感42.7％／AI活用を前提とした業務変革の項で、生成AIは事実とは異なる情報を出力するハルシネーション、ユーザーに過剰に同調するシカファンシー、偏見やバイアスにつながる出力リスクが指摘されており、人間とAIの協働を前提に個別の業務領域への組み込みを設計する必要があると記述、ガバナンス上の責任範囲の検討も求めている）。追加取得: NotebookLM（Gemini Notebook）の上限は前回セッションで到達できなかったナビゲーション用インデックスページではなく、answer/16215270（ソース追加）とanswer/16213268（アップグレード）の2ページから一次的に取得し直した。OpenAIのヘルプ記事は更新表示が「Updated: 10 days ago」の相対表記で絶対日付が読み取れないため、出典ラベルに確認日のみを記載し、更新日は主張していない。内部リンク: 新記事から8本（ai-ocr-chusho-kigyo-hajimekata、shanai-shiryo-ai-kensaku、chatgpt-gemini-gyomu-hikaku、chatgpt-joho-roei-taisaku、ai-shiryo-slide-sakusei、keiyakusho-check-ai、ai-gijiroku-tsukurikata、ai-gyomu-koritsuka-doko-kara）、相互リンクとして既存4記事（ai-ocr-chusho-kigyo-hajimekata、shanai-shiryo-ai-kensaku、chatgpt-gemini-gyomu-hikaku、ai-shiryo-slide-sakusei）に新記事へのリンクを追記して再公開。検証: NGパターン5種（**、完全自動化系、ROI・売上保証系、体験談風、申請代行・採択系）すべて不検出、answer本文129文字（40〜160文字の範囲内）、lint違反0（21ファイル・0 warnings 0 errors）、build成功、/posts/pdf-yoyaku-ai-tsukaiwake が200、sitemap.xmlに1件・llms.txtに2件で新slug反映、公開記事数30→31。時間・コスト削減の単一値の主張、未出典の統計、当事務所の料金提示はなし。地域ターゲティングもなし（オンライン全国対応）。次回候補: google ai studio 文字起こし（800/KD1）、ai文字起こし（700/KD0）、動画 文字起こし ai（700/KD4）、youtube 文字起こし ai（600/KD1）、aiボイスレコーダー 文字起こし（600/KD0）＝文字起こしクラスタのKD0〜4帯。採用 ai（500/KD0、主軸との接続を要検討）、需要予測 ai（データ前提の単独記事）。文字起こし ai（4600/KD52）と議事録 ai（7200/KD35）は引き続き保留。ai コンサル（600/KD1）は既存記事 ai-consul-igai-no-sentakushi の改稿で対応する方針。"
+}

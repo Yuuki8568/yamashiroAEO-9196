@@ -1,0 +1,75 @@
+{
+  "runDateUTC": "2026-10-10",
+  "officialCheckedAtJST": "2026-10-11",
+  "keyword": {
+    "keyword": "gemini canvas とは",
+    "volume": 900,
+    "difficulty": 0,
+    "metricCheckedAtJST": "2026-10-10",
+    "provenance": "drafts/run-2026-10-09.json; previous questions keyword tool response",
+    "currentMeasurement": null
+  },
+  "keywordIdeas": {
+    "status": 403,
+    "reason": "API units limit reached. Expected usage: 384, API units left: 0."
+  },
+  "organicKeywords": {
+    "yamashirogyomukaizen.com": {
+      "status": 403,
+      "count": null,
+      "reason": "API units limit reached. Expected usage: 340, API units left: 0."
+    },
+    "ai-i2gajxb-preview-4200.runable.site": {
+      "status": 403,
+      "count": null,
+      "reason": "API units limit reached. Expected usage: 340, API units left: 0."
+    }
+  },
+  "selectedSerp": {
+    "keyword": "gemini canvas とは",
+    "status": 403,
+    "reason": "API units limit reached. Expected usage: 1100, API units left: 0.",
+    "aiOverviewCitations": null,
+    "paaCitations": null,
+    "selfCitations": null
+  },
+  "x": {
+    "status": 200,
+    "items": [],
+    "query": "Gemini Canvas lang:ja since:2026-10-09_23:00:00_UTC until:2026-10-10_23:00:00_UTC",
+    "interpretation": "No posts observed in returned result; not evidence of no interest"
+  },
+  "officialSources": [
+    {
+      "label": "Google公式：Canvasの作成・文書編集・バージョン・エクスポート・公開共有",
+      "url": "https://support.google.com/gemini/answer/16047321?hl=ja&co=GENIE.Platform%3DDesktop",
+      "checkedAt": "2026-10-11"
+    },
+    {
+      "label": "Google公式：Canvas紹介、開始方法とモバイルの編集範囲",
+      "url": "https://gemini.google/overview/canvas/?hl=ja",
+      "checkedAt": "2026-10-11"
+    },
+    {
+      "label": "Google公式：日本向け無料プランの月額とCanvas掲載",
+      "url": "https://gemini.google/subscriptions/?hl=ja",
+      "checkedAt": "2026-10-11"
+    },
+    {
+      "label": "Google公式：チャット公開リンク、共有内容とリンク削除",
+      "url": "https://support.google.com/gemini/answer/13743730?hl=ja&co=GENIE.Platform%3DDesktop",
+      "checkedAt": "2026-10-11"
+    },
+    {
+      "label": "Google公式：Geminiのプライバシー、Canvasアプリの入力・保存データ",
+      "url": "https://support.google.com/gemini/answer/13594961?hl=ja",
+      "checkedAt": "2026-10-11"
+    }
+  ],
+  "mainSite": {
+    "httpStatus": 200,
+    "blogHostInFetchedHTML": false,
+    "searchConsole": null,
+    "customDomain": null
+  }
+}

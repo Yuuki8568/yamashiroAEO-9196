@@ -1,0 +1,14 @@
+{
+  "targets": [
+    {
+      "question": "AIコンサルに依頼する以外の選択肢はありますか？",
+      "keyword": "ai コンサル",
+      "volume": 600,
+      "difficulty": 1,
+      "decision": "採用。難易度1で月間600と検索数が最大。SERPは1位がAI要約（引用元はpersol-group.co.jpのおすすめ8選）、以下はjapan-ai.co.jpの12選、movin.co.jpのファーム一覧、doda.jpの求人、ey.com、lion-ai.co.jp。発注者向け会社リストと転職者向け情報が混在し、「依頼する以外の道があるか」に答えるページが上位に無い。この空白を代替案型で埋める。質問形の候補（ai導入支援350/KD0、生成ai コンサル300/KD1）は既存記事と重複または競合が強く、questions系の候補は10〜40の長尾のみで見送り。"
+    }
+  ],
+  "publishedSlugs": ["ai-consul-igai-no-sentakushi"],
+  "visibilityCheck": "yamashirogyomukaizen.com の自然検索キーワードは0件（jp）。ブログ側 ai-i2gajxb-preview-4200.runable.site も0件。初回公開3記事は同日公開のため順位データ・被引用はまだ発生していない。ai コンサル のAI要約引用元は persol-group.co.jp（DR77）と japan-ai.co.jp（DR50）で前回測定から変化なし。差分ゼロが今回の結果。",
+  "notes": "出典URLの誤りを訂正: よろず支援拠点は yorozu.go.jp ではなく https://yorozu.smrj.go.jp/ が正。既存記事 ai-donyu-shien-towa の出典も同日修正して再公開。内部リンクは記事中の素のパス表記ではリンクにならないため、Markdownリンク形式に修正して再公開。次回は 日報 ai（100）、見積書 ai（50）、中小企業 ai活用、ai-ocr 中小企業（80）、ai研修 中小企業（50）で単票業務クラスタを増やし内部リンクを積む。議事録 ai（7,200/KD35）はクラスタが厚くなった後。補助金クラスタは行政書士法19条1項の制約により対象外。get_serp_overview は topPositions 指定、get_related_keywords は日本語で空、Social Data は補助扱い。"
+}

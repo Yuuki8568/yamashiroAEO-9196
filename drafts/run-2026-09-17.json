@@ -1,0 +1,51 @@
+{
+  "token": "aeo_e67122c7cd4191eee6f9df1d",
+  "targets": [
+    {
+      "question": "社内チャットボットの費用はいくらかかりますか。専用サービスと汎用AIの使い分けは",
+      "keyword": "チャットボット 社内",
+      "volume": 500,
+      "difficulty": 1,
+      "decision": "published as shanai-chatbot-hiyo-hikaku (category: comparison). 既存26記事にチャットボット・社内ヘルプデスクの記事がなく空白。関連クラスタも低KDで厚い（チャットボット 費用 900/KD0、チャットボット 導入 費用 300/KD2、社内チャットボット 200/KD2、チャットボット 社内問い合わせ 200/KD0、aiチャットボット 導入 150/KD0）。SERP（チャットボット 費用）はAI Overviewなし・PAA4件のみで、上位はすべてベンダー比較/リード獲得系ブログ。専用SaaSの価格レンジ（アスピック）＋ChatGPT Business/Claude Team/Google Workspaceの公式シート単価という2軸比較で差別化。"
+    },
+    {
+      "keyword": "チャットボット 費用",
+      "volume": 900,
+      "difficulty": 0,
+      "decision": "rejected as primary keyword. get_serp_overviewを実施（今回の課金1件）。AI Overviewなし、PAA4件（チャットボットの使用料はいくらですか／料金はいくらですか／かかる費用は／無料ですか）。上位10件すべてベンダー比較・料金相場記事（udesk.jp DR0 traffic320が1位、ripla.co.jp DR29、digital-reclame.co.jp DR33、enhanceit.jp DR1、school.lancers.jp DR81ほか）。価格羅列のみの単一意図で当事務所の視点を出しにくいため、記事内のFAQで4つのPAAに回答する形で回収し、主キーワードは社内利用に絞った。"
+    },
+    {
+      "keyword": "ai コンサル / 日報 ai / 見積書 ai / 中小企業 ai活用",
+      "volume": null,
+      "difficulty": null,
+      "decision": "rejected: 既出。前回プロンプトの次回候補リストに残っていたが、実際には ai-consul-igai-no-sentakushi / nippo-ai-sakusei-houhou / mitsumorisho-ai-koritsuka / chusho-kigyo-ai-katsuyo-rei として公開済み。候補リストが公開実態と同期していないため、以後は drafts/*.md の keyword 実値と突き合わせてから選定する。"
+    },
+    {
+      "keyword": "seed pull: ai 勤怠 / ai 経費精算 / ai 請求書 / ai 問い合わせ 電話（terms=questions）",
+      "volume": null,
+      "difficulty": null,
+      "decision": "rejected: 疑問形の候補が2件しか返らず、いずれも極小ボリュームのロングテール。get_serp_overviewは消費せず打ち切り。"
+    },
+    {
+      "keyword": "seed pull: 生成ai 使い方 / ai 社内 活用 / chatgpt 会社 / ai 導入（terms=questions）",
+      "volume": null,
+      "difficulty": null,
+      "decision": "rejected: 「chatgptどこの会社」(600/KD0)のようなブランド属性クエリと、画像生成・クリエイティブ系AIの無関係なロングテール（各20）が大半。業務改善の検索意図と合わないため get_serp_overview は消費せず打ち切り。"
+    },
+    {
+      "keyword": "議事録 ai",
+      "volume": 7200,
+      "difficulty": 35,
+      "decision": "hold: 議事録クラスタ3本の内部リンクが積み上がるまで据え置き（方針継続）。"
+    }
+  ],
+  "publishedSlugs": [
+    "shanai-chatbot-hiyo-hikaku",
+    "ai-toiawase-taio-hajimekata",
+    "shanai-shiryo-ai-kensaku",
+    "seisei-ai-guideline-shanai-tsukurikata",
+    "ai-denwa-taio-doko-made"
+  ],
+  "visibilityCheck": "2026-09-17時点: get_organic_keywords（yamashirogyomukaizen.com, country=jp, mode=subdomains）は引き続き0件。2026-08-24の基準値（オーガニックKW 0件・被引用0件）から変化なし。AI Overview/PAAでの当サイト引用も確認できず。今回のSERP調査（チャットボット 費用）でもAI Overviewボックス自体が生成されておらず、PAA4件はいずれもURL付きの引用元が返らないタイプだった。記事本数は27本（本日+1）、sitemap.xml/llms.txtに新スラッグ反映済み、記事URLはHTTP 200。lintとbuildはいずれも成功。0件が続く要因は依然としてドメインの被リンク・評価の薄さと、初回インデックス待ちの段階にあると判断。",
+  "notes": "本日の作業: 1) チャットボット/社内ヘルプデスクの未着手クラスタを特定し comparison 記事1本を公開。2) 一次情報として OpenAI・Anthropic・Google Workspace の公式料金ページを同日取得し、ChatGPT Business（標準$20/年額・$25/月額、プレミアム$100/$125、2〜200名）、Claude Team（Standard $20/$25、Premium $100/$125、2〜150名）、Claude Enterprise（$20/席+API課金）、Google Workspace Business Standard $7（通常$14）/Plus $11（通常$22）を確認日付き引用。Google Workspaceは3か月50%オフの表示価格のため通常価格併記で計算するよう明記。3) 専用SaaS側はアスピック比較記事（最終更新2026-09-16）の集計レンジ（シンプル月1,500〜15,000円、AI型月9,800〜80,000円、上位プラン月13万円前後）のみを引用し、承認名簿外のベンダー名（チャットプラス、Zendesk、PecoChat、FirstContact、PKSHA ChatAgent、MOBI BOT GenAI、Tebot、GMO即レスAI、DECA、Fastdesk、KARAKURI chatbot、OfficeBot、ミンクスプラス生成AI、OPTiM AIRES、さくらさん、sinclo、GENIEE CHAT）は本文に一切出さない方針を踏襲。4) 総務省 令和8年版情報通信白書 図表Ⅰ-2-1-7 から社内ヘルプデスクの活用約5割・効果実感4割程度を引用し、議事録・メール作成補助（活用約7割・効果実感約7割）より手応えが出にくい領域であることを誇張せず明記。5) OpenAI料金ページのレンダリングに出たモデル名文字列（GPT-5.6 Luna / GPT-6 Astra）は一次確認が取れないため記事では一切使用せず、プラン構成と価格のみ引用。6) 内部リンクを相互化: 新記事から6本へ発リンク、既存4本（ai-toiawase-taio-hajimekata / shanai-shiryo-ai-kensaku / seisei-ai-guideline-shanai-tsukurikata / ai-denwa-taio-doko-made）に新記事への被リンクを追記して再公開。7) NGパターン5種（太字、完全自動化系、ROI・売上保証、体験談風、申請代行・採択）を自己チェック済み、単一値の時間削減主張も回避（幅＋前提で記述）。次回候補: チャットボット 費用（900/KD0）を『費用相場そのもの』ではなく見積もりの取り方の観点でfaq化、チャットボット 社内問い合わせ（200/KD0）、aiチャットボット 導入（150/KD0）、ai 顧客対応系の派生、および how-to 偏重（11本）の是正として alternatives（現在1本）・best-of（3本）カテゴリの補強。"
+}

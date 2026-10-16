@@ -1,0 +1,16 @@
+200 http://localhost:4200/
+200 http://localhost:4200/posts/gemini-nani-ga-dekiru
+200 http://localhost:4200/posts/gemini-nani-ga-dekiru.md
+200 http://localhost:4200/sitemap.xml
+200 http://localhost:4200/robots.txt
+200 http://localhost:4200/llms.txt
+200 https://ai-i2gajxb-preview-4200.runable.site/
+200 https://ai-i2gajxb-preview-4200.runable.site/posts/gemini-nani-ga-dekiru
+200 https://ai-i2gajxb-preview-4200.runable.site/posts/gemini-nani-ga-dekiru.md
+200 https://ai-i2gajxb-preview-4200.runable.site/sitemap.xml
+200 https://ai-i2gajxb-preview-4200.runable.site/robots.txt
+200 https://ai-i2gajxb-preview-4200.runable.site/llms.txt
+200 reciprocal gemini-gem-towa
+200 reciprocal seisei-ai-towa
+200 reciprocal business-mail-ai-shitagaki
+Main site 200; blog host in HTML: False

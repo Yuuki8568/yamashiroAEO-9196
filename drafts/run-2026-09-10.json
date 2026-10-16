@@ -1,0 +1,54 @@
+{
+  "token": "aeo_e67122c7cd4191eee6f9df1d",
+  "targets": [
+    {
+      "keyword": "社内資料 ai 検索",
+      "volume": null,
+      "difficulty": null,
+      "country": "jp",
+      "status": "adopted",
+      "note": "website-data（Ahrefs）が本日はコネクタ自体の切断で呼び出せず、検索数・難易度は取得不可。需要判断はsocial-dataのYouTube検索「社内資料 AI 検索 NotebookLM 社内文書 探す 業務」（relevance / this_year）で代替。上位再生数は219,109/194,553/148,257/90,833/73,098/72,776/55,696/45,902/40,969と10万超が3本、3週間前・1日前の投稿もあり需要は現在進行形。テーマはGemini Notebook（旧NotebookLM）等で社内資料を整理して検索・質問する用途に集中。既存19本のうち近いのはgyomu-manual-ai-sakusei（マニュアルを作る側）だが、見出し突き合わせで重複なしを確認。カテゴリは既存分布（how-to 10 / best-of 3 / faq 3 / comparison 2 / alternatives 1）を踏まえ、手薄なcomparisonを選択。"
+    },
+    {
+      "keyword": "生成ai 社内ルール ガイドライン 情報漏洩",
+      "volume": null,
+      "difficulty": null,
+      "country": "jp",
+      "status": "candidate",
+      "note": "本日の次点。YouTube検索「生成AI 社内ルール ガイドライン 作り方 会社 情報漏洩」で1,271,880再生の突出動画（6か月前）と、弁護士・コンサルによる小規模だが継続的なクラスタを確認。個人情報保護委員会の令和5年6月2日付「生成AIサービスの利用に関する注意喚起等」を当日取得済みで一次情報は押さえている。ただしPPC文書単体では記事1本分の骨格として薄く、今回は採用した記事の方法3の中に要点として組み込んだ。単独記事にする場合は社内規程の作り方（入力可否の線引き・承認フロー・違反時の扱い）に軸を置き、二次情報を足してから着手する。"
+    },
+    {
+      "keyword": "社内文書 ai",
+      "volume": null,
+      "difficulty": null,
+      "country": "jp",
+      "status": "rejected",
+      "note": "9/9からの持ち越し候補だったが、YouTube検索「社内文書 規程 マニュアル AI 作成 中小企業」の実測が5/15/87/204/293再生と極端に低く、需要が確認できないため見送り。規程・通達の下書きという切り口は、business-mail-ai-shitagakiとgyomu-manual-ai-sakusei双方と近すぎる点も理由。"
+    },
+    {
+      "keyword": "勤怠管理 シフト 労務 ai",
+      "volume": null,
+      "difficulty": null,
+      "country": "jp",
+      "status": "rejected",
+      "note": "YouTube実測が0〜21,322再生と分散し、上位に混じった72,270再生・258,132再生はいずれも勤怠・シフトではなく汎用のAI仕事術動画の広めのマッチ。勤怠固有の需要は確認できず。既存excel-shift-hyo-jido-sakuseiとも重なる。"
+    },
+    {
+      "keyword": "請求書 ai",
+      "volume": null,
+      "difficulty": null,
+      "country": "jp",
+      "status": "rejected",
+      "note": "9/6・9/7・9/8・9/9に続き五度目の見送り。方針は変わらず、扱う場合はAI-OCRで読み取った内容を人がどう確認するかの運用手順に限定し、電子帳簿保存法の保存要件・猶予措置・税務判断には踏み込まない。"
+    }
+  ],
+  "publishedSlugs": [
+    "shanai-shiryo-ai-kensaku",
+    "gyomu-manual-ai-sakusei",
+    "ai-gyomu-koritsuka-doko-kara",
+    "chatgpt-gyomu-katsuyo-tejun",
+    "seisei-ai-kenshu-chusho-kigyo"
+  ],
+  "visibilityCheck": "掲載確認は本日も実施できず。ただし失敗の種類が前日までと異なるため区別して記録する。9/4から9/9まではAhrefs APIが403 Insufficient planを返す状態だったが、9/10はAPIに到達する前段でwebsite-dataコネクタ自体が切断されており、get_organic_keywords（yamashirogyomukaizen.com / mode=subdomains / country=jp / limit=10）とresearch_keywords（社内文書 ai 検索系2語）のいずれも「Website Data is disconnected」で実行されなかった。プラグイン一覧上のstatusはCONNECTEDと表示されるため表示と実挙動が食い違っている。external_tool_describeでのスキーマ取得は成功するので、認証トークン側の失効が疑われる。retryは2ツール分実施済み。8/24のベースラインから9/3までは11日連続でkeywords:[]（掲載0件）だったが、それ以降の差分は7日連続で不明であり、0件が継続しているとは記載しない。復旧後に再計測する語は、業務マニュアル 作成 / 議事録 ai / メール 作成 ai / 資料作成 ai / excel ai 集計 / 社内資料 ai 検索。あわせて社内資料 ai 検索のSERPとAI Overview引用元を復旧後すぐ取得する。ユーザー側でPluginsページからWebsite Dataの再接続が必要と思われる。",
+  "notes": "website-data（Ahrefs）は本日コネクタ切断で全面的に使用不可。標準手順どおりプラグイン再探索とdescribeを挟んで2ツールで呼び出しを試し、いずれも同一の切断エラーを確認した時点で以降の呼び出しを停止した。需要判断はsocial-dataのYouTube検索に切り替え、4クエリで実測。採用テーマ（社内資料のAI検索）は上位に10万超が3本、直近1日・3週間の投稿もあり最も強く新しいシグナルだった。ただし再生数は検索数ではないため記事本文には一切書いていない。当日確認した出典は4件。①Googleヘルプ「ノートブックの新しいソースを追加または検索する」＝対応ソース種別、1ソース500,000語・200MB上限、無料は1ノートブック50ソース、Googleドライブ取り込み時の数分ごとの自動同期、閲覧権限以上が必要でアクセス権喪失時はソースが無効化されるが上限件数にはカウントされること、ウェブURLはHTMLテキストのみでペイウォール非対応、YouTubeは字幕付き公開動画のみ・文字起こし部分のみ・アップロード72時間以内は取り込めない場合あり、Googleファイルの脚注とコメントは非インポート、スライド最大100枚・スプレッドシート10万トークン。②Googleヘルプ「Gemini Notebook をアップグレードする」＝Standard 100ノートブック/50ソース、Plus 200/100、Pro 500/300、Ultra 500。上限は変更される場合があると明記。③Microsoft Learn「Microsoft Copilot のデータ、プライバシー、セキュリティ」＝Microsoft 365 CopilotがMicrosoft Copilotに、Microsoft 365 Copilot ChatがMicrosoft Copilot Chatに改称され移行期間中は旧名称の表記が残る旨、Microsoft Graph経由で文書・メール・予定表・チャット・会議・連絡先を参照、各利用者が少なくとも表示権限を持つ組織データのみ表示、セマンティックインデックスは利用者IDベースのアクセス境界を優先、SharePoint等の権限モデルを整えておくことが重要、Graph経由のプロンプト・応答・データは基礎LLMの学習に不使用、保存されるのはプロンプトと応答と引用で管理者はPurview／コンテンツ検索で管理可・利用者はマイアカウントポータルで履歴削除可、エージェントは管理者が許可した範囲のみ。④個人情報保護委員会「生成AIサービスの利用に関する注意喚起等」（令和5年6月2日）＝利用目的の範囲内であることの確認、本人同意なく個人データを含むプロンプトを入力し応答出力以外の目的で取り扱われる場合の法違反の可能性、入力前に機械学習に利用しない旨を十分確認すべきこと、一般利用者向けの留意点。①②③は「2026年9月10日時点」を付記、④は令和5年6月2日の公表文として日付を明示して引用した。カニバリ回避はgyomu-manual-ai-sakusei（マニュアルを作る工程／Gemini Notebookは素材投入先として言及）とai-shiryo-slide-sakuseiの見出しを突き合わせ、今回は既存資料を探す・質問する側に軸を置くことで重複を回避。カテゴリはcomparison（既存2本のみ）を選び、how-to偏重（19本中10本）を是正した。内部リンクはai-gyomu-koritsuka-doko-kara、chatgpt-gyomu-katsuyo-tejun、seisei-ai-kenshu-chusho-kigyo（箇条書き）とgyomu-manual-ai-sakusei（本文リンク）に往路リンクを追加し4本を再公開。NGワードgrepは0件、bun run lintはNo violations found（0 warnings / 0 errors）、bun run buildは2 tasks successful、http://localhost:4200/posts/shanai-shiryo-ai-kensaku は200、sitemap.xmlとllms.txtに新slugを確認、plain-textコピーは20本。累計20本。独自ドメイン接続＋Search Console登録は引き続きユーザー判断待ちで未着手のため、掲載件数は伸びにくい状態が続いている。補助金クラスタは対象外を継続。"
+}

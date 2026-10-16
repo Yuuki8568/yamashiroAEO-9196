@@ -1,0 +1,268 @@
+https://www.ibm.com/jp-ja/think/topics/prompt-engineering-techniques
+status 200
+プロンプト・エンジニアリング手法 | IBM
+プロンプト・エンジニアリング技術
+著者：
+Vrunda Gadesha
+AI Advocate | Technical Content Author
+プロンプト・エンジニアリング技術は、AIモデル、特にOpenAI社のGPT-4、Google Gemini、
+IBM® Granite
+などの
+大規模言語モデル（LLM）
+に提供されるプロンプト、入力クエリ、または指示を設計および構造化するのに使用される戦略です。これらの技術は、
+生成AI
+システムをガイドすることにより、正確で関連性があり、文脈的に適切な応答を生成し、ユーザーが目的のアウトプットを効果的に達成できるようにすることを目的としています。
+高度な
+機械学習
+アルゴリズムに基づいて構築された大規模言語モデルは、人間のようなテキストを理解し、生成できます。
+プロンプト・エンジニアリング
+は、モデルが要約、翻訳、創造的な執筆、問題解決などの複雑なタスクをより正確に実行できるようにする入力を作成することで、この機能を活用します。さまざまなプロンプト構造を試すことで、ユーザーはLLMの動作に影響を与え、多様なアプリケーションにわたって性能を最適化できます。
+生成AIがさまざまな分野で重要な役割を果たし続ける中、その可能性を最大限に引き出し、特定のニーズに効率的に対応するためにAIモデルを調整するには、プロンプト・エンジニアリング技術を理解することが不可欠になっています。
+プロンプトを理解する
+プロンプトとは、応答を生成する大規模言語モデルなどのAIモデルに提供されるインプットテキストやクエリーのことです。これは、モデルの動作の指針となり、タスクを定義し、対話のコンテキストを設定するための主要なメカニズムとして機能します。プロンプトのデザインはアウトプットの質と関連性に大きな影響を与えるため、特定のタスクに適したタイプのプロンプトを選択することが不可欠です。
+AIモデルから最良の成果を得るには、異なるタスクや目的に合わせてプロンプトを構成する、さまざまな方法を理解することが不可欠です。プロンプトを構成するには、直接指示、自由形式の指示、タスク固有の指示という3つの主な方法があります。
+直接的な指示
+とは、AIに何をすべきかを正確に伝える、明確で具体的な命令です。これらのプロンプトは、ユーザーのアウトプットに対する期待が明確である場合の、単純なタスクにおいて理想的です。
+直接的プロンプト
+は、明示的な指示を解析し、指示と密接に一致した応答を生成するモデルの能力に依存しています。指示が詳細であるほど、アウトプットが期待に応える可能性が高くなります。
+例：
+Write a poem about nature.
+この場合、AIはテキストを生成するための正確な形式
+[詩]
+とトピック
+[自然]
+を知っています。
+オープンエンド型の指示
+は制約が少なく、AIがより広いアイデアを探求したり、創造的で解釈的な応答を提供したりすることを促進します。これらのプロンプトは、ユーザーがアウトプットの多様性と独自性を重視するブレーンストーミング、ストーリーテリング、または探索的な議論に役立ちます。
+オープンエンド型のプロンプト
+は、制約を課すことなくモデルの生成機能を活用します。このモデルは、トレーニング・データに基づいてプロンプトに対する最適なアプローチを推測するため、多様な結果や予期せぬ結果を生成する可能性があります。
+例：
+Tell me about the universe.
+ここでは、AIは、
+宇宙の起源、構造、科学的理論
+など、議論する宇宙の側面を自由に決定できます。
+タスクに特化した指示
+は、翻訳、要約、計算など、正確で目標指向のタスクのために設計されます。これらのプロンプトは多くの場合、具体性を持って作成され、正確な応答を確保するために追加のコンテキストや例を含める場合があります。
+タスクに特化したプロンプト
+では、モデルの固有タスクに関する理解を活用します。few-shotプロンプティング（例を提供する）やzero-shotプロンプティング（例を提供せず、モデルの事前トレーニングされた知識に依存する）などの高度なプロンプト手法を組み込むことができます。
+例：
+Translate this text into French: ‘Hello.’
+モデルは言語翻訳タスクと特定のインプットテキストの両方を理解することで、アウトプット「Bonjour」を生成できます。
+このような種類のプロンプトとその背後にある技術的なニュアンスを理解することで、ユーザーはAIモデルを効果的に導くプロンプトを作成し、応答の質と関連性を最適化できます。
+プロンプトの先を考え、コンテキスト全体を把握する
+Thinkニュースレターで業界ニュース、AIツール、プロンプト・エンジニアリングの最新トレンドを先取りしましょう。さらに、メールに直接お届けする新しい解説、チュートリアル、専門家の洞察にアクセスできます。
+IBMプライバシー・ステートメント
+をご覧ください。
+購読ありがとうございます。登録が完了しました。
+あなたのフォームは送信でした。 IBM担当者がまもなく電話またはメールで連絡します。
+プロンプト・エンジニアリングにおける主なテクニック
+AIモデルの効果を最大化するために、プロンプト・エンジニアリングではさまざまなタスクや目的に合わせて調整されたさまざまな手法を活用します。以下にいくつかの重要な手法を紹介し、それぞれについて、特定の結果を達成するために設計されたプロンプトの例を用いて説明します。
+さまざまなプロンプト・エンジニアリング手法の有効性を示すために、気候変動について説明する、という1つのタスクを中心的なユースケースとして、確認してみましょう。このタスクには、次のようなフレームワークが設定されています。
+Explain the concept of climate change, its causes, and its effects in a way that is accessible to a general audience.
+各手法はタスクへのアプローチが異なり、ガイダンス、複雑さ、方法論のレベルが異なります。以下では、これらの手法をこのユースケースにどのように適用できるかを、各手法に特有の効果を強調するように調整されたプロンプトを使用して掘り下げます。
+zero-shotプロンプティング
+zero-shotプロンプティング
+では、事前の例やガイダンスを提供せずに、モデルにタスクを実行するように要求します。モデルは、プロンプトを解釈して応答する際、AIの事前にトレーニングされた知識に全面的に依存します。
+[1]
+プロンプトの例：
+Explain the concept of climate change, its causes, and its effects in simple terms.
+モデルには前例や追加のコンテキストは与えられず、アウトプットを生成するために事前トレーニングされた知識のみに依存する必要があります。
+few-shotプロンプティング
+few-shotプロンプティング
+には、モデルにタスクを示すための少数の例が含まれます。このアプローチは、モデルがコンテキストと予想されるアウトプットについて理解を深める上で役立ちます。
+[2]
+プロンプトの例：
+Here are some examples of how to explain complex topics:
+- Topic: Photosynthesis
+- Explanation: Photosynthesis is the process by which plants convert sunlight, water, and carbon dioxide into energy and oxygen.
+- Topic: Gravity
+- Explanation: Gravity is the force that pulls objects toward each other, like how the Earth pulls us to its surface.
+Now explain: Climate Change.
+他のトピックの説明方法について、いくつかの例を示すことで、モデルは気候変動の説明に期待されるトーンと単純さの度合いに基づいて導かれます。
+思考の連鎖（CoT）プロンプティング
+CoTプロンプト
+は、モデルが問題を段階的に推論し、より小さなコンポーネントに分解して論理的な結論に到達できるよう促します。
+[3]
+プロンプトの例：
+Step 1: Define what climate change is.
+Step 2: Explain the causes of climate change.
+Step 3: Describe its effects on the planet.
+Now, follow these steps to explain climate change.
+このモデルでは、具体性を得るため、段階的に考察し、説明を小さな論理的な部分に分割することが推奨されます。
+メタ・プロンプト
+メタ・プロンプティングでは、タスクをより適切に実行するために、モデルに独自のプロンプトを生成または改良するよう要求します。この手法は、モデルの自己指示機能を活用することでアウトプットの質を向上させることができます。
+[4]
+プロンプトの例：
+Create a prompt that will help you explain climate change, its causes, and its effects in simple terms
+このモデルは、トピックを説明しようとする前に独自のプロンプトを生成するため、関連性とアウトプットの質が向上する可能性があります。
+自己一貫性
+自己一貫性では、モデルから複数の独立した生成を使用して、最も一貫性のある応答または正確な応答を識別します。推論や解釈が必要なタスクに特に役立ちます。
+[5]
+プロンプトの例：
+Provide three different explanations of climate change, its causes, and its effects. Then identify the most coherent and clear explanation
+このモデルは複数の独立した応答を生成し、最も一貫性のある、または筋の通った応答をアウトプットとして選択します。
+知識生成プロンプティング
+この手法では、主要なタスクに対処する前にモデルに背景知識を生成するように指示することで、情報に基づいた正確な応答を生成する能力を強化しています。
+[6]
+プロンプトの例：
+Before explaining climate change, first list the key scientific principles related to it. Once done, use these principles to explain the concept, its causes, and its effects.
+このモデルは、最初に背景知識（温室効果ガス、地球温暖化など）を生成し、より多くの情報に基づいた説明を提供します。
+プロンプト・チェーン
+プロンプト・チェーン
+では、複数のプロンプトをリンクし、アウトプットを次のプロンプトのインプットとして使用します。この手法は、マルチステッププロセスに非常に適しています。
+プロンプトの例：
+What is climate change? Provide a brief definition.
+前の回答に基づく次のプロンプト：
+What are the primary causes of climate change?
+前の回答に基づく次のプロンプト：
+What are the effects of climate change on the environment and human life?
+タスクは小さなプロンプトの連鎖に分割され、各ステップのアウトプットが次のステップに反映されることで、体系化された説明が得られます。
+思考の木プロンプティング
+思考ツリー・プロンプト
+は、モデルが最終的なアウトプットに到達する前に、推論やアイデアの複数の分岐について検討することを促します。
+[7]
+[8]
+プロンプトの例：
+List three possible ways to explain climate change to a general audience. For each method, describe its advantages and disadvantages. Then choose the best explanation and elaborate on it
+このモデルは、説明に対して複数のアプローチを検討し、最も効果的なものを選択して、バランスの取れたアウトプットを提供します。
+検索拡張生成（RAG）
+検索拡張生成（RAG）
+は、外部情報検索と生成AIを組み合わせて、最新の知識や分野固有の知識に基づいた応答を生成します。
+[9]
+プロンプトの例：
+Using the global temperature datasets from NASA GISS (GISTEMP) dataset on climate science, explain climate change, its causes, and its effects in simple terms.
+このモデルは、それ自体の生成能力と外部知識を組み合わせて、豊富な情報に基づく説明を生成します。
+自動推論とツールの使用
+この技術は推論機能を外部ツールやアプリケーション・プログラミング・インターフェース（API）と統合し、モデルが計算機や検索エンジンなどのリソースを使用できるようにします。
+[10]
+プロンプトの例：
+Use the provided climate data to calculate the global temperature rise over the last century, and then explain how this relates to climate change, its causes, and its effects.
+このモデルは、推論を外部ツール（計算機やAPIなど）と統合してデータを分析し、データ駆動型の説明を提供します。
+自動プロンプト・エンジニア
+この方法では、AI自体を使用して特定のタスクのプロンプトを生成および最適化し、効果的な指示を作成するプロセスを自動化します。
+プロンプトの例：
+Generate a prompt that will help explain climate change, its causes, and effects. Then use the generated prompt to provide the explanation.
+このモデルは、最適化されたプロンプトの作成を自動化し、応答の質を向上させます。
+アクティブ・プロンプト
+アクティブ・プロンプティングは、モデルからの中間アウトプットに基づいてプロンプトを動的に調整することにより、インプットを改良してより良い結果をもたらします。
+[11]
+最初のプロンプト
+Explain climate change, its causes, and its effects in simple terms.
+フォローアップ・プロンプト
+Add more detail about the causes of climate change, focusing on human activities.
+プロンプトは中間のアウトプットに基づいて動的に進化し、反復を通じて応答を洗練させます。
+方向性刺激プロンプト
+方向性刺激プロンプティング（DSP）
+は、方向性を持つキューによって、モデルを特定の種類の反応または視点に誘導します。
+[12]
+プロンプトの例：
+Explain the concept of climate change from an environmentalist’s perspective, focusing on the need for immediate action.
+モデルは特定の視点やトーンに方向付けられ、説明の枠組みに影響を受けます。
+プログラム支援言語モデル（PAL）
+PALMはプログラミング機能を統合して、モデルの推論と計算スキルを強化します。
+[13]
+プロンプトの例：
+Write Python code to visualize the increase in global temperatures over time. Then explain how this data relates to climate change, its causes, and its effects.
+このモデルはプログラミングと言語生成を組み合わせて、視覚化と説明の両方を提供します。
+ReAct
+ReAct
+は推論と行動のプロンプトを組み合わせ、モデルが批判的に考察し、推論に基づいて行動することを促します。
+[14]
+プロンプトの例：
+Analyze the following climate data and identify key trends. Based on your analysis, explain the concept of climate change, its causes, and its effects.
+この例では、モデルが分析的推論と実行可能な洞察をどのように組み合わせることができるかを示しています。
+反省
+内省により、モデルは過去のアウトプットを評価し、精度や一貫性を向上させるために改良することができます。
+[15]
+プロンプトの例：
+Here is my first attempt at explaining climate change: [Insert initial output]. Review this explanation and improve it for clarity and accuracy.
+モデルは過去のアウトプットについて反省し、それを反復的に改善します。
+マルチモーダル思考の連鎖（マルチモーダルCoT）
+この手法は、テキスト、画像、音声などの複数のモダリティーにわたる思考連鎖推論を統合します。
+[16]
+プロンプトの例：
+Analyze this infographic on global warming trends, then explain climate change, its causes, and its effects step by step
+このモデルは、複数のモダリティー（テキストと画像）にわたる推論を統合し、包括的な説明を提供します。
+グラフ・プロンプティング
+グラフ・プロンプトは、グラフベースの構造を活用して、概念またはデータ・ポイント間の複雑な関係を通じて整理と推論を行います。
+プロンプトの例：
+Using the provided graph of CO₂ emissions over time, explain how it relates to climate change, its causes, and its effects.
+モデルはグラフベースの推論を使用してデータ・ポイントを結び付け、豊富な洞察を含む説明を生成します。
+したがって、さまざまなプロンプト・エンジニアリング手法を1つのタスクにどのように適用できるかがわかります。zero-shot、few-shot、思考の連鎖、思考の木などの方法で同じタスクを使用することで、各手法がどのように異なる方法でタスクを構成し、AIが独自の応答を生成できるように導いているかを確認できます。これらの例は、さまざまな課題を解決する際のプロンプト・エンジニアリングの柔軟性と創造性を示しています。読者の皆様には、IBM Graniteモデル、OpenAIのChatGPT、GoogleのBard、AnthropicのClaude、Cohere、AI21 LabsのJurassicなど、さまざまなAIモデルやアプリケーションを使って、これらのプロンプトの例を試すことをお勧めします。そうすることで、ユーザーはアウトプットがどのように変化するかを確認し、自分のニーズに最適な選択肢を見つけることができます。
+AI Academy
+AIの専門家になる
+ビジネスの成長を促進するAIへの投資を優先できるように知識を習得します。今すぐ無料のAI Academyを試して、貴社のAIの未来をリードしましょう。
+シリーズを見る
+プロンプト・エンジニアリング手法の課題
+プロンプト・エンジニアリング手法は強力ですが、いくつかの課題が伴います。正確な出力を一貫して生成する効果的なプロンプトを作成することは、特に複雑な推論、常識的な理解、またはニュアンスを含む応答を必要とするタスクの場合には困難な場合があります。別の一般的な問題には「ハルシネーション」があり、生成AIモデルが不正確な情報や完全に捏造された情報を生成します。構造化されたテンプレートに依存したり、モデルを微調整したりすることは、これらの問題の一部を軽減する上で役立ちますが、さまざまなシナリオで機能するプロンプトを設計することは、依然として試行錯誤のプロセスです。さらに、人工知能の一般的な機能とタスク固有の目標のバランスを取ることは、特に特殊なタスクや分野固有のタスクの場合、複雑になる可能性があります。
+プロンプト・エンジニアリング技術の応用
+プロンプト・エンジニアリング手法は、さまざまな分野の幅広い用途があります。チャットボットでは、生成された応答を改良して、リアルタイムでユーザー・インタラクションを強化する上で役立ちます。開発者にとって、プロンプトは、コード・スニペットを生成したり、プログラミング・コンセプトのステップバイステップ・チュートリアルを作成したりするのに役立ちます。教育分野では、説明を簡素化したり、詳細な推論を用いて数学の問題を解決したりすることができます。企業は、特定のシナリオに合わせて洞察に満ちたプロンプト・エンジニアリングによるAIのアウトプットを生成することで、意思決定にプロンプト・エンジニアリングを使用します。大規模なものでは、これらの技術はコンテンツ制作、カスタマー・サポート、ワークフローの自動化に用いられ、AIシステムをより効率的にし、さまざまなタスクに適応できるようにしています。
+プロンプト・エンジニアリング技術の未来
+プロンプト・エンジニアリング手法の未来は、多様なアプリケーション間でより正確かつ適切な応答を確保できるようにするための自然言語処理の進歩にあります。AIモデルが進化するにつれて、その推論能力が向上し、最小限のプロンプトでより複雑なタスクを処理できるようになります。また、プロンプトの作成を自動化および最適化するためのよりスマートなツールやフレームワークの開発により、さまざまな分野のユーザー向けに、AIとの対話をより直感的で効率的、かつパーソナライズできるようになることも期待できます。
+概要
+AIの対話を最適化し、大規模言語モデルの可能性を最大限に引き出すには、プロンプト・エンジニアリング手法が不可欠です。これらの手法により、zero-shot、few-shot、思考の連鎖、思考ツリーなどの構造化されたアプローチを使用することで、AIはチャットボットから意思決定や教育プログラムまで、幅広いタスクに取り組むことができます。ハルシネーションや効果的なプロンプトの設計などの課題にもかかわらず、プロンプト・エンジニアリングの用途は分野を超えて拡大し続けており、よりスマートでカスタマイズされたAI出力を提供しています。自然言語処理と推論能力の進歩に伴い、プロンプト・エンジニアリングの未来では、さらなる効率と適応性が約束されます。読者の皆様には、さまざまなAIモデルでこれらの手法を試し、その機能を探求し、成果をブラッシュアップすることをお勧めします。
+電子書籍
+生成AIとMLの力を解き放つ
+生成AIと機械学習をビジネスに活用する確実な方法を学びましょう。
+電子書籍を読む
+参考情報
+ワークショップ
+watsonx.aiでのプロンプト・エンジニアリング
+プロンプト・エンジニアリングを包括的に理解し、LLMで最良の成果を達成するためのテクニックを学び、さまざまなプロンプト・エンジニアリング演習を完了することで学んだことを応用しましょう。
+学習を始める
+資料
+ローカルで異なるプライベートDocument Generationを使用したzero-shotプロンプティング
+この出版物で実証されている、事前トレーニング済みの大規模言語モデルがプライバシー保護に効果的に貢献できる仕組みについてご覧ください。
+出版物を読む
+チュートリアル
+敵対的プロンプト：LLMのセキュリティーと安全性のテストと強化
+敵対的プロンプトに関連するさまざまな施策についてはこちら、、これらの施策を使用して大規模言語モデルのセキュリティーと安全性をテストおよび強化する方法に焦点を当てます。
+学習を始める
+IBM開発者
+IBM watsonx® Developer Hub
+watsonx Developer Hubでプロンプト・エンジニアリングをご体験ください。
+Developer Hubはこちら
+記事
+プロンプト・エンジニアリングの基礎
+さまざまなタイプのプロンプトに対応したプロンプト・テンプレートを使用して、ゼロからヒーロー的存在に進化します。
+記事を読む
+無料研修
+すべての人のためのプロンプト・エンジニアリング
+無料のプロンプト・エンジニアリング・コースでAIの言語をマスターし、その可能性を最大限に引き出しましょう。
+学習を始める
+IBM開発者
+生成AIを試す
+生成AIを試すために、キュレートされたツール、フレームワーク、チュートリアル、ラボ、コミュニティ・サポートを活用しましょう。
+開発者向け参考情報はこちら
+関連ソリューション
+IBM® watsonx Orchestrate®
+IBM watsonx Orchestrateを使用すると、スケーラブルなAIアシスタントとエージェントを簡単に設計し、反復的なタスクを自動化し、複雑なプロセスを簡素化できます。
+watsonx Orchestrateの詳細はこちら
+人工知能ソリューション
+IBMの業界をリードするAIの専門知識とソリューションのポートフォリオを活用して、AIを業務に利用しましょう。
+AIソリューションはこちら
+人工知能コンサルティングおよびサービス
+IBM®ConsultingAIサービスは、企業がAIをトランスフォーメーションに活用する方法を再考するのに役立ちます。
+AIサービスはこちら
+次のステップ
+事前構築済みのアプリケーションとスキルをカスタマイズする場合でも、AIスタジオを使用してカスタム・エージェント・サービスを構築し、導入する場合でも、IBM watsonx®プラットフォームが対応します。
+watsonx Orchestrateの詳細はこちら
+AIソリューションはこちら
+脚注
+[1] Wei, J., Bosma, M., Zhao, V.Y., Guu, K., Yu, A.W., Lester, B., Du, N., Dai, A.M. and Le, Q.V., 2021. Finetuned language models are zero-shot learners. arXiv preprint arXiv:2109.01652.
+[2] Touvron, H., Lavril, T., Izacard, G., Martinet, X., Lachaux, M.A., Lacroix, T., Rozière, B., Goyal, N., Hambro, E., Azhar, F. and Rodriguez, A., 2023. Llama: Open and efficient foundation language models. arXiv preprint arXiv:2302.13971.
+[3] Wei, J., Wang, X., Schuurmans, D., Bosma, M., Xia, F., Chi, E., Le, Q.V. and Zhou, D., 2022. Chain-of-thought prompting elicits reasoning in large language models. Advances in neural information processing systems, 35, pp.24824-24837.
+[4] Zhang, Y., Yuan, Y. and Yao, A.C.C., 2023. Meta prompting for ai systems. arXiv preprint arXiv:2311.11482.
+[5] Wang, X., Wei, J., Schuurmans, D., Le, Q., Chi, E., Narang, S., Chowdhery, A. and Zhou, D., 2022. Self-consistency improves chain of thought reasoning in language models. arXiv preprint arXiv:2203.11171.
+[6] Liu, J., Liu, A., Lu, X., Welleck, S., West, P., Bras, R.L., Choi, Y. and Hajishirzi, H., 2021. Generated knowledge prompting for commonsense reasoning. arXiv preprint arXiv:2110.08387.
+[7] Yao, S., Yu, D., Zhao, J., Shafran, I., Griffiths, T., Cao, Y. and Narasimhan, K., 2023. Tree of thoughts: Deliberate problem solving with large language models. Advances in neural information processing systems, 36, pp.11809-11822.
+[8] Long, J., 2023. Large language model guided tree-of-thought. arXiv preprint arXiv:2305.08291.
+[9] Lewis, P., Perez, E., Piktus, A., Petroni, F., Karpukhin, V., Goyal, N., Küttler, H., Lewis, M., Yih, W.T., Rocktäschel, T. and Riedel, S., 2020. Retrieval-augmented generation for knowledge-intensive nlp tasks. Advances in neural information processing systems, 33, pp.9459-9474.
+[10] Paranjape, B., Lundberg, S., Singh, S., Hajishirzi, H., Zettlemoyer, L. and Ribeiro, M.T., 2023. Art: Automatic multi-step reasoning and tool-use for large language models. arXiv preprint arXiv:2303.09014.
+[11] Diao, S., Wang, P., Lin, Y., Pan, R., Liu, X. and Zhang, T., 2023. Active prompting with chain-of-thought for large language models. arXiv preprint arXiv:2302.12246.
+[12] Li, Z., Peng, B., He, P., Galley, M., Gao, J. and Yan, X., 2023. Guiding large language models via directional stimulus prompting. Advances in Neural Information Processing Systems, 36, pp.62630-62656
+[13] Gao, L., Madaan, A., Zhou, S., Alon, U., Liu, P., Yang, Y., Callan, J. and Neubig, G., 2022. Pal: program-aided language models. arXiv. arXiv preprint arXiv:2211.10435.
+[14] Yao, S., Zhao, J., Yu, D., Du, N., Shafran, I., Narasimhan, K. and Cao, Y., 2023, January. React: Synergizing reasoning and acting in language models. In International Conference on Learning Representations (ICLR).
+[15] Shinn, N., Cassano, F., Gopinath, A., Narasimhan, K. and Yao, S., 2023. Reflexion: Language agents with verbal reinforcement learning. Advances in Neural Information Processing Systems, 36, pp.8634-8652.
+[16] Zhang, Z., Zhang, A., Li, M., Zhao, H., Karypis, G. and Smola, A., 2023. Multimodal chain-of-thought reasoning in language models. arXiv preprint arXiv:2302.00923.
+[17] Liu, Z., Yu, X., Fang, Y. and Zhang, X., 2023, April. Graphprompt: Unifying pre-training and downstream tasks for graph neural networks. In Proceedings of the ACM web conference 2023 (pp. 417-428).

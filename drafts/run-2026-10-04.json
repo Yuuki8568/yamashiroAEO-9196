@@ -1,0 +1,58 @@
+{
+  "targets": [
+    {
+      "question": "DXとは何ですか（意味・IT化との違い・何から始めるか）",
+      "keyword": "dxとは",
+      "volume": 79000,
+      "difficulty": 1,
+      "decision": "published: dx-towa（faq）。dx化とは 23,000/KD1、dx とは 14,000/KD2、dxとは 簡単に 2,800/KD2、dxとは わかりやすく 900/KD0、dx なんの略 500/KD0、dxのxとは 350/KD0 とPAA4問（意味、IT化との違い、なぜDTではないか、身近な例）を同じ記事に統合"
+    },
+    {
+      "question": "プロンプトとは何ですか",
+      "keyword": "プロンプトとは",
+      "volume": 32000,
+      "difficulty": 2,
+      "decision": "next: 次回の第一候補。生成AIとは記事からの内部リンクを想定"
+    },
+    {
+      "question": "Geminiとは何ですか",
+      "keyword": "geminiとは",
+      "volume": 31000,
+      "difficulty": 10,
+      "decision": "candidate"
+    },
+    {
+      "question": "Claudeとは何ですか",
+      "keyword": "claudeとは",
+      "volume": 4000,
+      "difficulty": 0,
+      "decision": "candidate（claude code とは 4,900/KD4 と合わせて検討）"
+    },
+    {
+      "question": "Copilot Studioの使い方は",
+      "keyword": "copilot studio 使い方",
+      "volume": 600,
+      "difficulty": 1,
+      "decision": "hold: 新規記事にせず既存 copilot-studio-towa に手順の節を追記する（未実施）"
+    },
+    {
+      "question": "議事録をAIで作るには",
+      "keyword": "議事録 ai",
+      "volume": 7200,
+      "difficulty": 35,
+      "decision": "hold: 内部リンクがさらに増えてから"
+    },
+    {
+      "question": "DX推進とは／DX人材とは／DX戦略とは",
+      "keyword": "dx推進とは",
+      "volume": 2700,
+      "difficulty": 1,
+      "decision": "follow-up: dx人材とは 800/KD0、dx戦略とは 350/KD0 とあわせ、dx-towa から内部リンクする個別記事または節として後続で検討"
+    }
+  ],
+  "publishedSlugs": [
+    "dx-towa"
+  ],
+  "visibilityCheck": "2026-10-04 get_organic_keywords: yamashirogyomukaizen.com と ai-i2gajxb-preview-4200.runable.site はいずれも keywords: []（ランクイン0件、基準値0から変化なし）。get_serp_overview「dxとは」(jp): AI Overview の引用元は KDDI、NTTコミュニケーションズ、IPA DX SQUARE、JDLA、desknet's NEO、NEC wisdom、OKI、YouTube。PAAは「DXとはどういう意味ですか？」「DXとIT化の違いは何ですか？」「DXはなぜDTではないのですか？」「DXの身近な例は？」。上位10件は KDDI(DR86)、JDLA(DR72)、NTT(DR82)、IPA(DR89)、YouTube、富士通(DR86)、OKI(DR79)、desknets(DR70) などDR70〜89の企業・公的サイトで、KD1の数値より実際の競合は強い。自サイトは引用元に含まれていない。",
+  "notes": "dx-towa を公開（出典7件、2026年10月4日に確認、FAQ5問）。相互リンクを seisei-ai-towa、ai-gyomu-koritsuka-doko-kara、chusho-kigyo-ai-katsuyo-rei、ai-ocr-chusho-kigyo-hajimekata、ai-donyu-shien-towa に追加して再公開。lint、build、/、/posts/dx-towa、/posts/dx-towa.md、sitemap.xml、llms.txt はすべて200、sitemapとllms.txtに dx-towa を確認。投稿数42。構造的課題は継続: プレビュードメインのまま、独自ドメイン未接続、Search Console未登録・sitemap未送信、本サイトからの被リンクなし。"
+}

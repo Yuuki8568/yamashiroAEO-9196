@@ -1,0 +1,30 @@
+{
+  "keyword": "gemini gemとは",
+  "country": "jp",
+  "aioCitations": [
+    "https://cloudpack.jp/column/generative-ai/gemini-gem-custom-instructions.html",
+    "https://note.com/google_gemini/n/na91ee2428d76",
+    "https://biz.moneyforward.com/ai/basic/2772/",
+    "https://www.cadian.jp/techinfo/detail/71",
+    "https://shift-ai.co.jp/blog/6802/"
+  ],
+  "paa": [
+    {
+      "question": "GeminiのGEMは無料ですか？",
+      "url": null
+    },
+    {
+      "question": "Gemini Gemはいつ消えますか？",
+      "url": null
+    },
+    {
+      "question": "Gemini Gemはいくらですか？",
+      "url": null
+    },
+    {
+      "question": "Gemini Gemの無料版にはどんな制限がありますか？",
+      "url": null
+    }
+  ],
+  "ownCitationObserved": false
+}

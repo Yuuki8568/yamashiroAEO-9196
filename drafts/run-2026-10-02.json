@@ -1,0 +1,28 @@
+{
+  "targets": [
+    {
+      "question": "NotebookLMとは何ですか。無料でどこまで使えて、ChatGPTと何が違うのか",
+      "keyword": "notebooklm とは",
+      "volume": 16000,
+      "difficulty": 8,
+      "decision": "published as notebooklm-towa (faq). Folded in notebooklmとは 5,700/KD8, google notebooklm とは 800/KD7, notebooklm 何ができる 450, notebooklmの使い方 500. PAA from SERP of notebooklmとは: 無料ですか / 何がすごいの / ChatGPTとの違い / 安全ですか, all answered in FAQ."
+    },
+    {
+      "question": "Copilot Studioの使い方",
+      "keyword": "copilot studio 使い方",
+      "volume": 600,
+      "difficulty": 1,
+      "decision": "hold. Add a procedure section to existing copilot-studio-towa instead of a new post."
+    },
+    {
+      "question": "Copilot Studioとは",
+      "keyword": "copilot studio とは",
+      "volume": 1600,
+      "difficulty": 0,
+      "decision": "skip. Already covered by copilot-studio-towa."
+    }
+  ],
+  "publishedSlugs": ["notebooklm-towa"],
+  "visibilityCheck": "2026-10-02 get_organic_keywords (jp, subdomains): yamashirogyomukaizen.com 0 keywords, ai-i2gajxb-preview-4200.runable.site 0 keywords. Baseline 0/0 unchanged. SERP notebooklmとは: AI Overview cites ntt.com/bizon, notebooklm.google, marubeni-idigio.com, youtube.com; organic top ntt.com (2), notebooklm.google (4), aismiley.co.jp (5). Own domains not present. SERP notebooklm とは returned only AI Overview marker without URLs.",
+  "notes": "Fact check done on 2026-10-02 via official pages (notebooklm.google FAQ, support.google.com gemininotebook 16213268 and 16215270, Workspace admin help, Workspace product page, notebooklm.google/plans, OpenAI help projects). Key fact: NotebookLM renamed to Gemini Notebook from July 2026. Plan prices not stated because only US pricing was visible from the sandbox. Reciprocal links added and re-published: pdf-yoyaku-ai-tsukaiwake, shanai-shiryo-ai-kensaku, gyomu-manual-ai-sakusei. Structural blocker remains: preview domain, no custom domain, no Search Console, no backlinks from main site."
+}

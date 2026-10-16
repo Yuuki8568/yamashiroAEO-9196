@@ -1,0 +1,30 @@
+{
+  "checkedAtJST": "2026-10-10",
+  "keyword": "claude code 使い方",
+  "volume": 15000,
+  "difficulty": 3,
+  "country": "jp",
+  "calls": 1,
+  "aiOverviewCitations": [
+    "https://qiita.com/i-inose/items/e644e9b620ee1c8d3c1b",
+    "https://japan-ai.co.jp/media/7343/",
+    "https://note.com/fabymetal/n/n3f0f2873b56c",
+    "https://jp.ext.hp.com/techdevice/ai/ai_explained_60/",
+    "https://code.claude.com/docs/ja/quickstart"
+  ],
+  "selfCitationsObserved": 0,
+  "paa": [
+    {"question":"Claude Codeは無料で使用できますか？","citationUrl":null},
+    {"question":"Claude Code 何がすごい？","citationUrl":null},
+    {"question":"クロウドコードの料金はいくらですか？","citationUrl":null},
+    {"question":"Claude Code どこまで使える？","citationUrl":null}
+  ],
+  "organicVisibility": {"yamashirogyomukaizen.com":[],"ai-i2gajxb-preview-4200.runable.site":[]},
+  "limitations": "Latest snapshots, not within-window changes or proof of non-indexing. Different selected query from previous run, no same-query trend comparison.",
+  "socialWindowUTC": ["2026-10-08T23:00:00Z","2026-10-09T23:00:00Z"],
+  "socialPosts": [
+    {"url":"https://x.com/i/web/status/2108346694719144145","createdAtUTC":"2026-10-08T23:59:57Z","withinWindow":true,"note":"Beginner asks what it can do/how to use without programming; supplemental, not a product fact or measured demand."},
+    {"url":"https://x.com/i/web/status/2108346641464119648","createdAtUTC":"2026-10-08T23:59:45Z","withinWindow":true,"note":"Personal experiment; not a verified capability or office result."},
+    {"url":"https://x.com/i/web/status/2108346005582393569","createdAtUTC":"2026-10-08T23:57:13Z","withinWindow":true,"note":"Off-topic news claims; excluded from article evidence."}
+  ]
+}

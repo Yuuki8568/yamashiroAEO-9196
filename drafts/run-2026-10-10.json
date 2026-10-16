@@ -1,0 +1,14 @@
+{
+  "targets": [
+    {
+      "question": "Gemini Canvasとは何ですか。無料での使い方と、文書編集・共有の注意点は？",
+      "keyword": "gemini canvas とは",
+      "volume": 900,
+      "difficulty": 0,
+      "decision": "published: gemini-canvas-towa / how-to。900件・KD0は前回2026-10-10 JSTにquestionsキーワード調査で確認した値（drafts/run-2026-10-09.json）。今回のキーワードAPIはHTTP403・残り0のため最新値ではない。既存47本を確認し、Gemini用途全般やGemの繰り返す指示と区別して、Canvasの定義・部分編集・文書エクスポート・公開リンクとアプリデータのリスクに集中。需要確認済み・低KDの候補として選定。"
+    }
+  ],
+  "publishedSlugs": ["gemini-canvas-towa"],
+  "visibilityCheck": "公式確認日は2026-10-11 JST、ログIDは従来のUTC表記2026-10-10。SNS観測窓は2026-10-10 08:00 JST〜2026-10-11 08:00 JST（2026-10-09T23:00:00Z〜2026-10-10T23:00:00Z）。キーワードideas（jp/questions、関連キーワード不使用）はHTTP403、必要384・残り0。yamashirogyomukaizen.comとai-i2gajxb-preview-4200.runable.siteのorganic keywords（jp/subdomains）は両方HTTP403、各必要340・残り0。今回の観測KW数、順位、2026-08-24起点KW0からの差分は未測定であり0とは記載しない。選定語gemini canvas とはの有料SERPは1回のみ試行、HTTP403、必要1100・残り0。AIO/PAAの質問・引用URL、自社引用数、起点引用0からの変化は不明。通常ウェブ検索の公式URLは事実確認用で、AIO/PAA測定の代替にしない。Xは指定時間窓・LatestでHTTP200、items空。投稿を観測しなかっただけで需要がない証拠ではない。前回の別クエリClaude Codeの引用結果と同一クエリ比較はできない。",
+  "notes": "新規1本のみ公開、総48本。回答130字、本文6119字、表2、FAQ5、公式出典5（全HTTP200、2026-10-11 JST確認日・URLを記載）。無料月額0円・Canvas掲載は当日公式プラン確認、有料料金の新規断定なし。架空の手順書メモと修正依頼を明示し実績・削減保証なし。直接編集と選択範囲編集、下書きと承認、エクスポートと公開リンク、チャット共有スナップショットとアプリ保存データ、自分のモバイル利用と共有リンクの条件を区別。相互リンク更新はgemini-nani-ga-dekiru/gemini-gem-towa/gyomu-manual-ai-sakuseiの3本で、旧本文の公式確認日は変更しない。lint0警告0エラー、build成功（既存500KB超chunk・module.register非推奨警告）。ローカルと公開の6経路計12HTTP200、公開plaintextで逆リンク3本確認。初回HTTP内容assertはSPAの初期HTMLに記事本文がないため失敗。HTTP到達性・静的テキストとブラウザ描画を分けて再検証成功。公開ブラウザでH1、回答、対象、表2、FAQ5、出典5、Article+FAQPage、CTA7、横はみ出しなし確認、スクリーンショット保存・確認。初期HTMLはSPAシェルであり、非JSクローラーへの本文提供を確認済みとはしない。本文の機械向けコピーとsitemap/robots/llms更新を確認。UI公開日とplaintextはUTC10月10日、公式確認日はJST10月11日。website deliver完了。research-2026-10-10に公式テキスト・API状況・HTTP・ブラウザ検証を保存。本サイトHTTP200だが取得HTMLにブログホストリンクなし。Search Console登録/送信と独自ドメインは未確認。次の具体策: SEO API利用枠を回復し同じCanvasクエリの順位・AIO/PAA引用と両ドメインorganicを再測定。本サイトからブログへの導線、独自ドメイン、Search Console/サイトマップを確認。必要に応じて検索向け初期HTML本文提供を別途検討。"
+}

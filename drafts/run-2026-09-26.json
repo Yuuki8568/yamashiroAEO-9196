@@ -1,0 +1,54 @@
+{
+  "targets": [
+    {
+      "keyword": "copilot studio とは",
+      "volume": 1600,
+      "difficulty": 0,
+      "country": "jp",
+      "decision": "selected",
+      "rationale": "月間1600・KD0。前回公開した microsoft-365-copilot-nani-ga-dekiru から自然に内部リンクできるクラスタの中心。SERP（get_serp_overview, jp）は1位にAI Overviewが出ており、引用元は learn.microsoft.com の公式概要ページと japan-ai.co.jp のまとめ記事。PAAは「Copilot Studioの利用料金はいくらですか」「Copilot StudioとCopilotの違いは何ですか」「Copilot Studioは無料で使えますか」「Copilotスタジオとは何ですか」の4問で、いずれも公式ドキュメントの一次情報で回答可能。4位 saiteki-ai.com（DR3）、5位 automate136.com（DR5）と低DRサイトが上位に入っており、権威よりも回答の具体性で勝てる面がある。周辺クラスタ（copilot studio 料金 600/KD1、copilot studio ライセンス 600/KD0、copilot studio 使い方 600/KD1、copilot studio 何ができる 200、copilot エージェントとは 900/KD1）を1記事のFAQで同時に拾える。"
+    },
+    {
+      "keyword": "文字起こし ai",
+      "volume": 4600,
+      "difficulty": 52,
+      "country": "jp",
+      "decision": "rejected",
+      "rationale": "KD52。既存の議事録クラスタ（ai-gijiroku-tsukurikata / ai-gijiroku-tool-erabikata / ai-gijiroku-muryo-doko-made）と内容が重なるうえ、ドメインに被リンクがない現状では上位表示の見込みが薄い。内部リンクが積み上がるまで保留。"
+    },
+    {
+      "keyword": "google ai studio 文字起こし",
+      "volume": 800,
+      "difficulty": 0,
+      "country": "jp",
+      "decision": "deferred",
+      "rationale": "KD0で狙いやすいが、既存の google-ai-studio-nani-ga-dekiru と重複判定されるリスクがあるため、既存記事の加筆で対応するほうが妥当。次回以降に既存記事の改稿候補として扱う。"
+    },
+    {
+      "keyword": "ai文字起こし / 動画 文字起こし ai / youtube 文字起こし ai / aiボイスレコーダー 文字起こし",
+      "volume": 700,
+      "difficulty": 0,
+      "country": "jp",
+      "decision": "deferred",
+      "rationale": "いずれも600〜700・KD0〜4で候補性はあるが、検索意図が個人向けツール比較に寄り、事務所の想定顧客（中小企業の業務判断）とのずれが大きい。文字起こし単体ではなく「議事録として使えるか」の軸でまとめる形にしたいため、クラスタ設計を固めてから着手する。"
+    },
+    {
+      "keyword": "ai面接とは",
+      "volume": 3200,
+      "difficulty": 0,
+      "country": "jp",
+      "decision": "rejected",
+      "rationale": "前回に続き再確認。検索意図が求職者側（受ける側の対策）に寄っており、採用する企業側の導入判断の記事では意図が合わない。"
+    }
+  ],
+  "publishedSlugs": [
+    "copilot-studio-towa"
+  ],
+  "updatedSlugs": [
+    "microsoft-365-copilot-nani-ga-dekiru",
+    "shanai-chatbot-hiyo-hikaku",
+    "ai-toiawase-taio-hajimekata"
+  ],
+  "visibilityCheck": "2026-09-26時点、get_organic_keywords（yamashirogyomukaizen.com、jp、mode=domain）の結果は0件。配信中のプレビュードメイン（ai-i2gajxb-preview-4200.runable.site、jp、mode=subdomains）も0件。AI Overview引用・PAA引用のいずれも0件で、前回からの変化なし。2026-08-24以降10回連続で0件。2026-08-24以降10回連続で0件。原因は記事側ではなく配信側にある。ブログはRunableのプレビュードメイン（ai-i2gajxb-preview-4200.runable.site）で配信されており、yamashirogyomukaizen.com 配下に接続されていない。加えてSearch Console登録・サイトマップ送信・被リンクがいずれもゼロ。記事本数を増やしても指標は動かない構造的なボトルネックであり、公開・ドメイン接続はRunableプラットフォームのUI側で行う必要があるため、エージェント側からは解消できない。",
+  "notes": "調査期間: 2026-09-25T08:00+09:00 から 2026-09-26 の実行時刻まで。公開記事数34→35。公開: copilot-studio-towa。相互内部リンクを追記して再公開: microsoft-365-copilot-nani-ga-dekiru, shanai-chatbot-hiyo-hikaku, ai-toiawase-taio-hajimekata。記事内の料金・仕様の数値はすべて2026年9月26日に公式ページ（Microsoft Learn および microsoft.com 日本向けページ）を直接確認して取得。Copilot Studio の概要ページには機械翻訳またはAI翻訳の可能性を示す注意書きがあるため、記事中でもその旨を明記した。Microsoft 365 Copilot の表示価格は年払いでユーザーあたり月額4,497円相当（税別）。Copilotクレジットの請求レート、クォータ、公開条件はいずれも一次情報から引用し、単一の時間短縮値やコスト削減値の断定は記載していない。 出典（すべて2026-09-26に取得・確認）: https://learn.microsoft.com/ja-jp/microsoft-copilot-studio/fundamentals-what-is-copilot-studio / https://learn.microsoft.com/ja-jp/microsoft-copilot-studio/billing-licensing / https://learn.microsoft.com/ja-jp/microsoft-copilot-studio/requirements-messages-management / https://learn.microsoft.com/ja-jp/microsoft-copilot-studio/faq-billing-licensing / https://learn.microsoft.com/ja-jp/microsoft-copilot-studio/requirements-quotas / https://www.microsoft.com/ja-jp/microsoft-365-copilot/microsoft-copilot-studio。なお https://www.microsoft.com/ja-jp/microsoft-copilot/microsoft-copilot-studio/pricing は404だったため、https://www.microsoft.com/ja-jp/microsoft-365-copilot/microsoft-copilot-studio を出典として使用した。 検証: NGパターン（**、完全自動化、AIで全部解決、ROI・売上保証、体験談風表現、申請代行・採択される）不検出、JSONフロントマターのパース成功、lint違反0（21ファイル）、build成功、/posts/copilot-studio-towa が200、sitemap.xml・llms.txt・プレーンテキスト複製35件を再生成。 次回候補: copilot エージェントとは（900/KD1）今回の copilot-studio-towa から内部リンクを張れる。エージェント単体の定義と社内での使いどころで1本。／copilot studio 料金（600/KD1）今回記事のFAQで部分的に回答済み。単独記事にするならクレジット消費の試算を軸にする。／copilot studio 使い方（600/KD1）手順系。実際に作る工程を書くため、スクリーンショットなしで成立する構成を検討。／google ai studio 文字起こし（800/KD0）既存 google-ai-studio-nani-ga-dekiru への加筆で対応する方針。／議事録 ai（7200/KD35）引き続き保留。内部リンクと被リンクが積み上がるまで着手しない。"
+}

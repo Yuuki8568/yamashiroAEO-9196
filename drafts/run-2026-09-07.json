@@ -1,0 +1,45 @@
+{
+  "token": "aeo_e67122c7cd4191eee6f9df1d",
+  "targets": [
+    {
+      "question": "ビジネスメールの下書きをAIに任せるにはどうすればいいですか",
+      "keyword": "メール 作成 ai",
+      "volume": null,
+      "difficulty": null,
+      "format": "how-to",
+      "decision": "採用。Ahrefsが4日連続403のため検索数・KDは未計測。YouTubeの需要形状で判断した。「AI メール 文面 作成 ビジネス 時短」で192,875 / 135,018 / 56,223 / 21,154 / 16,768 / 14,878 / 14,551 / 12,791 viewsと、直近1〜3か月公開の動画も継続的に出ており需要は現在進行形。上位内容はCopilot in OutlookとGemini in Gmailでの下書き生成に集中していたため、記事の軸を「頼み方（指示の4点指定）」と「使うための前提条件の確認」に置いた。既存17本のうち問い合わせ対応（顧客からの問い合わせ返信の型づくり）およびchatgpt業務活用（汎用の指示の型）とは対象業務が異なり、カニバリを回避できると判断。"
+    },
+    {
+      "question": "電子帳簿保存法に対応した請求書の保存はどうすればいいですか",
+      "keyword": "請求書 ai",
+      "volume": null,
+      "difficulty": null,
+      "format": "faq",
+      "decision": "見送り。YouTube需要そのものは非常に大きい（379,623 / 171,619 / 142,437 / 120,712 / 83,171 / 69,069 / 49,503 / 43,930 views）が、上位を占める内容が税理士による法令解説であり、保存要件・猶予措置・売上基準といった税務判断が記事の中心になる。当事務所はAI業務改善が領域であり、税務要件の断定は専門外で誤りのリスクが高い。前回9/6に検討した「電子帳簿保存法まわりの確認事項に絞る」案も、切り口を絞ってなお法令解説の比重が下がらないため今回は採用しない。将来的に扱うなら、法令要件そのものではなく『AI-OCRで読み取った内容を人がどう確認するか』の運用手順に限定する必要がある。"
+    },
+    {
+      "question": "採用・求人業務にAIをどう使うか",
+      "keyword": "採用 ai",
+      "volume": null,
+      "difficulty": null,
+      "format": "how-to",
+      "decision": "見送り。今回はYouTubeでの需要確認まで行っていない。求人票の作成支援は職安法5条の3・5条の4、均等法5条など募集広告表現の法的制約が絡み、事前の条文確認に時間を要するため、次回以降に単独で扱う。"
+    },
+    {
+      "question": "在庫管理にAIをどう使うか",
+      "keyword": "在庫管理 ai",
+      "volume": null,
+      "difficulty": null,
+      "format": "how-to",
+      "decision": "見送り。需要未確認。在庫は業種ごとに前提が大きく異なり、汎用的な手順記事にすると一般論になりやすい。扱うなら業種を絞る必要があるが、地域名・業種名での訴求は現在の方針の範囲外のため保留。"
+    }
+  ],
+  "publishedSlugs": [
+    "business-mail-ai-shitagaki",
+    "ai-gyomu-koritsuka-doko-kara",
+    "chatgpt-gyomu-katsuyo-tejun",
+    "ai-toiawase-taio-hajimekata"
+  ],
+  "visibilityCheck": "実施できず。get_organic_keywords を yamashirogyomukaizen.com（mode=subdomains, country=jp, limit=10）に対して1回叩いたところ 403 Insufficient plan。記録のため ai-i2gajxb-preview-4200.runable.site でも同条件で試したが同じく 403。これで9/4・9/5・9/6・9/7と4日連続で掲載確認が取れていない。したがって前回計測できていた8/24〜9/3の11日連続0件という状態から先の差分は不明であり、0件の連続日数を延ばして記載することはしない。Ahrefs復旧後に再計測する語は 業務マニュアル 作成 / 請求書 ai / 議事録 ai / メール 作成 ai の4つ。特に 議事録 ai（7,200・KD35）はSERPとAI Overview引用元を復旧後すぐ取得する。",
+  "notes": "Ahrefs状態: 全エンドポイントで403 Insufficient plan。9/4・9/5・9/6に続き4日連続。ルール通り1回だけ探りを入れて403を確認した時点で打ち切り、get_keyword_ideas は今回も呼んでいない（terms=questions が7回連続で成果ゼロ、かつプラン制限下でユニット消費を避けるため）。research_keywords・get_serp_overview も同じ理由で未実行。したがって本記事の keyword.volume / difficulty は null で登録している。\n\n代替需要判断: social-data の search_youtube を2クエリ実行。(1)「AI メール 文面 作成 ビジネス 時短」→ Copilot仕事術192,875、PIVOT Outlook/Teams編135,018、Copilot×Outlook時短ワザ56,223、Outlook Copilot 21,154、Outlook Copilot中小企業向け16,768、ChatGPTメール文章14,878、Copilotルーティン業務14,551、Outlook定型句+AI 12,791。直近1〜3か月公開の動画も複数あり需要は継続中と判断。(2)「電子帳簿保存法 請求書 保存 対応 中小企業」→ 379,623 / 171,619 / 142,437 / 120,712 / 83,171 / 69,069 / 49,503 / 43,930。数字は大きいが内容が税理士の法令解説であり当方の領域外のため不採用。YouTubeの再生数は需要の形を読むための補助証拠として扱い、検索ボリュームとしては提示せず、記事本文にも一切記載していない。\n\n当日確認した出典（いずれも mb go + mb text で2026-09-07に実物を確認）: (1) Microsoftサポート「Outlook で Copilot を使用してメール メッセージを下書きする」https://support.microsoft.com/ja-jp/outlook/copilot-pages/draft-an-email-message-with-copilot-in-outlook ー 新しいOutlookおよびWeb版ではプレーンテキスト形式で作成されたメッセージはCopilotの下書きに非対応、設定>メール>作成と返信 でHTMLに変更する必要がある／下書きの入口はメール領域のCopilotボックスとチャットの2つ／生成後に長さ・トーンの変更と再生成が可能／既存テキストを選択してCopilotで書き換え可能／アクセスできない場合はIT管理者に確認。(2) Googleヘルプ「Gemini in Gmail でメールの下書きを作成する」https://support.google.com/mail/answer/13955415?hl=ja ー 文書作成サポートの利用には対象の Google Workspace プランまたは Google AI プランが必要、個人の Google アカウントでの利用は米国のみ（日本の中小企業には決定的な条件のため記事とFAQの両方に明記）／推敲オプションは よりフォーマルに・フレンドリー・短くする／プロンプト作成のポイントは 宛先への言及・主題と必要なアクションの明確化・トーンの形容詞・特定のメールやファイルへの言及／文書作成サポートは他のメールやGoogleドライブのファイルから情報を自動取得し、それらは下書き改善の目的にのみ使用されると記載。この自動参照の点は「自動で参照される情報の範囲を確認しておく」の章に反映した。すべての条件に2026年9月7日時点の時点表記と公式ページ確認の注記を付けた。\n\nカニバリ回避の判断: 既存の ai-toiawase-taio-hajimekata は顧客からの問い合わせに対する回答の型づくり、chatgpt-gyomu-katsuyo-tejun は業務全般に対する汎用の指示の型であり、今回は社外向けビジネスメールの下書き作成という別業務を扱う。各記事の見出しを事前に確認して重複がないことを確かめたうえで、両記事へは本文中から文脈付きの内部リンクを張って役割分担を明示した。\n\nFAQの出所: 5問中3問（そのまま送ってよいか／無料Googleアカウントで使えるか／Outlookで下書きボタンが出ない）は当日確認した公式ドキュメントの記載に直接対応させた。特に後者2問はYouTube上位動画のコメント的な関心事とも一致する実務上のつまずきポイント。残る2問（指示を毎回書く手間／任せないほうがよいメール）は記事の運用面を補うもので、数値主張を含まない。\n\n内部リンク追加: 新記事の 関連記事 に4本（ai-gyomu-koritsuka-doko-kara / chatgpt-gyomu-katsuyo-tejun / ai-toiawase-taio-hajimekata / gyomu-manual-ai-sakusei）。加えて既存3本の 関連記事 末尾に新記事への戻りリンクを1行ずつ追加して再公開（ハブの ai-gyomu-koritsuka-doko-kara、chatgpt-gyomu-katsuyo-tejun、ai-toiawase-taio-hajimekata）。python heredoc でアンカー文字列の出現回数が1であることをassertしてから挿入した。\n\n検証: 公開前に NG文言（**、完全自動化、AIで全て解決、ROI保証、私の支援先、申請代行、採択される 等）を grep して0件を確認。publish で created + regenerated 17 plain-text copies。bun run lint は No violations found / 0 errors、bun run build は 2 tasks successful。http://localhost:4200/posts/business-mail-ai-shitagaki が200、sitemap.xml に1件・llms.txt に2件 slug を確認、packages/web/public/posts/ は17ファイル。累計17本。\n\n独自ドメイン+Search Console の判断はユーザー保留中のため未着手。掲載は決定まで0のまま推移する見込み。補助金クラスタは対象外を維持。"
+}

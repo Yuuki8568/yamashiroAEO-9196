@@ -1,0 +1,45 @@
+{
+  "token": "aeo_e67122c7cd4191eee6f9df1d",
+  "targets": [
+    {
+      "question": "営業の仕事にAIをどう活用すればいいですか",
+      "keyword": "営業 ai活用",
+      "volume": 150,
+      "difficulty": 1,
+      "decision": "採用。get_keyword_ideas（seeds: 営業 ai / aiエージェント 業務 / 人手不足 ai / ai 翻訳 社内、terms=all、jp）で営業×AIクラスタが低KDで密集していることを確認。get_serp_overview（営業 ai活用、jp）では上位が持株会社・SaaS大手の「活用例◯選」型リスト記事（cybozu DR80、salesforce DR92、persol DR77、NTT東 DR83、hubspot DR73、pwc DR91）で占められる一方、AI Overviewの引用元にcomdec.jp（DR46・参照ドメイン0・推定流入10）が含まれており、低権威ページでも引用され得ることを確認。作業分解＋任せられる度合いの線引きという切り口は上位に不在のため、差別化可能と判断。既存28記事の対象キーワードと重複なし。"
+    },
+    {
+      "question": "AIで営業職はなくなりますか / AIで営業職はどうなるのか / 営業職はAIで奪われるのでしょうか / AIに奪われにくい職業は",
+      "keyword": "ai 営業",
+      "volume": 900,
+      "difficulty": 2,
+      "decision": "主キーワードには採用せず、FAQ項目として吸収。get_serp_overview（ai 営業、jp）ではPAAが上記4問すべて職の消滅不安に寄っており、上位organicもDR77〜93（persol/salesforce/cybozu/pwc/ibm）とnote記事で構成。検索意図がキャリア不安側に振れており、中小企業向けAI業務改善の受注意図と噛み合わないため、記事内のFAQ「AIで営業職はなくなりますか」で作業分解の観点から回答する形に留めた。position7にcoleta.jp（DR12・被リンク0）が入っており将来的な単独記事化の余地はある。"
+    },
+    {
+      "question": "営業電話AI関連（ai営業電話 迷惑 / ai 営業電話 見分け方 / ai営業電話 断り方 など）",
+      "keyword": "営業電話 ai",
+      "volume": 450,
+      "difficulty": 0,
+      "decision": "除外。同クラスタ（ai 営業電話 400、ai 営業電話 見分け方 200、ai営業電話 迷惑 150、ai営業電話 断り方 70）は「AIから営業電話がかかってくる側」の迷惑・対処意図で、B2Bの営業生産性向上とは別意図。混在させると記事の焦点がぶれるため主題から外し、受電側（AI架電より受電から検討すべきという判断軸）のみFAQ1項目で触れた。単独記事化は将来の別テーマとして保留。"
+    },
+    {
+      "question": "請求書処理・経費精算・採用領域の質問形キーワード",
+      "keyword": "ai 請求書 / 請求書 処理 / 経費精算 ai / ai 採用",
+      "volume": 40,
+      "difficulty": 0,
+      "decision": "不採用。get_keyword_ideas（terms=questions、jp、limit40）の結果がほぼ全て0〜40のロングテールで、最大でも「財務チームは請求書処理をどう自動化するか？」30、「請求書の処理とは」20。SERP確認に課金する価値がないと判断し、get_serp_overviewは未実行のままシード変更。"
+    },
+    {
+      "question": "議事録 ai",
+      "keyword": "議事録 ai",
+      "volume": 7200,
+      "difficulty": 35,
+      "decision": "継続保留。内部リンクの蓄積が進むまで着手しない方針を維持。"
+    }
+  ],
+  "publishedSlugs": [
+    "eigyo-ai-katsuyo-houhou"
+  ],
+  "visibilityCheck": "2026-09-19時点、get_organic_keywords（yamashirogyomukaizen.com、jp）の結果は0件。2026-08-24、2026-09-17、2026-09-18に続き4回連続で0件のまま、順位・AI Overview引用・PAA引用のいずれにも変化なし。原因は記事の内容側ではなく配信ドメインにあると考えられる。ブログ本体はRunableのプレビュードメイン（ai-i2gajxb-preview-4200.runable.site）で配信されており、yamashirogyomukaizen.com配下に接続されていない。このため、同ドメインを対象にした被リンク・順位の計測にブログの29記事が一切反映されない。記事を追加しても解消しない構造的なブロッカーであり、プラットフォームUIからの独自ドメイン接続（yamashirogyomukaizen.com のサブディレクトリまたはサブドメイン）とSearch Console登録・サイトマップ送信が必要。",
+  "notes": "公開: eigyo-ai-katsuyo-houhou（営業の仕事にAIをどう活用すればいいですか、category=how-to、主KW=営業 ai活用 150/KD1）。記事構成: 作業別の任せられる度合い表（8行）→白書の数値による位置づけ→白書掲載事例（明治安田生命のデジタル秘書）の入れ方の順番→着手手順4段→汎用AIと営業向け専用ツールの比較表→法令面（個人情報保護法・特定電子メール法）→1か月後に見る指標→FAQ6問。出典5件（すべて2026-09-19に確認）: 総務省令和8年版情報通信白書 図表Ⅰ-2-1-7（営業・販売 9.5/22.9/27.2＝約6割、効果実感37.5％、比較として議事録・メール作成補助72.3％、マーケティング・広報36.6％、カスタマーサポート33.8％、経理・財務29.7％）／明治安田生命DX戦略の推進（デジタル秘書MYパレット2024年10月〜、デジタル秘書2025年8月〜、2023年度の自社版ChatGPT AIアシスタントを刷新）／個人情報保護委員会FAQ Ｑ7-53（クラウド利用の第三者提供該当性の判断基準、取り扱わない場合は本人同意不要、安全管理措置はＱ7-54参照）／特定電子メールの送信の適正化等に関する法律 第三条・第四条（e-Gov法令検索で条文確認、オプトイン原則と各号の例外、表示義務）／OpenAIエンタープライズプライバシー。内部リンク: 新記事から8本（business-mail-ai-shitagaki、ai-shiryo-slide-sakusei、ai-gijiroku-tsukurikata、ai-denwa-taio-doko-made、mitsumorisho-ai-koritsuka、shanai-shiryo-ai-kensaku、chatgpt-joho-roei-taisaku、ai-gyomu-koritsuka-doko-kara）、相互リンクとして既存5記事（business-mail-ai-shitagaki、ai-shiryo-slide-sakusei、ai-gijiroku-tsukurikata、ai-gyomu-koritsuka-doko-kara、chusho-kigyo-ai-katsuyo-rei）の関連記事欄に追記し再公開。検証: NGパターン5種（**、完全自動化系、ROI・売上保証系、体験談風、申請代行・採択系）すべて不検出、lint違反0、build成功、/posts/eigyo-ai-katsuyo-houhou が200、sitemap.xmlとllms.txtに新slug反映、公開記事数28→29。次回候補: ai 営業 なくなる（90/KD0、職の消滅不安に特化した単独記事）、営業支援 ai（70/KD3）、ai 人手不足解消 事例（100/KD0）、aiエージェント 営業（100/KD0）。議事録 ai（7200/KD35）は引き続き保留。"
+}

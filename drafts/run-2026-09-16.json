@@ -1,0 +1,54 @@
+{
+  "token": "aeo_e67122c7cd4191eee6f9df1d",
+  "targets": [
+    {
+      "keyword": "ai 電話対応",
+      "volume": 500,
+      "difficulty": 5,
+      "cpc": 180,
+      "country": "jp",
+      "status": "published",
+      "slug": "ai-denwa-taio-doko-made",
+      "category": "comparison",
+      "question": "電話対応はAIにどこまで任せられますか。中小企業での切り分け方は",
+      "serpOverview": "AI Overview（position 1、ai_overview + ai_overview_sitelink、引用元 https://www.aspicjapan.org/asu/article/6426）あり。PAA4件：AIから電話がかかってきたときの対処法は／対話型AIはどれがいい／AI電話の導入費用はいくらですか／AI電話対応にはどんなデメリットがありますか。オーガニック上位はNTT Com(DR82)、Salesforce(DR92)、tifana.ai(DR48)、note.com、ivry.jp(DR67)、miraiai.jp(DR46)、aspicjapan.org(DR72)、aiworker.jp(DR58)で、すべてベンダー自社ページか比較メディア。",
+      "gap": "上位は製品紹介と一覧比較のみで、PAAの「導入費用はいくらですか」「どんなデメリットがありますか」に相場の幅と前提条件付きで答えるページ、および「そもそも自社の入電のうち何件を自動応答に回せるか」を判断する手順を示すページがない。09-11回の次点候補（製品名を出せないため保留）を、製品名を一切出さず公開料金の幅と切り分け手順で構成することで解消した。",
+      "sourcesUsed": "aspicjapan.org/asu/article/6426（AI電話自動応答サービス比較、最終更新2026-08-25、2026-09-16確認）、aspicjapan.org/asu/article/51660（電話代行サービス比較、最終更新2026-03-10、2026-09-16確認）、総務省 令和8年版情報通信白書 n1210000.pdf（生成AI活用方針策定68.9%／中小企業58.1%／利用86.4%、2026-09-16確認）、個人情報保護委員会FAQ Q1-10・Q1-11（通話録音と利用目的の通知、2026-09-16確認）"
+    },
+    {
+      "keyword": "ai採用 / 採用 ai",
+      "volume": 500,
+      "difficulty": 0,
+      "country": "jp",
+      "status": "rejected",
+      "reason": "同一シードの候補群から次点。採用選考でのAI利用は差別・適性判断の論点が重く、労働関連法の整理が必要で1記事に収まらない。次回以降に「書類選考の一次整理」に限定して再検討。"
+    },
+    {
+      "keyword": "在庫管理 ai",
+      "volume": 450,
+      "difficulty": 0,
+      "country": "jp",
+      "status": "rejected",
+      "reason": "需要予測や基幹システム連携が前提になり、当事務所が示せる「まず記録から」の範囲を超える。次回候補として保持。"
+    },
+    {
+      "keyword": "データ入力 ai",
+      "volume": 100,
+      "difficulty": 0,
+      "country": "jp",
+      "status": "rejected",
+      "reason": "既存記事 ai-ocr-chusho-kigyo-hajimekata と実質的に重複するため見送り。"
+    },
+    {
+      "keyword": "中小企業 dx / ai 業務改善 ほか DXクラスタ",
+      "volume": 800,
+      "difficulty": 4,
+      "country": "jp",
+      "status": "rejected",
+      "reason": "1回目のシード（ai 導入 進め方／dx 中小企業／業務改善 ai／生成ai 社内 導入）の結果はDX一般論と補助金隣接の派生語が大半で、補助金クラスタは方針上対象外。具体的な業務単位の質問に答えられないため SERP調査を行わず破棄（課金なし）。"
+    }
+  ],
+  "publishedSlugs": ["ai-denwa-taio-doko-made"],
+  "visibilityCheck": "2026-09-16時点、get_organic_keywords（yamashirogyomukaizen.com、jp、subdomains）で獲得オーガニックキーワードは0件。2026-08-24以降の計測開始から一貫して0件で、今回も変化なし。ドメイン自体が新規で被リンクもほぼない段階のため、Ahrefs上での可視化には数か月単位の遅れが想定される。公開記事数は26本になり、sitemap.xml・llms.txt・プレーンテキスト版は全26本ぶん再生成済み。次の打ち手としては、(1) 公開済み26本の内部リンク密度をさらに上げる、(2) 事務所トップページから記事一覧への導線を確認する、(3) Google Search Console のインデックス状況を本番ドメイン側で確認する（当環境からは未確認）、(4) 外部からの初期被リンク獲得（プロフィール系・公的支援機関の事業者一覧など）を検討する、が挙げられる。",
+  "notes": "2026-09-16回。website-data・social-data両プラグインの接続を確認。get_keyword_ideas を2回実行（1回目: ai 導入 進め方/dx 中小企業/業務改善 ai/生成ai 社内 導入 → DX一般論・補助金隣接で不採用。2回目: ai 電話 対応/ai データ入力/ai 在庫管理/ai 採用 → ai 電話対応 500/KD5 を採用）。get_serp_overview は ai 電話対応 の1件のみ実行（課金分）。既存 drafts の frontmatter を rg で横断し、電話系キーワードの重複がないことを確認。記事は製品名を一切出さない構成とし、価格根拠はアスピックの公開料金表から幅（月額4,980円〜15万円、初期0〜26万円）として引用し、月額に含まれない費目（通話料・番号維持費・従量課金・工事費）を明示。有人電話代行との比較列も同メディアの別記事から追加。総務省白書は生成AI活用方針策定68.9%（前年49.7%）、中小企業58.1%、何らかの業務で利用86.4%、業務類型別で議事録・メール作成補助が約7割で最高、社内ヘルプデスク約5割を引用。録音については個人情報保護委員会FAQ Q1-10に基づき「録音していること自体を伝える義務はないが、通話内容が個人情報に当たる場合は利用目的の通知・公表が必要」と限定して記載し、断定的な法的助言は避けた。時間・費用の効果は幅と前提付きのみで記載、単一値の削減効果は書いていない。NGパターン5種（**、完全自動化系、ROI保証、体験談風、補助金申請代行）をスクリプトで事前検査しクリーン。新記事から既存5本へ、既存5本（ai-toiawase-taio-hajimekata, ai-gijiroku-tsukurikata, ai-gyomu-koritsuka-doko-kara, seisei-ai-guideline-shanai-tsukurikata, ai-donyu-shien-towa）から新記事へ相互リンクを追加し再公開。bun run lint（0 errors / 0 warnings）、bun run build（成功）、http://localhost:4200/posts/ai-denwa-taio-doko-made が200、sitemap.xml と llms.txt に新slug掲載、posts配下26本を確認。次回候補: 在庫管理 ai 450/KD0、ai採用 500/KD0（範囲を限定すれば可）、ai 導入 費用 250/KD0、生成ai 著作権 ガイドライン 200、議事録 ai 7200/KD35（難易度が高く既存3本で面を取ってから）。soumu.go.jp のHTML版白書はcurlで文字化けしたため、PDF版をpdftotextで処理して引用した（次回も同様にPDFを使う）。"
+}

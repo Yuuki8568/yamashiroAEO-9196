@@ -1,0 +1,77 @@
+[
+  {
+    "url": "http://localhost:4200/",
+    "httpStatus": 200,
+    "contentCheck": "HTTP only; SPA content checked in browser"
+  },
+  {
+    "url": "http://localhost:4200/posts/gemini-canvas-towa",
+    "httpStatus": 200,
+    "contentCheck": "HTTP only; SPA content checked in browser"
+  },
+  {
+    "url": "http://localhost:4200/posts/gemini-canvas-towa.md",
+    "httpStatus": 200,
+    "contentCheck": "static text verified"
+  },
+  {
+    "url": "http://localhost:4200/sitemap.xml",
+    "httpStatus": 200,
+    "contentCheck": "static text verified"
+  },
+  {
+    "url": "http://localhost:4200/robots.txt",
+    "httpStatus": 200,
+    "contentCheck": "HTTP only; SPA content checked in browser"
+  },
+  {
+    "url": "http://localhost:4200/llms.txt",
+    "httpStatus": 200,
+    "contentCheck": "static text verified"
+  },
+  {
+    "url": "https://ai-i2gajxb-preview-4200.runable.site/",
+    "httpStatus": 200,
+    "contentCheck": "HTTP only; SPA content checked in browser"
+  },
+  {
+    "url": "https://ai-i2gajxb-preview-4200.runable.site/posts/gemini-canvas-towa",
+    "httpStatus": 200,
+    "contentCheck": "HTTP only; SPA content checked in browser"
+  },
+  {
+    "url": "https://ai-i2gajxb-preview-4200.runable.site/posts/gemini-canvas-towa.md",
+    "httpStatus": 200,
+    "contentCheck": "static text verified"
+  },
+  {
+    "url": "https://ai-i2gajxb-preview-4200.runable.site/sitemap.xml",
+    "httpStatus": 200,
+    "contentCheck": "static text verified"
+  },
+  {
+    "url": "https://ai-i2gajxb-preview-4200.runable.site/robots.txt",
+    "httpStatus": 200,
+    "contentCheck": "HTTP only; SPA content checked in browser"
+  },
+  {
+    "url": "https://ai-i2gajxb-preview-4200.runable.site/llms.txt",
+    "httpStatus": 200,
+    "contentCheck": "static text verified"
+  },
+  {
+    "url": "https://ai-i2gajxb-preview-4200.runable.site/posts/gemini-nani-ga-dekiru.md",
+    "httpStatus": 200,
+    "backlink": true
+  },
+  {
+    "url": "https://ai-i2gajxb-preview-4200.runable.site/posts/gemini-gem-towa.md",
+    "httpStatus": 200,
+    "backlink": true
+  },
+  {
+    "url": "https://ai-i2gajxb-preview-4200.runable.site/posts/gyomu-manual-ai-sakusei.md",
+    "httpStatus": 200,
+    "backlink": true
+  }
+]

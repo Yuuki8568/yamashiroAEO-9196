@@ -1,0 +1,22 @@
+{
+  "token": "aeo_e67122c7cd4191eee6f9df1d",
+  "targets": [
+    {
+      "keyword": "ai 議事録 無料",
+      "volume": 600,
+      "difficulty": 1,
+      "trafficPotential": 9300,
+      "country": "jp",
+      "question": "AI議事録は無料でどこまで使えますか",
+      "format": "faq",
+      "decision": "採用"
+    },
+    { "keyword": "中小企業 ai活用", "volume": 100, "difficulty": null, "decision": "見送り（volume100・親トピックなし。無料枠テーマより優先度低）" },
+    { "keyword": "chatgpt 業務活用", "volume": 80, "difficulty": 1, "trafficPotential": 2300, "decision": "見送り（次回候補。親トピックはchatgpt 活用）" },
+    { "keyword": "ai 導入 失敗", "volume": 30, "difficulty": null, "decision": "見送り（需要小）" },
+    { "keyword": "社内 ai ルール", "volume": null, "difficulty": null, "decision": "データ返らず・需要を確認できず見送り" }
+  ],
+  "publishedSlugs": ["ai-gijiroku-muryo-doko-made"],
+  "visibilityCheck": "yamashirogyomukaizen.com（subdomains/jp）オーガニックキーワード0件・status 200。ai-i2gajxb-preview-4200.runable.site も0件・status 200。8/24の0件起点から差分なし（7日連続0件）。SERP（ai 議事録 無料 / jp）は position1 に AI Overview があり、そのサイトリンク引用元は youtube.com の議事録AI解説動画。オーガニックは line-works.com/ainote（DR74・#2・traffic3197）、jp.plaud.ai（DR74・#4・traffic1370）、notta.ai（DR77・#5・traffic88373）、apps.apple.com（DR97・#6）、play.google.com（DR100・#7）、remoba.biz（DR33・#8・traffic30）。PAAは「チャットGPTで議事録は無料ですか」「無料のAI議事録のおすすめは？」「Google AIで議事録を無料で作れるサイトはありますか」「AIを使って議事録を作る方法はありますか」の4問で、これらは記事のFAQにそのまま反映済み。8/28に記録した ai 業務効率化 の引用元（nttdata-kansai・fujifilm・exa-corp・concur・japan-it）は今回のSERP対象外のため変化なし。",
+  "notes": "本日の公開: ai-gijiroku-muryo-doko-made（faq）。累計10本。当日確認した出典4件（Notta料金プラン、Google Meet文字起こしヘルプ、ChatGPT料金、総務省 令和7年版情報通信白書「企業におけるAI利用の現状」）。あわせて既存記事7本にハブ記事（ai-gyomu-koritsuka-doko-kara）への復路リンクを追加し、内部リンクを双方向化（ai-consul-igai-no-sentakushi / ai-donyu-shien-towa / ai-gijiroku-tool-erabikata / ai-ocr-chusho-kigyo-hajimekata / excel-shift-hyo-jido-sakusei / mitsumorisho-ai-koritsuka / nippo-ai-sakusei-houhou）。lint 0エラー、build 成功、記事URL 200、sitemap/llms.txt に反映済み。sources のキー名は title ではなく label（初回publishでバリデーション失敗→修正）。次回候補: chatgpt 業務活用（80/KD1・TP2300）、中小企業 ai活用（100）、内部リンクが積み上がった後の 議事録 ai（7,200/KD35）。測定を前に進めるには独自ドメイン接続とSearch Console登録が必要。"
+}

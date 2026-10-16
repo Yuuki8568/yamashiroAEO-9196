@@ -1,0 +1,12 @@
+{
+  "token": "aeo_e67122c7cd4191eee6f9df1d",
+  "targets": [
+    { "question": "生成AIで業務効率化した事例は、どこで探して、自社にどう当てはめればいいですか？", "keyword": "生成ai 業務効率化 事例", "volume": 300, "difficulty": null, "country": "jp", "decision": "採用。前日公開のハブ記事（ai 業務効率化）に接続する事例クラスタの入口で、候補中で最大ボリューム。PAA「生成AIで業務効率を上げる事例はありますか？」に対応。" },
+    { "question": "中小企業がAIを活用するには？", "keyword": "中小企業 ai活用", "volume": 100, "difficulty": null, "country": "jp", "decision": "見送り。ボリュームが3分の1で、ai導入支援FAQおよびハブ記事と内容が重なるため。" },
+    { "question": "業務効率化に使えるAIツールは？", "keyword": "ai ツール 業務効率化", "volume": null, "difficulty": null, "country": "jp", "decision": "見送り。research_keywordsでデータが返らず需要を確認できないため。" },
+    { "question": "AI導入の進め方は？", "keyword": "ai 導入 進め方", "volume": null, "difficulty": null, "country": "jp", "decision": "見送り。同じくデータが返らず需要不明。" }
+  ],
+  "publishedSlugs": ["seisei-ai-koritsuka-jirei"],
+  "visibilityCheck": "yamashirogyomukaizen.com=jpオーガニック0件（status 200）／ai-i2gajxb-preview-4200.runable.site=jpオーガニック0件（status 200）。8/24の0件起点から差分なし。生成ai 業務効率化 事例 のSERP overviewは positions 空で、AI概要とPAAの引用元は取得できず。前日 ai 業務効率化 で確認した引用元（nttdata-kansai、fujifilm、exa-corp、concur、japan-it）との比較は今回はできていない。",
+  "notes": "公開記事は9本。今回は前日のハブ記事に接続する事例クラスタの入口記事で、要約・下書き・転記の型から既存4記事へ内部リンク。出典は当日確認した総務省 令和7年版 情報通信白書2ページ（企業のAI利用: 業務利用55.2%、メール・議事録・資料作成の補助47.3%、活用方針策定49.7%、中小企業は方針未策定が約半数、懸念1位は効果的な活用方法がわからない／個人のAI利用: 26.7%、20代44.7%）。低ボリューム語のSERPが空で返る傾向が続くため、引用元の追跡は中ボリューム語（ai 業務効率化）で定点観測する運用に切り替える。測定を前に進めるには独自ドメイン接続とSearch Console登録が必要（ユーザー判断待ち）。"
+}

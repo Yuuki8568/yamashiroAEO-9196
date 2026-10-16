@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ai-i2gajxb-preview-4200.runable.site/sitemap.xml

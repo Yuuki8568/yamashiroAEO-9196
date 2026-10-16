@@ -1,0 +1,12 @@
+{
+  "targets": [
+    {"question": "AIエージェントとは何ですか", "keyword": "aiエージェントとは", "volume": 16000, "difficulty": 7, "decision": "公開（ai-agent-towa, faq）。既存copilot-agent-towaはCopilot限定のため重複なし。AI Overview引用元=ntt.com / softbank.jp / gartner.co.jp / global.fujitsu / concur.co.jp。上位10件のDRは62〜96。PAA=ChatGPTとの違い・生成AIとの違い・利用料金・何がすごいのか。4問ともFAQに反映。一次情報としてIPAのコラム（10位、DR89）とAWSの解説を出典に採用"},
+    {"question": "AIエージェントとは（表記ゆれ）", "keyword": "ai エージェントとは", "volume": 1300, "difficulty": 3, "decision": "同記事で兼ねる"},
+    {"question": "Copilot Studioの使い方は？", "keyword": "copilot studio 使い方", "volume": 600, "difficulty": 1, "decision": "保留継続。既存copilot-studio-towaへの手順節追加で対応予定"},
+    {"question": "AIコンサル／日報AI／見積書AI／中小企業AI活用", "keyword": "ai コンサル ほか", "volume": 600, "difficulty": 1, "decision": "新規見送り。既存4記事と重複するため改稿対象"},
+    {"question": "議事録 ai", "keyword": "議事録 ai", "volume": 7200, "difficulty": 35, "decision": "保留（既定方針どおり）"}
+  ],
+  "publishedSlugs": ["ai-agent-towa"],
+  "visibilityCheck": "2026-10-01 get_organic_keywords（country jp, mode subdomains）: yamashirogyomukaizen.com 0件、ai-i2gajxb-preview-4200.runable.site 0件。2026-08-24起点から変化なし。aiエージェントとは のAI Overview・PAA引用元に自社ドメインなし。",
+  "notes": "エージェントのクラスタ（ai-agent-towa / ai-agent-tsukurikata / copilot-agent-towa / copilot-studio-towa / copilot-studio-ryokin）を相互リンクで束ねた。ai-agent-tsukurikata と copilot-agent-towa に ai-agent-towa へのリンクを追加して再公開。全39本。構造上の課題（プレビュードメインで配信、Search Console未登録、被リンクなし）は継続。"
+}

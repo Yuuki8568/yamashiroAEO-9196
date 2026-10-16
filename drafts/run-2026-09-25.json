@@ -1,0 +1,50 @@
+{
+  "token": "aeo_e67122c7cd4191eee6f9df1d",
+  "targets": [
+    {
+      "question": "Microsoft 365 Copilotでは何ができますか。中小企業が導入を判断する基準は",
+      "keyword": "microsoft 365 copilot 何ができる",
+      "volume": 1600,
+      "difficulty": 4,
+      "decision": "採用。get_keyword_ideas（country=jp、terms=questions、seed=copilot／notebooklm／ai エージェント／プロンプト 書き方）で、microsoft 365 copilot 何ができる が 1600/KD4 と、ボリューム1000超でKDが一桁という帯の最上位だった（近接: copilot 何ができる 1500/KD3、copilot studio とは 1600/KD0、microsoft 365 copilot とは 1200/KD23、m365 copilot とは 1100/KD30）。get_serp_overview（microsoft 365 copilot 何ができる、jp、top10）では position1 がAI Overviewの枠でサイトリンク6本（biz.kddi.com、lanscope.jp、iimhs.co.jp、osp-okinawa.jp、officebot.jp、ntt.com/bizon）、position3 にPAAが4問（Microsoft 365 Copilotは無料ですか／コパイロットとChatGPTの違いは何ですか／Microsoft 365 Copilotの月額料金はいくらですか／Microsoft 365 Copilotは必要ですか）。organicはposition2のmicrosoft.com公式（DR96）以外はDR26〜63のベンダー・メディア記事が中心で、機能紹介と料金表の再掲は多い一方、「追加費用なしで使える範囲（Copilot Chat）と有料になる範囲の切り分け」「アドオン2,698円が初年度限定である点」「権限が付いたままの資料が検索に出る前提で棚卸しが必要な点」まで踏み込んだ記事が上位に不在だった。この差分で切った。既存33記事のslugとH1（question）を照合し、Microsoft 365 Copilotを主題とする記事は存在せず重複なし（本文にCopilotの語があるのは ai-shiryo-slide-sakusei、business-mail-ai-shitagaki、excel-shukei-ai-katsuyo、shanai-shiryo-ai-kensaku の4件だが、いずれも別主題の記事内での言及にとどまる）。PAAの「コパイロットとChatGPTの違い」は既存記事 chatgpt-gemini-gyomu-hikaku と主題が接するため、本文の章にはせずFAQ1問として扱い、同記事へ内部リンクで受け渡した。カテゴリはfaq。"
+    },
+    {
+      "question": "ai面接とは",
+      "keyword": "ai面接とは",
+      "volume": 3200,
+      "difficulty": 0,
+      "decision": "不採用（継続保留）。get_keyword_ideas（country=jp、terms=questions）で長尾を確認したところ、ai面接 何聞かれる（350）、ai面接 結果いつ、ai面接 フィードバック、aiケース面接とは（250）など、検索意図が受験者側（応募者が本番前に調べる）に偏っていることを再確認した。企業側の導入判断という角度に組み替える案は今回も具体化できず、当事務所の読者層（経営者・総務）と噛み合わないため見送り。既存記事 saiyo-gyomu-ai-doko-kara があるため、企業側の角度で書く場合も新規記事より同記事の増補のほうが筋が通る。SERP課金を避けるため get_serp_overview は未実行。"
+    },
+    {
+      "question": "文字起こしクラスタ（google ai studio 文字起こし ほか）",
+      "keyword": "google ai studio 文字起こし / ai文字起こし / 動画 文字起こし ai",
+      "volume": 800,
+      "difficulty": 1,
+      "decision": "不採用（次回以降の候補として維持）。今回はボリューム1600・KD4のCopilot案件が上位互換だったため後回し。google ai studio 文字起こし（800/KD1）は前回公開の google-ai-studio-nani-ga-dekiru から内部リンクで受けられる点が引き続き有利。"
+    },
+    {
+      "question": "議事録 ai",
+      "keyword": "議事録 ai",
+      "volume": 7200,
+      "difficulty": 35,
+      "decision": "継続保留。内部リンクの蓄積が進むまで着手しない方針を維持。文字起こし ai（4600/KD52）も同様。"
+    },
+    {
+      "question": "ai コンサル / 日報 ai / 見積書 ai / 中小企業 ai活用",
+      "keyword": "ai コンサル ほか",
+      "volume": 600,
+      "difficulty": 1,
+      "decision": "不採用。既存記事（ai-consul-igai-no-sentakushi、nippo-ai-sakusei-houhou、mitsumorisho-ai-koritsuka、chusho-kigyo-ai-katsuyo-rei）で押さえているため重複。新規記事化ではなく既存記事の改稿・追記で対応する方針を維持。"
+    }
+  ],
+  "publishedSlugs": [
+    "microsoft-365-copilot-nani-ga-dekiru"
+  ],
+  "updatedSlugs": [
+    "chatgpt-gemini-gyomu-hikaku",
+    "shanai-shiryo-ai-kensaku",
+    "shanai-chatbot-hiyo-hikaku"
+  ],
+  "visibilityCheck": "2026-09-25時点、get_organic_keywords（yamashirogyomukaizen.com、jp、domain）の結果は0件。2026-08-24以降9回連続で0件のままで、順位・AI Overview引用・PAA引用のいずれにも変化なし。配信中のプレビュードメイン（ai-i2gajxb-preview-4200.runable.site）についても get_organic_keywords（jp、subdomains）が0件で、計測可能な検索流入は立っていない。原因は記事内容ではなく、ブログがRunableのプレビュードメインで配信されており yamashirogyomukaizen.com 配下に接続されていないこと、およびインデックスの起点（Search Console登録・sitemap送信・被リンク）が存在しないこと。記事追加では解消しない構造的なブロッカーで、プラットフォームUIからの独自ドメイン接続（サブディレクトリまたはサブドメイン）、Search Console登録、sitemap.xml送信が必要。9回連続0件のため、記事本数の増加より接続作業の完了を最優先とする方針を継続する。",
+  "notes": "公開: microsoft-365-copilot-nani-ga-dekiru（Microsoft 365 Copilotでは何ができますか。中小企業が導入を判断する基準は、category=faq、主KW=microsoft 365 copilot 何ができる 1600/KD4）。公開記事数33→34。記事構成: 機能6つの柱の表→追加費用なしの範囲と有料の範囲→価格3入口の比較表→入力データの扱い→導入前に整理すること（データの置き場所・権限の棚卸し・配る人数）→Copilotで届く作業と届かない作業の表→名称変更の注記→FAQ6問→出典4件。事実・料金はすべて2026年9月25日（公開当日）に公式ページを取得して確認。確認した数値: Business Premium+Copilot Business 4,797円／Business Standard+Copilot Business 3,523円／Business Basic 1,049円／アドオン Microsoft 365 Copilot Business 3,148円→2,698円（いずれも年払い・ユーザー/月相当・税別）。割引は2026年7月1日〜2026年12月31日のキャンペーンで既存顧客のみ・年間契約必須・初年度のみ適用。Microsoft 365商用スイートのパッケージと価格は2026年7月1日に変更実施済み（同ページFAQに案内あり）。注記4より、対象サブスクリプションを持つEntra IDユーザーはCopilot Chatを追加料金なしで利用可、エージェント利用にはAzureサブスクリプションが必要で従量課金。比較表では外部データソース用Copilotコネクタと Copilot Cowork に従量課金制の表記、Copilot in TeamsはTeamsライセンス必須。プライバシーは learn.microsoft.com のドキュメント（ページ末尾 Last updated 2026/08/20）より、Graph経由のプロンプト・応答・データは基礎LLMのトレーニングに使用されない、Copilotは利用者が少なくとも表示権限を持つ組織データのみ表示、保存データは暗号化されPurviewで管理・保持ポリシー設定可、EUトラフィックはEUデータ境界内・EU外は米国/EU/その他リージョンで処理、Anthropic提供モデルは現在EUデータ境界から除外、Microsoft 365 Copilot→Microsoft Copilotへの名称変更あり。出典4件: microsoft.com/ja-jp/microsoft-365/business/compare-all-microsoft-365-business-products／microsoft.com/ja-jp/microsoft-365-copilot/business／microsoft.com/ja-jp/microsoft-365-copilot（更新日表示がないため確認日のみ記録）／learn.microsoft.com/ja-jp/copilot/microsoft-365/microsoft-365-copilot-privacy。除外した情報: learn.microsoft.com の web-search-privacy ページは2回取得を試みたが両方とも404だったため、Web検索側のデータ取り扱いについては記事から除外した（Graph経由のデータ取り扱いのみ記載）。search_twitter（Microsoft 365 Copilot 中小企業 lang:ja、15件）で観測した内容のうち、2026年9月25日のCopilot再設計（Home/Code/Autopilotの3タブ化）announcement、月30ドル・月21ドルといったUSD建ての価格、GPT-6 Astraのモデル追加、Claudeの全ライセンス開放は、いずれも公式ページで同日確認できなかったため記事には一切使用しなかった。内部リンク: 相互リンクとして既存3記事（chatgpt-gemini-gyomu-hikaku、shanai-shiryo-ai-kensaku、shanai-chatbot-hiyo-hikaku）に新記事へのリンクを追記して再公開。各追記はPython側で対象文字列の出現回数が1であること、かつ新slugが未出現であることを検証してから置換し、二重適用がないことを確認済み。検証: NGパターン（**、完全自動化・全部自動化・AIで全部解決・AIで全て解決、ROI・売上保証、体験談風の3表現、申請代行・採択される）すべて不検出、JSONフロントマターのパース成功、lint違反0（21ファイル・0 warnings 0 errors）、build成功（2 tasks successful）、/posts/microsoft-365-copilot-nani-ga-dekiru が200、sitemap.xmlに1件・llms.txtに2件で新slug反映、プレーンテキスト複製34件を再生成。時間・コスト削減の単一値の主張、未出典の統計、当事務所の料金提示、競合の否定、地域ターゲティングはいずれもなし。次回候補: copilot studio とは（1600/KD0、今回の記事から内部リンクで受けられる）、google ai studio 文字起こし（800/KD1）、ai文字起こし（700/KD0）、動画 文字起こし ai（700/KD4）、youtube 文字起こし ai（600/KD1）、aiボイスレコーダー 文字起こし（600/KD0）。今回の調査で拾った低ボリュームの疑問形（社内データを生成aiで活用できる状態にする方法はありますか／社内文書に生成aiを使う際、情報漏えいを防ぎながら安全に導入するには、いずれもvolume 0）は、単独記事ではなく既存記事のFAQへの吸収で扱う。"
+}

@@ -1,0 +1,51 @@
+{
+  "targets": [
+    {
+      "question": "Claudeとは何ですか。無料でできること、料金、ChatGPTやClaude Codeとの違いは？",
+      "keyword": "claude とは",
+      "volume": 3200,
+      "difficulty": 0,
+      "decision": "published: claude-towa（faq）。空白なし claudeとは 4,000/KD5は同じ検索意図として統合、検索数は合算しない。前回のKD0から空白なし語がKD5になったため、最新値を採用。既存記事重複なし。"
+    },
+    {
+      "question": "Claude Codeとは何ですか",
+      "keyword": "claude code とは",
+      "volume": 4900,
+      "difficulty": 4,
+      "decision": "candidate: claude codeとは 2,400/KD0と統合。今回は基本的な違いのみclaude-towaに記載、後続の手順記事で権限・ファイル変更確認を扱う。"
+    },
+    {
+      "question": "GeminiのGemとは何ですか",
+      "keyword": "gemini gemとは",
+      "volume": 1900,
+      "difficulty": 0,
+      "decision": "next candidate: 定型業務向けの用途・作り方・入力ルールのhow-toまたはfaqを検討。"
+    },
+    {
+      "question": "Geminiとは何ですか",
+      "keyword": "geminiとは",
+      "volume": 31000,
+      "difficulty": 11,
+      "decision": "candidate: geminiとは無料 3,400/KD16を同一記事の節として統合。既存ChatGPT/Gemini比較との重複を避ける。"
+    },
+    {
+      "question": "Copilot Studioをどう使いますか",
+      "keyword": "copilot studio 使い方",
+      "volume": 600,
+      "difficulty": 1,
+      "decision": "hold: 過去調査値。既存copilot-studio-towaへの手順追記、今回は未実施。"
+    },
+    {
+      "question": "議事録をAIで作るには",
+      "keyword": "議事録 ai",
+      "volume": 7200,
+      "difficulty": 35,
+      "decision": "hold: 過去調査値。内部リンクを積んでから。AIコンサル・日報・見積書・中小企業活用は既存記事と重複し新規作成しない。補助金クラスタは扱わない。"
+    }
+  ],
+  "publishedSlugs": [
+    "claude-towa"
+  ],
+  "visibilityCheck": "2026-10-06確認。対象ウィンドウ2026-10-05 08:00 JST〜2026-10-06 08:00 JST。検索数・KD・SERP・organic keywordsは取得時の最新利用可能スナップショットであり、24時間だけの増減を示すものではない。get_organic_keywords(country jp、subdomains): yamashirogyomukaizen.com と ai-i2gajxb-preview-4200.runable.site は両方 keywords: []。確認できるオーガニックKW0件、2026-08-24起点0から差分0、順位データなし。未インデックスの証明ではない。狙った「claude とは」のAI Overview引用URL: https://www.ntt.com/bizon/claude.html ; https://www.ricoh.co.jp/magazines/column/trn-what-is-claude/ ; https://fungry.co.jp/cnaps/blog/claude-ai/ ; https://www.freee.co.jp/kb/kb-ai/claude/ ; https://aismiley.co.jp/ai_news/what-is-claude/ ; https://biz.teachme.jp/blog/claude/ ; https://qiita.com/tags/claude 。自社は当該引用に含まれない。PAA: クロードとChatGPTの違いは何ですか？／Claude 何がすごいの？／Claudeは無料ですか？／Claudeの料金はいくらですか？。PAA回答引用URLはnullで確認不可。前回と検索語が異なり同一語の引用変化は比較不可。organic上位はClaude Academy、Claude Code、旧モデルの記事も混在し、DR10〜92、検索意図が広がっている。KD0だけから容易な順位獲得を断定しない。",
+  "notes": "新規記事1本claude-towaのみ公開、全44本。冒頭回答134字、本文5620字、FAQ5、当日公式出典8。Free0USD、Pro月払い20USD税別などは公式料金を当日確認して日付・URLを併記。モデル名や長文上限の単一数字を売り文句にせず、個人向け／商用の学習条件と例外、出力の原典確認を記載。OpenAI紹介ページとChatGPT概要は403だったため詳細機能比較の出典に採用せず、優劣やベンチマークを断定しない。Xはウィンドウ内3投稿を補助確認、旧資料と現行資料の区別・人の修正の観点のみ参考、数値や製品仕様の根拠に使わない。相互リンクをseisei-ai-towa、prompt-towa、pdf-yoyaku-ai-tsukaiwakeに追加して更新。lintエラー0、build成功（既存bundle警告あり）。ローカルと外部公開ドメインの/、/posts/claude-towa、/posts/claude-towa.md、sitemap.xml、robots.txt、llms.txt全200。sitemap/llmsにslug、3既存記事に逆リンク、ブラウザでH1・答え・対象読者・FAQ・出典・CTA確認。deliver完了。本サイトトップのHTMLにブログへのリンクなし。公開URLはプレビュードメイン。独自ドメイン接続、Search Consoleの登録/サイトマップ送信確認、本サイトからのリンクを優先（Search Consoleの管理画面は未確認）。次回はgemini gemとは1900/KD0の具体的な業務手順かClaude Code4900/KD4を候補にし、今回のClaude定義記事にリンクする。"
+}

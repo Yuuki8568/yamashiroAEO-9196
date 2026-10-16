@@ -1,0 +1,43 @@
+{
+  "token": "aeo_e67122c7cd4191eee6f9df1d",
+  "targets": [
+    {
+      "question": "Google AI Studioでは何ができますか。業務で使うときの注意点は",
+      "keyword": "google ai studio 何ができる",
+      "volume": 1400,
+      "difficulty": 2,
+      "decision": "採用。get_keyword_ideas（country=jp、terms=questions）で疑問形クエリを洗い出したところ、google ai studio 何ができる が 1400/KD2 と、ボリューム1000超でKDが一桁という帯に入る数少ない候補だった。get_serp_overview（google ai studio 何ができる、jp）では position1 がAI Overviewの枠でサイトリンク9本、position2 の枠にPAAが4問と、AEOで拾える面が広い一方、organic上位はGoogle公式ドキュメントとツール紹介系メディアで、業務利用時の入力データの扱い（無料枠は学習に使われる／有料枠は使われない）まで踏み込んだ記事が不在だった。この差分で切った。既存32記事のslugとquestion本文を照合し、Google AI Studioを主題とする記事は存在せず重複なし（近接は chatgpt-gemini-gyomu-hikaku＝ChatGPTとGeminiの比較、chatgpt-joho-roei-taisaku＝入力情報の扱いで、いずれも検索意図が別）。カテゴリはfaq。"
+    },
+    {
+      "question": "ai コンサル",
+      "keyword": "ai コンサル",
+      "volume": 600,
+      "difficulty": 1,
+      "decision": "不採用（継続見送り）。既存記事 ai-consul-igai-no-sentakushi の主KWが ai コンサル であり alternatives カテゴリで押さえている。前回同様、新規記事ではなく既存記事の改稿で対応する方針を維持。SERP課金を避けるため get_serp_overview は未実行。"
+    },
+    {
+      "question": "日報 ai / 見積書 ai / 中小企業 ai活用",
+      "keyword": "日報 ai ほか",
+      "volume": null,
+      "difficulty": null,
+      "decision": "不採用。既存記事 nippo-ai-sakusei-houhou、mitsumorisho-ai-koritsuka、chusho-kigyo-ai-katsuyo-rei で既に公開済みのため重複。次回以降も新規記事化ではなく既存記事への追記で対応する。"
+    },
+    {
+      "question": "議事録 ai",
+      "keyword": "議事録 ai",
+      "volume": 7200,
+      "difficulty": 35,
+      "decision": "継続保留。内部リンクの蓄積が進むまで着手しない方針を維持（今回も指示どおり見送り）。文字起こしクラスタ（文字起こし ai 4600/KD52）も同様に保留。"
+    }
+  ],
+  "publishedSlugs": [
+    "google-ai-studio-nani-ga-dekiru"
+  ],
+  "updatedSlugs": [
+    "chatgpt-joho-roei-taisaku",
+    "chatgpt-gyomu-katsuyo-tejun",
+    "chatgpt-gemini-gyomu-hikaku"
+  ],
+  "visibilityCheck": "2026-09-24時点、get_organic_keywords（yamashirogyomukaizen.com、jp、domain）の結果は0件。2026-08-24、2026-09-17から09-22の各回に続き8回連続で0件のままで、順位・AI Overview引用・PAA引用のいずれにも変化なし。配信中のプレビュードメイン（ai-i2gajxb-preview-4200.runable.site）についても get_organic_keywords（jp、subdomains）が0件、get_domain_metrics（jp、subdomains）が org_keywords 0／org_keywords_1_3 0／org_traffic 0／paid_keywords 0／paid_pages 0 で、計測可能な検索流入は立っていない。原因は記事内容ではなく、ブログがRunableのプレビュードメインで配信されており yamashirogyomukaizen.com 配下に接続されていないこと（および被リンク・インデックスの起点が存在しないこと）。記事追加では解消しない構造的なブロッカーで、プラットフォームUIからの独自ドメイン接続（サブディレクトリまたはサブドメイン）、Search Console登録、sitemap.xml送信が必要。8回連続0件のため、次回以降も記事本数の増加より接続作業の完了を最優先とする。",
+  "notes": "公開: google-ai-studio-nani-ga-dekiru（Google AI Studioでは何ができますか。業務で使うときの注意点は、category=faq、主KW=google ai studio 何ができる 1400/KD2）。前回ログは run-2026-09-22.json で、2026-09-23分の記事公開ログは存在しない（公開記事数が32→33の1本増であることから、09-23は調査のみで公開に至らなかったと判断）。記事構成: Google AI StudioとGeminiアプリ・Gemini APIの役割の違い→画面上でできることの一覧→無料枠と有料枠で入力データの扱いが変わる点→料金と無料枠の範囲→業務で使う前に決めておく項目→使ってよい使い方と避ける使い方の表→FAQ6問→出典5件。事実・料金に関する記述はすべて2026年9月24日（公開当日）に再取得して確認し、前日取得分の日付は全て9月24日に置き換えた（11箇所）。出典5件: ai.google.dev/gemini-api/docs/pricing（ページ末尾の Last updated 2026-09-24 UTC）／ai.google.dev/gemini-api/terms（Last updated 2026-04-28 UTC、無料サービスでは入力内容がサービス改善に使われ有料サービスでは使われない旨）／ai.google.dev/gemini-api/docs/billing（Last updated 2026-09-20 UTC）／aistudio.google.com（更新日の記載がないため確認日のみ記録）／個人情報保護委員会「生成AIサービスの利用に関する注意喚起等について」令和5年6月2日。取得時に見つけた食い違いの処理: Google検索によるグラウンディングの無料枠の数値が、同一ページ内のモデル別料金表と「Pricing for tools」表で異なっていたため、両方の数値を分けて明記した（モデル別表ではGemini 3.8 Flashの無料枠は利用不可、有料枠はGemini 3.x系で共有の月5,000リクエストまで無料でその後1,000件あたり14ドル／tools表では旧Flash・Flash-Liteが1日500リクエストまで無料でProは対象外、Gemini 2.5の有料枠は1日1,500リクエストまで無料でその後1,000プロンプトあたり35ドル）。内部リンク: 相互リンクとして既存3記事（chatgpt-joho-roei-taisaku、chatgpt-gyomu-katsuyo-tejun、chatgpt-gemini-gyomu-hikaku）に新記事へのリンクを追記して再公開。各追記はPython側で対象文字列の出現回数が1であることを検証してから置換し、二重適用がないことを確認済み。検証: NGパターン（**、完全自動化・全部自動化・AIで全部解決・AIで全て解決、ROI・売上保証、体験談風の3表現、申請代行・採択される）すべて不検出、JSONフロントマターのパース成功、lint違反0（21ファイル・0 warnings 0 errors）、build成功（2 tasks successful、Rollupのチャンクサイズ助言のみ）、/posts/google-ai-studio-nani-ga-dekiru が200、sitemap.xmlに1件・llms.txtに2件で新slug反映、公開記事数32→33、プレーンテキスト複製33件を再生成。時間・コスト削減の単一値の主張、未出典の統計、当事務所の料金提示、競合の否定、地域ターゲティングはいずれもなし。次回候補: ai面接とは（3200/KD0、企業側の導入判断という角度に組み替えるか要検討）、google ai studio 文字起こし（800/KD1、今回の記事から内部リンクで受けられる）、ai文字起こし（700/KD0）、動画 文字起こし ai（700/KD4）、youtube 文字起こし ai（600/KD1）、aiボイスレコーダー 文字起こし（600/KD0）。文字起こし ai（4600/KD52）と議事録 ai（7200/KD35）は保留継続、ai コンサル（600/KD1）は既存記事の改稿で対応。"
+}

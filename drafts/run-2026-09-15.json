@@ -1,0 +1,51 @@
+{
+  "token": "aeo_e67122c7cd4191eee6f9df1d",
+  "targets": [
+    {
+      "keyword": "生成ai ガイドライン",
+      "volume": 900,
+      "difficulty": 27,
+      "country": "jp",
+      "status": "published",
+      "slug": "seisei-ai-guideline-shanai-tsukurikata",
+      "reason": "question-form intent (PAA「生成AIの社内ガイドラインとは？」)があり、SERP上位は省庁・自治体・学校向け文書に占有。中小企業が自社版を作る手順という切り口が空白"
+    },
+    {
+      "keyword": "ai 導入 費用",
+      "volume": 250,
+      "difficulty": 0,
+      "country": "jp",
+      "status": "rejected",
+      "reason": "volume低く、ai導入支援（既存記事）と意図が近い。次回以降の候補として保留"
+    },
+    {
+      "keyword": "ai 業務自動化",
+      "volume": 100,
+      "difficulty": null,
+      "country": "jp",
+      "status": "rejected",
+      "reason": "既存 ai-gyomu-koritsuka-doko-kara（ai 業務効率化 700/KD4）とカニバリ"
+    },
+    {
+      "keyword": "文字起こし ai",
+      "volume": 4600,
+      "difficulty": 52,
+      "country": "jp",
+      "status": "rejected",
+      "reason": "KD52でツール比較メディアが占有。既存の議事録3記事と重複しやすい"
+    },
+    {
+      "keyword": "デジタル化・ai導入補助金",
+      "volume": 2100,
+      "difficulty": 21,
+      "country": "jp",
+      "status": "rejected",
+      "reason": "補助金クラスタは方針上スコープ外"
+    }
+  ],
+  "publishedSlugs": [
+    "seisei-ai-guideline-shanai-tsukurikata"
+  ],
+  "visibilityCheck": "2026-09-15時点、yamashirogyomukaizen.com の organic keywords は0件（日本）で8/24以降変化なし。被リンク・DRの裏づけがない新規ドメインのため通常検索での露出はまだ発生していない。今回のSERP調査（生成ai ガイドライン）では AI Overview の引用元が文部科学省・デジタル庁・東京都デジタルサービス局・内閣府・SIGNATE総研・LANSCOPE・YouTube（日本マイクロソフト、原口直の学校著作権ナビ）で、公的文書とベンダーメディアに二極化。PAAは「生成AIの社内ガイドラインとは？」「国の生成AIガイドラインは？」「生成AIの利活用に関するガイドラインとは？」「生成AIのセキュリティガイドラインとは？」の4問で、いずれも当該記事のH2/FAQで直接回答済み。",
+  "notes": "公開: seisei-ai-guideline-shanai-tsukurikata（how-to、生成ai ガイドライン 900/KD27）。出典は全て2026-09-15に実地確認: 経産省・総務省 AI事業者ガイドライン第1.2版(2026-03-31)、内閣府 各府省庁ガイドライン一覧(17件以上)、JDLA 生成AIの利用ガイドライン ひな形 第1.1版(2023-10)・画像編 第1版(2024-02)、個情委 注意喚起(2023-06-02)、デジタル庁 調達・利活用ガイドライン第2.0版(2026-06-12決定)。内部リンクは新記事から5本、既存4記事（chatgpt-joho-roei-taisaku / seisei-ai-kenshu-chusho-kigyo / keiyakusho-check-ai / chatgpt-gyomu-katsuyo-tejun）に相互リンクを追記して再公開。記事総数25本。lint/buildともにエラーなし。次回候補: 議事録 ai(7200/KD35、内部リンク蓄積後)、ai 導入 費用(250/KD0)、生成ai 著作権 ガイドライン(200)。補助金クラスタと AI電話/AI採用/在庫管理クラスタは除外を継続。"
+}

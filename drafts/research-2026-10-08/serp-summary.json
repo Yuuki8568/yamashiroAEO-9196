@@ -1,0 +1,31 @@
+{
+  "keyword": "gemini 何ができる",
+  "country": "jp",
+  "aioCitations": [
+    "https://izanai.cloudcircus.jp/media/column/gemini-what",
+    "https://shift-ai.co.jp/blog/10207/",
+    "https://googleworkspace.tscloud.co.jp/gemini/gemini-howto",
+    "https://network.mobile.rakuten.co.jp/sumakatsu/contents/articles/2024/00190/",
+    "https://japan-ai.co.jp/media/7692/",
+    "https://www.youtube.com/watch?v=watp8CGPa6c&t=703"
+  ],
+  "paa": [
+    {
+      "question": "GeminiとChatgptのどちらがいいですか？",
+      "url": null
+    },
+    {
+      "question": "Geminiは無料で何回まで使えますか？",
+      "url": null
+    },
+    {
+      "question": "Geminiでできるすごいことは何ですか？",
+      "url": null
+    },
+    {
+      "question": "Geminiの月額料金はいくらですか？",
+      "url": null
+    }
+  ],
+  "ownCitationObserved": false
+}

@@ -1,0 +1,58 @@
+{
+  "targets": [
+    {
+      "question": "生成AIとは何ですか。AIやChatGPTとの違いと、仕事でどう使えるかをわかりやすく",
+      "keyword": "生成aiとは",
+      "volume": 45000,
+      "difficulty": 0,
+      "decision": "published as seisei-ai-towa (faq). 生成 ai とは 1,600/KD0、生成ai とは 1,100/KD14、生成aiとは 簡単に 1,000/KD7 とPAA4問（生成AIとChatGPTの違い、簡単に言うと、AIと生成AIの違い、生成AIとは何か）を同一記事に統合"
+    },
+    {
+      "question": "DXとは何ですか",
+      "keyword": "dxとは",
+      "volume": 79000,
+      "difficulty": 1,
+      "decision": "next candidate. dx化とは 23,000/KD1、dx とは 14,000/KD2、dxとは 簡単に 2,800/KD2、dx推進とは 2,700/KD1 を統合予定。SERP未取得"
+    },
+    {
+      "question": "プロンプトとは何ですか",
+      "keyword": "プロンプトとは",
+      "volume": 32000,
+      "difficulty": 2,
+      "decision": "next candidate. ai プロンプトとは 1,900/KD2 を統合予定。SERP未取得"
+    },
+    {
+      "question": "Geminiとは何ですか",
+      "keyword": "geminiとは",
+      "volume": 31000,
+      "difficulty": 10,
+      "decision": "candidate. chatgpt-gemini-gyomu-hikaku と重複しない定義・無料範囲中心で検討（geminiとは無料 3,400/KD0、gemini gemとは 1,900/KD0）"
+    },
+    {
+      "question": "Claudeとは何ですか",
+      "keyword": "claudeとは",
+      "volume": 4000,
+      "difficulty": 0,
+      "decision": "candidate. claude code とは 4,900/KD4 と合わせて検討"
+    },
+    {
+      "question": "Copilot Studioの使い方は",
+      "keyword": "copilot studio 使い方",
+      "volume": 600,
+      "difficulty": 1,
+      "decision": "hold. 既存 copilot-studio-towa に手順節を追記する方針（未実施）"
+    },
+    {
+      "question": "AIで議事録を作るには",
+      "keyword": "議事録 ai",
+      "volume": 7200,
+      "difficulty": 35,
+      "decision": "hold. 内部リンク蓄積待ち"
+    }
+  ],
+  "publishedSlugs": [
+    "seisei-ai-towa"
+  ],
+  "visibilityCheck": "2026-10-03 get_organic_keywords (jp, subdomains): yamashirogyomukaizen.com 0件、ai-i2gajxb-preview-4200.runable.site 0件。基準値0/0から変化なし。get_serp_overview「生成aiとは」: AI Overview の引用は nec-solutioninnovators.co.jp（20240426_generativeai-ai）と usknet.com（dxgo, 生成AIとAIの違い）。自社・ブログの引用なし。PAA: 生成AIとChatGPTの違いは何ですか／生成AIとは簡単に言うと何ですか／AIと生成AIの違いは何ですか／生成AIとは何ですか。上位はitmedia、prtimes、yomiuri、note、instagram等のニュース・非解説ページが中心。",
+  "notes": "新規記事 seisei-ai-towa を公開（出典10件、FAQ5問、answer 131字、全数値に2026年10月3日確認の出典URL）。AI事業者ガイドライン第1.2版本編PDFはブラウザUAのcurlで取得でき、生成AIの定義を原文から確認。相互リンクを ai-agent-towa、chusho-kigyo-ai-katsuyo-rei、chatgpt-gemini-gyomu-hikaku に追加し再公開。lint、build、curl 200（/、/posts/seisei-ai-towa、/posts/seisei-ai-towa.md）確認済み。構造的課題は継続: プレビュードメインのまま、独自ドメイン未接続、Search Console未登録、本サイトからのリンクなし。"
+}

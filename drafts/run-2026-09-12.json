@@ -1,0 +1,70 @@
+{
+  "token": "aeo_e67122c7cd4191eee6f9df1d",
+  "targets": [
+    {
+      "question": "ChatGPTとGeminiは、業務で使うならどちらを選ぶべきですか",
+      "keyword": "gemini chatgpt 比較",
+      "volume": 5500,
+      "difficulty": 0,
+      "country": "jp",
+      "status": "published",
+      "decision": "採用",
+      "note": "今回の調査で見つかった最大ボリューム語（トラフィックポテンシャル7000）。KD0。SERP最上部はAI要約で、引用元は個人note記事。上位は「どちらが賢いか」の性能比較記事が中心で、法人が1本契約を選ぶ意思決定（既存ツール・データの扱い・利用者範囲・費用）の観点が空いていたため、その角度で執筆。既存21記事に専用の比較記事がないことをgrepで確認（カニバリなし）。"
+    },
+    {
+      "question": "ChatGPTとGeminiはどちらが頭がいいですか",
+      "keyword": "geminiとchatgptの違い",
+      "volume": 1200,
+      "difficulty": 2,
+      "country": "jp",
+      "status": "skipped",
+      "decision": "見送り（今回記事に内包）",
+      "note": "同一クラスタの派生語。単独記事にすると共食いになるため、新記事のFAQ「ChatGPTとGeminiは、どちらが頭がいいのですか」で回収した。"
+    },
+    {
+      "question": "業務効率化ツールは何を使えばいいですか",
+      "keyword": "業務効率化 ツール",
+      "volume": 3400,
+      "difficulty": 0,
+      "country": "jp",
+      "status": "deferred",
+      "decision": "次回以降の候補",
+      "note": "ボリュームは高いが検索意図がツール一覧（best-of）寄りで、既存のai-gyomu-koritsuka-doko-kara等と重複する部分がある。切り口を分けたうえで別途検討。"
+    },
+    {
+      "question": "AIコンサルは何を頼めるサービスですか",
+      "keyword": "ai コンサル",
+      "volume": 600,
+      "difficulty": 1,
+      "country": "jp",
+      "status": "already_covered",
+      "decision": "対象外",
+      "note": "前回運用の「次回候補」として挙がっていたが、2026-08-24公開のai-consul-igai-no-sentakushi.mdで既に対応済みであることを確認。重複公開を回避。"
+    },
+    {
+      "question": "（question形キーワード探索）",
+      "keyword": "ai 導入 / ai 研修 / ai 業務（questions指定）",
+      "volume": 150,
+      "difficulty": 0,
+      "country": "jp",
+      "status": "rejected",
+      "decision": "見送り",
+      "note": "get_keyword_ideasのquestions指定では最大150件、多くが月間10〜40件。無関係な記事タイトル由来のノイズや補助金関連（スコープ外）が混在し、使える質問形キーワードなし。比較クラスタのシード語に切り替えた。"
+    },
+    {
+      "question": "議事録AIはどれを選ぶべきですか",
+      "keyword": "議事録 ai",
+      "volume": 7200,
+      "difficulty": 35,
+      "country": "jp",
+      "status": "deferred",
+      "decision": "保留継続",
+      "note": "KD35。既存の議事録クラスタ3記事（ai-gijiroku-tsukurikata / ai-gijiroku-tool-erabikata / ai-gijiroku-muryo-doko-made）への内部リンクを積んでから着手する方針を維持。今回もai-gijiroku-tsukurikataに新記事からのリンクを追加。"
+    }
+  ],
+  "publishedSlugs": [
+    "chatgpt-gemini-gyomu-hikaku"
+  ],
+  "visibilityCheck": "get_organic_keywords（yamashirogyomukaizen.com、mode=subdomains、country=jp）を実行し、結果は keywords:[] で掲載0件。2026-08-24のベースラインから変化なしで、掲載キーワード0件・AI引用0件が継続している。記事本数は本日の公開で22本まで積み上がったが、公開先がプレビュードメイン（ai-i2gajxb-preview-4200.runable.site）のままで、独自ドメイン yamashirogyomukaizen.com への反映とSearch Console登録が未着手（ユーザー側の判断待ち）である点が最大の外部要因。次回以降も同じ語（業務マニュアル 作成 / 議事録 ai / メール 作成 ai / 資料作成 ai / excel ai 集計 / 社内資料 ai 検索 / 契約書 ai / gemini chatgpt 比較）で継続計測する。",
+  "notes": "NGパターン（太字**／完全自動化系／ROI・売上保証／体験談風／申請代行・採択）をgrepで自己点検し0件で公開。料金・データの扱いはすべて2026年9月12日に公式ページを実地取得し、日付入りで本文と出典に明記。時間削減効果は幅と自社記録での比較という書き方に統一。lint（21ファイル・違反0）とbuildが通過。公開後にURL200、sitemap.xml・llms.txtへの新slug反映、記事本数22本を確認。次回は、カスタムドメイン反映とSearch Console登録のフォロー、および業務効率化ツール（3,400／KD0）の切り分けか議事録 ai（7,200／KD35）を検討。 内部リンクの後追い追加: chatgpt-gyomu-katsuyo-tejun、business-mail-ai-shitagaki、ai-gijiroku-tsukurikata、shanai-shiryo-ai-kensaku、keiyakusho-check-ai の関連記事欄に新記事へのリンクを追加し、各記事を再公開した。 本日実地取得した一次情報: https://openai.com/ja-JP/chatgpt/pricing/（2026-09-12確認）、https://gemini.google/subscriptions/?hl=ja（2026-09-12確認）、https://workspace.google.com/intl/ja/pricing.html（2026-09-12確認）、https://claude.com/pricing（2026-09-12確認）、https://support.google.com/a/answer/15706919?hl=ja（2026-09-12確認）、https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance（2026-09-12確認）、https://privacy.claude.com/en/articles/10023580-is-my-data-used-for-model-training（2026-09-12確認）。 見送り理由の詳細は targets の各noteに記載。"
+}

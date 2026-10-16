@@ -1,0 +1,66 @@
+{
+  "token": "aeo_e67122c7cd4191eee6f9df1d",
+  "targets": [
+    {
+      "keyword": "chatgpt 情報漏洩",
+      "volume": 1600,
+      "difficulty": 1,
+      "country": "jp",
+      "traffic_potential": 1800,
+      "decision": "selected",
+      "slug": "chatgpt-joho-roei-taisaku",
+      "serp_note": "1位にAI Overview（引用元: intercom.co.jp/malion, dxpo.jp/college）、3位にPAA4件（情報漏洩しない方法/リスク/個人情報がばれる/入力してはいけない情報）、5位にYahoo知恵袋。法人の運用ルール視点の記事が不在のため差別化可能と判断。"
+    },
+    {
+      "keyword": "chatgpt 情報漏洩対策",
+      "volume": 200,
+      "difficulty": 2,
+      "country": "jp",
+      "traffic_potential": 3300,
+      "decision": "folded_in",
+      "note": "意図がほぼ重複するため独立記事にせず、同記事の対策セクションとFAQに統合。"
+    },
+    {
+      "keyword": "生成ai ガイドライン",
+      "volume": 900,
+      "difficulty": 27,
+      "country": "jp",
+      "decision": "rejected",
+      "note": "KDが高く、SERPが官公庁ガイドラインで占有。中小企業向けの実務記事とは意図がずれる。"
+    },
+    {
+      "keyword": "ai 研修 / 生成ai 研修",
+      "volume": 2500,
+      "difficulty": 8,
+      "country": "jp",
+      "decision": "rejected",
+      "note": "既存記事 seisei-ai-kenshu-chusho-kigyo とカニバリゼーション。"
+    },
+    {
+      "keyword": "ai電話 / 採用 ai / 在庫管理 ai",
+      "volume": 1000,
+      "difficulty": 30,
+      "country": "jp",
+      "decision": "deferred",
+      "note": "ai電話1000/KD30、ai 採用500/KD0、在庫管理 ai450/KD0。一部が消費者向け（迷惑電話判別）意図のため次回以降に再検討。"
+    },
+    {
+      "keyword": "議事録 ai",
+      "volume": 7200,
+      "difficulty": 35,
+      "country": "jp",
+      "decision": "deferred",
+      "note": "内部リンクが増えるまで保留の方針を継続。"
+    }
+  ],
+  "publishedSlugs": [
+    "chatgpt-joho-roei-taisaku",
+    "chatgpt-gemini-gyomu-hikaku",
+    "keiyakusho-check-ai",
+    "chatgpt-gyomu-katsuyo-tejun",
+    "gyomu-manual-ai-sakusei",
+    "ai-gijiroku-muryo-doko-made"
+  ],
+  "visibilityCheck": "2026-09-14時点、yamashirogyomukaizen.com（jp・サブドメイン含む）のオーガニック獲得キーワードは0件。2026-08-24のベースラインから変化なし。ドメイン開設から日が浅く、インデックス評価の蓄積段階と判断。記事数は24本に到達し、内部リンクは今回6本を更新。",
+  "notes": "新規1本: chatgpt-joho-roei-taisaku（カテゴリ faq / 主要KW: chatgpt 情報漏洩 1600・KD1）。既存24記事に情報漏洩を扱った記事がないことをgrepで確認済み（カニバリなし）。一次情報として個人情報保護委員会の注意喚起（別添1 PDF本文を確認）、OpenAI公式ヘルプのデータ学習・オプトアウト仕様、OpenAIによる2023年3月20日不具合の公表内容、総務省令和7年版情報通信白書、AI事業者ガイドライン第1.2版を当日確認して引用。当初の候補URL https://www.ppc.go.jp/news/careful_information/230602_AIutilize/ は404だったため正しいURL（230602_AI_utilize_alert）に差し替え。NG表現5パターンの自己チェック、lint、buildすべて通過。関連記事の相互リンクを5記事に追加して再公開。"
+}

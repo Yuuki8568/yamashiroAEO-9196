@@ -1,0 +1,58 @@
+{
+  "targets": [
+    {
+      "question": "プロンプトとは何ですか。意味とChatGPTへの指示の書き方を、仕事の例でわかりやすく",
+      "keyword": "プロンプトとは",
+      "volume": 32000,
+      "difficulty": 1,
+      "decision": "published: prompt-towa（faq）。ai プロンプトとは 1,900/KD2を統合。定義＋比較表＋業務テンプレート3例＋FAQ5問、当日確認の公式出典6件。既存記事と重複なし。前回候補KD2から最新KD1に更新。"
+    },
+    {
+      "question": "Claudeとは何ですか",
+      "keyword": "claudeとは",
+      "volume": 4000,
+      "difficulty": 0,
+      "decision": "next candidate: claude とは 3,200/KD0と統合し初心者向けFAQを検討。既存ChatGPT/Gemini比較から接続。"
+    },
+    {
+      "question": "Geminiとは何ですか",
+      "keyword": "geminiとは",
+      "volume": 31000,
+      "difficulty": 11,
+      "decision": "candidate: 最新値でKD10→11。geminiとは無料 3,400/KD16は同一記事の節に統合する方向。"
+    },
+    {
+      "question": "Claude Codeとは何ですか",
+      "keyword": "claude code とは",
+      "volume": 4900,
+      "difficulty": 4,
+      "decision": "candidate: claude codeとは 2,400/KD0と統合し、Claudeとの違いと事務業務向けの適否を検討。"
+    },
+    {
+      "question": "GeminiのGemとは何ですか",
+      "keyword": "gemini gemとは",
+      "volume": 1900,
+      "difficulty": 0,
+      "decision": "candidate: Gemini概要記事との重複を避け、定型業務向けの用途・注意点で分離を検討。"
+    },
+    {
+      "question": "Copilot Studioをどう使いますか",
+      "keyword": "copilot studio 使い方",
+      "volume": 600,
+      "difficulty": 1,
+      "decision": "hold: 過去調査値。既存記事の手順追記で対応予定、今回は未実施。"
+    },
+    {
+      "question": "議事録をAIで作るには",
+      "keyword": "議事録 ai",
+      "volume": 7200,
+      "difficulty": 35,
+      "decision": "hold: 過去調査値。内部リンクを積んでから。日報・見積書・中小企業活用・AIコンサルは既存記事と重複、補助金クラスタは扱わない。"
+    }
+  ],
+  "publishedSlugs": [
+    "prompt-towa"
+  ],
+  "visibilityCheck": "2026-10-05確認。対象ウィンドウは2026-10-04 08:00 JST〜2026-10-05 08:00 JST。keyword ideasとSERP、organic keywordsは取得時の最新利用可能スナップショットであり、この24時間だけの変化を示すものではない。get_organic_keywords(country jp): yamashirogyomukaizen.com と ai-i2gajxb-preview-4200.runable.site はともに keywords: []。取得結果のオーガニックKW0件、2026-08-24基準0件から差分0、順位データなし。未インデックスとの断定はしない。「プロンプトとは」AI Overviewの引用URL: https://ds-b.jp/dsmagazine/what-is-prompt/ , https://www.softbank.jp/biz/content/ai-glossary/prompt/ , https://japan-ai.co.jp/media/5256/ , https://www.qtpro.jp/qt-genai/blog/category/tips/02.html , https://www.skygroup.jp/media/article/4191/ , https://biz.kddi.com/content/column/smartwork/what-is-ai-prompt/ , https://www.grandit.jp/erp/glossary/prompt/ , https://www.youtube.com/watch?v=0QMoglAqKdk 。自社サイトは当該引用元に含まれていない。PAA: ChatGPTのプロンプトとは何ですか？／プロンプトを日本語で何といいますか？／IT用語で「プロンプト」とは何ですか？／パソコン用語で「プロンプト」とは何ですか？。PAA回答の引用URLはツール結果がnullのため確認できない。今回は別語のSERPなので前回「dxとは」との引用元変化は比較不可。上位organicはds-b DR65、SoftBank90、JAPAN AI52、QTPRO44、note92、YouTube99、GRANDIT44、サイボウズ80。KD1でも競合DR44〜99のため容易な上位獲得とは判断しない。",
+  "notes": "新規公開はprompt-towaの1本のみ。answer121字、本文約5,699字、FAQ5、出典6、禁止表現チェック通過。seisei-ai-towa、chatgpt-gyomu-katsuyo-tejun、business-mail-ai-shitagaki、nippo-ai-sakusei-houhouに逆方向の関連記事リンクを追加し再公開。lint0エラー、build成功（既存のbundleサイズ警告あり）。HTTP: /、/posts/prompt-towa、/posts/prompt-towa.md、sitemap.xml、robots.txt、llms.txt全200。sitemapとllmsにslug、4記事のプレーンテキストにリンク、ブラウザでH1・答え・対象読者・FAQ・出典を確認。外部公開URLも200。deliver完了。投稿数43。Python確認でrequestsの文字コード誤推定により一時的なassert失敗、UTF-8を指定して再確認しすべて通過（コンテンツ自体の欠落ではない）。Xは指定ウィンドウで3投稿を補助確認、業務関連性が弱いため統計・製品情報を採用せず。OpenAI helpは403のため出典不採用、200の公式APIガイドを採用。本サイトトップページのHTMLにブログへのリンクは見当たらない。公開URLはプレビュードメイン。独自ドメイン接続、Search Console登録・サイトマップ送信、本サイトからの導線追加を優先（Search Consoleの管理状態は今回未検証）。次回はClaudeとは4000/KD0を候補、今回のプロンプト記事はメール・日報・会議メモの具体的な質問へ内部リンクを育てる。"
+}

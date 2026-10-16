@@ -1,0 +1,22 @@
+{
+  "token": "aeo_e67122c7cd4191eee6f9df1d",
+  "targets": [
+    {
+      "keyword": "生成ai 研修",
+      "volume": 900,
+      "difficulty": 3,
+      "trafficPotential": 800,
+      "country": "jp",
+      "question": "生成AI研修は中小企業にも必要ですか。費用相場と選び方は",
+      "format": "faq",
+      "decision": "採用（これまで狙った中で最大volume・KD3と低難度。SERPのPAAが相場/学習内容/独学可否に集中しておりfaq型と噛み合う）"
+    },
+    { "keyword": "問い合わせ対応 ai", "volume": 100, "difficulty": null, "decision": "見送り（次回候補。volume100）" },
+    { "keyword": "chatgpt 社内 導入", "volume": 10, "difficulty": null, "decision": "見送り（需要小）" },
+    { "keyword": "ai メール 作成", "volume": 0, "difficulty": null, "decision": "見送り（volume0）" },
+    { "keyword": "ai 請求書処理", "volume": null, "difficulty": null, "decision": "データ返らず・需要を確認できず見送り" }
+  ],
+  "publishedSlugs": ["seisei-ai-kenshu-chusho-kigyo"],
+  "visibilityCheck": "yamashirogyomukaizen.com（subdomains/jp）オーガニックキーワード0件・status 200。ai-i2gajxb-preview-4200.runable.site も0件・status 200。8/24の0件起点から差分なし（8日連続0件）。SERP（生成ai 研修 / jp・topPositions8）は position1 が AI Overview。サイトリンク引用元は knowledgewing.com（富士通ラーニングメディア）、persol-group.co.jp/service/business/article/15790/、trainocate.co.jp/reference/ai.html、proskilll.com/seminar/generative-ai/、dotpro.net/lab/articles/ai-training-cost/（生成AI研修の費用相場）。オーガニックは insource.co.jp/bup/middle_ai.html（DR62・#2・traffic885・refdomains21）、i-learning.jp（DR55・#3・574）、trainocate.co.jp（DR64・#4・1612・サイトリンク4本）、knowledgewing.com（DR60・#6・72）、proskilll.com（DR36・#7・876）、persol-group.co.jp（DR77・#8・61）。PAAは「生成AI研修の相場はいくらですか？」「AIは独学で学べますか？」「生成AI研修のおすすめは？」「生成AI研修でどんなことを学ぶのか？」の4問で、いずれも記事のFAQに反映済み。persol-group.co.jp は 8/24 の ai コンサル に続き2語目のAI Overview引用元として再登場。8/28に記録した ai 業務効率化 の引用元（nttdata-kansai・fujifilm・exa-corp・concur・japan-it）とは重複なし＝クラスタごとに引用元が入れ替わる傾向。proskilll.com（DR36）が#7に入っており、8/30のremoba.biz（DR33・#8）に続き低DRページでも上位に入りうることを確認。",
+  "notes": "本日の公開: seisei-ai-kenshu-chusho-kigyo（faq）。累計11本。当日（2026-08-31）確認した出典4件＝インソース 生成AI活用研修、GETT Proskill 生成AIセミナー講座（2日間38,500円税込）、トレノケート AI研修（1日33,000円〜2日132,000円税込・eラーニング概論2.25時間17,600円税込）、総務省 令和7年版 情報通信白書「企業におけるAI利用の現状」（中小企業は活用方針を明確に定めていないが約半数、業務での生成AI利用55.2%）。自社料金は記載せずヒアリング後見積りのみ。競合の優劣断定はせず公表料金の事実提示に限定。補助金・助成金クラスタは対象外のため触れていない。内部リンク: 新記事からハブ ai-gyomu-koritsuka-doko-kara / seisei-ai-koritsuka-jirei / ai-donyu-shien-towa へ、あわせて ai-donyu-shien-towa の関連記事から新記事への復路リンクを追加し双方向化。lint 0違反、build 2タスク成功、記事URL 200、sitemap.xml と llms.txt に反映済み。get_keyword_ideas__native（terms:questions）は4回連続で0〜30volumeの語しか返さず使える候補ゼロ。research_keywords__native は指定語のうちデータのないものを黙って落とすため、返らない＝需要を確認できずとして扱う。次回候補: 問い合わせ対応 ai（100）、中小企業 ai活用（100）、chatgpt 業務活用（80/KD1・TP2300）、内部リンクが積み上がった後の 議事録 ai（7,200/KD35）。記事の型は料金・上限を数字で並べる型がSERPと最も噛み合う。測定を前に進めるには独自ドメイン接続とSearch Console登録が必要（ユーザー判断待ち）。"
+}

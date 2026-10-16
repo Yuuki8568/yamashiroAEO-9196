@@ -1,0 +1,3 @@
+https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-the-openai-api
+status 403
+Enable JavaScript and cookies to continue

@@ -1,0 +1,52 @@
+{
+  "token": "aeo_e67122c7cd4191eee6f9df1d",
+  "targets": [
+    {
+      "question": "問い合わせ対応にAIを使うには何から始めればいいですか",
+      "keyword": "問い合わせ対応 ai",
+      "volume": 100,
+      "difficulty": null,
+      "format": "how-to",
+      "decision": "採用。既存12本に問い合わせ・カスタマーサポートのクラスタが無く重複しない。需要は前回実行時の計測値（月間100・KD取得不可）を採用。当日の research_keywords は複数回500を返し再取得できず。get_serp_overview は positions 空で AI要約・PAA を取得できなかった。"
+    },
+    {
+      "question": "AIで契約書をチェックできますか",
+      "keyword": "ai 契約書 チェック",
+      "volume": 10,
+      "difficulty": null,
+      "format": "faq",
+      "decision": "見送り。月間10で需要が薄く、弁護士法72条の線引きにも触れるため優先度が低い。"
+    },
+    {
+      "question": "社内マニュアルをAIで作れますか",
+      "keyword": "社内 マニュアル ai",
+      "volume": 0,
+      "difficulty": null,
+      "format": "how-to",
+      "decision": "見送り。月間0。別の語形（業務マニュアル 作成 など）で再測定する。"
+    },
+    {
+      "question": "生成AIの社内ガイドラインはどう作りますか",
+      "keyword": "生成ai 社内 ガイドライン",
+      "volume": 0,
+      "difficulty": null,
+      "format": "how-to",
+      "decision": "見送り。月間0。テーマ自体は需要がありそうだが、この語形では需要を確認できず。"
+    },
+    {
+      "question": "AI導入の進め方",
+      "keyword": "ai 導入 進め方",
+      "volume": null,
+      "difficulty": null,
+      "format": "how-to",
+      "decision": "見送り。research_keywords がこの語を返さず、需要を確認できなかった。"
+    }
+  ],
+  "publishedSlugs": [
+    "ai-toiawase-taio-hajimekata",
+    "ai-gyomu-koritsuka-doko-kara",
+    "ai-donyu-shien-towa"
+  ],
+  "visibilityCheck": "get_organic_keywords（mode: subdomains / country: jp）で yamashirogyomukaizen.com と ai-i2gajxb-preview-4200.runable.site を確認。いずれも status 200、keywords は空配列。2026年8月24日の起点（オーガニックキーワード0件・被引用0）から11日連続で変化なし。get_serp_overview は今回の狙い語「問い合わせ対応 ai」で positions が空配列を返し、AI要約とPAAの引用元は取得できなかった（月間検索数の小さい日本語語では過去にも同様）。前回計測分では persol-group.co.jp が3語、japan-ai.co.jp が2語で引用元・上位に登場しており、カテゴリ全体を面で押さえている状況は変わらない。",
+  "notes": "当日の website-data キーワード系APIが不安定で、research_keywords が9回のうち6回 internal server error（500）を返した。単独指定でも500になる語があり、キーワード側の問題と回線側の問題を切り分けられていない。get_keyword_ideas（terms: questions）は200でも空配列で、使える質問形の語を返さなかったのは6回連続。get_related_keywords は日本語で空を返すため引き続き不使用。今回の公開で累計13本。当日確認した出典は3件で、うち1件は約束していた総務省以外の公的統計（2025年版 中小企業白書 第1部第1章第3節）。残り2件は OpenAI ChatGPT 料金ページと Anthropic Claude 料金ページ。内部リンクは、これまで被リンクの無かった chatgpt-gyomu-katsuyo-tejun へハブ記事 ai-gyomu-koritsuka-doko-kara と ai-donyu-shien-towa から戻り導線を追加し、あわせて今回の新記事への導線も同2本に追加した。lint は 0 warnings / 0 errors、build は 2 tasks 成功、記事ページと一覧ページはいずれも HTTP 200。sitemap.xml と llms.txt に新slugが反映済み。独自ドメイン＋Search Console の設定はユーザー判断待ちで、決まるまで掲載0件のままになる見込み。補助金クラスタは対象外を継続。"
+}

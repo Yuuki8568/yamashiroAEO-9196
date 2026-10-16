@@ -1,0 +1,27 @@
+{
+  "token": "aeo_e67122c7cd4191eee6f9df1d",
+  "targets": [
+    {
+      "keyword": "rpa ai 違い",
+      "volume": 700,
+      "difficulty": 0,
+      "cpc": 2,
+      "trafficPotential": 1200,
+      "country": "jp",
+      "decision": "selected",
+      "category": "comparison",
+      "slug": "rpa-ai-chigai-dochira",
+      "serp": "1位はAI Overview（引用元: hitachi-solutions.co.jp/rpa/column/rpa_vol15.html, robotango.biz/knowledge/rpa-ai/）。オーガニックはRPAベンダー・SIerの用語解説が占有（rpa-technologies.com DR60, scsk.jp DR75, fujifilm.com DR86, sts-inc.co.jp DR60, uipath.com/ja DR83, biz.kddi.com DR86）。PAAは「世界三大RPAツールは？」「RPAに向かない業務は？」「RPAとAIの組み合わせは？」「RPAとAPIの違いは何ですか？」",
+      "angle": "技術的な違いの説明ではなく、中小企業が『目の前の繰り返し作業をRPA・生成AI・どちらも不要のどれにするか』を3つの質問で判断する購買意思決定フレームに再構成"
+    },
+    { "keyword": "経理 ai", "volume": 900, "difficulty": 82, "country": "jp", "decision": "rejected", "reason": "KD82で難易度が高く現状のDRでは非現実的" },
+    { "keyword": "経理ai", "volume": 200, "difficulty": 1, "trafficPotential": 600, "country": "jp", "decision": "deferred", "reason": "低難易度で有望だが今回はボリューム上位のrpa ai 違いを優先。次回候補" },
+    { "keyword": "経理 ai なくなる", "volume": 400, "difficulty": 0, "country": "jp", "decision": "deferred", "reason": "不安訴求型の語で当事務所の positioning と噛み合いにくい。要検討" },
+    { "keyword": "ai rpa 違い", "volume": 70, "difficulty": 1, "country": "jp", "decision": "covered", "reason": "今回の記事で同一意図をカバー" },
+    { "keyword": "ai コンサル", "volume": 600, "difficulty": 1, "country": "jp", "decision": "already-published", "reason": "ai-consul-igai-no-sentakushi で公開済み" },
+    { "keyword": "議事録 ai", "volume": 7200, "difficulty": 35, "country": "jp", "decision": "on-hold", "reason": "内部リンクの蓄積を待って着手" }
+  ],
+  "publishedSlugs": ["rpa-ai-chigai-dochira"],
+  "visibilityCheck": "get_organic_keywords（yamashirogyomukaizen.com / jp / domain）は2026年9月13日時点で0件。2026年8月24日のベースライン、および9月12日の前回実行と変化なし。AI Overview・PAAでの引用も0件。原因は本番ドメインへの反映とSearch Console登録が未完了で、記事はプレビュードメイン（ai-i2gajxb-preview-4200.runable.site）配信のままであるため。記事側の施策（1トピック1記事・FAQ構造化・出典明記・内部リンク）は継続中で、インデックス経路の確立が先行課題。",
+  "notes": "公開: 「RPAとAIの違いは何ですか。自社の繰り返し作業はどちらで自動化すべきですか」/ slug rpa-ai-chigai-dochira / category comparison。出典は5件すべて2026年9月13日に直接取得して確認（日立ソリューションズのRPA解説=Class1-3分類とRPAの不適業務、SCSKのWinActor料金=ノードロックNLフル機能版1,098,680円・実行版300,080円/PC1台1年・税込・2025年1月以降メーカー希望小売価格、UiPath価格=Basic月25ドルから/Standard・Enterpriseは要問い合わせ、Microsoft LearnのPower Automateライセンス種類=Premiumのアテンド型RPAボットとAI Builder月5,000クレジット・1日40,000アクション、OpenAI料金=無料版0ドル・Go月8ドル）。Microsoft公式のPower Automate価格ページは2回試行ともbot対策の待機ページ（ID: 18.d5951eb8...）で到達不可のため金額は記載せず、ライセンス機構のみ Microsoft Learn から引用。winactor.com/price/ は404のため、正規販売代理店のSCSK料金ページを使用。内部リンク back-fill: ai-ocr-chusho-kigyo-hajimekata / excel-shukei-ai-katsuyo / chusho-kigyo-ai-katsuyo-rei / ai-gyomu-koritsuka-doko-kara の4本から新記事へのリンクを追加し再公開。questionsモードのキーワード探索（ai 導入 失敗 / 生成ai セキュリティ / プロンプト 書き方 / ai 業務）は最大volume40で有用な語なし。既存記事とのカニバリ確認: RPA言及はchusho-kigyo-ai-katsuyo-reiの1箇所のみ、経理は3本で軽い言及のみ。lint・buildともにエラーなし、記事数22→23、sitemap.xml/llms.txtに新slug反映、http://localhost:4200/posts/rpa-ai-chigai-dochira は200。NG表現の自己grep（**・完全自動化系・ROI保証系・体験談風・補助金申請代行系）は0件。"
+}

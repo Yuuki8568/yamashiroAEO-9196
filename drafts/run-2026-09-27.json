@@ -1,0 +1,52 @@
+{
+  "targets": [
+    {
+      "question": "Copilotエージェントとは何ですか。標準のCopilotとの違いと無料で使える範囲",
+      "keyword": "copilot エージェントとは",
+      "volume": 900,
+      "difficulty": 1,
+      "country": "jp",
+      "decision": "採用・公開",
+      "rationale": "SERP上位は貸与元ベンダーとIT系コラム（DR58〜96）だが被リンクは各1〜5ドメインと薄く、KD1。関連質問（PAA）が「エージェントモードは無料ですか」「エージェントは有料ですか」「Copilotとエージェントモードの違い」「Copilot Officeエージェントとは」と費用と用語の切り分けに集中しており、Microsoft Learnの一次情報（請求レート・ライセンス）で正面から答える記事がつくれる。2026-09-26公開のcopilot-studio-towaと同一クラスタで内部リンクを張り合える。"
+    },
+    {
+      "question": "AIエージェントとは何ですか",
+      "keyword": "aiエージェントとは",
+      "volume": 16000,
+      "difficulty": 7,
+      "country": "jp",
+      "decision": "今回は見送り",
+      "rationale": "SERP上位10件すべてがDR63〜96（NTT、Gartner、富士通、AWS、IBM、Salesforce、SAP系メディア等）で、AI Overview＋PAA4件も同じ権威層が占有。低DRの空きがなく、現状のサイト評価（被リンクなし）では入り込む余地が薄い。用語解説の需要はcopilot エージェントとは側から拾う。"
+    },
+    {
+      "question": "ai エージェントとは（表記ゆれ）",
+      "keyword": "ai エージェントとは",
+      "volume": 1300,
+      "difficulty": 3,
+      "country": "jp",
+      "decision": "保留",
+      "rationale": "traffic potentialが41000と大きいが、SERPはaiエージェントとはと同一で権威層に占有。将来的に内部リンクが溜まってから再検討。"
+    },
+    {
+      "question": "請求書・経費精算・勤怠・電子帳簿保存法のAI質問形クエリ",
+      "keyword": "請求書 ai / 経費精算 ai / 勤怠 ai / 電子帳簿保存法 ai",
+      "volume": 10,
+      "difficulty": null,
+      "country": "jp",
+      "decision": "見送り",
+      "rationale": "questionsフィルタで取得できた候補が月間10件以下のロングテール3件のみ。単独記事にする検索需要が確認できない。"
+    },
+    {
+      "question": "ai コンサル / 日報 ai / 見積書 ai / 中小企業 ai活用（前回からの候補）",
+      "keyword": "ai コンサル ほか",
+      "volume": 600,
+      "difficulty": 1,
+      "country": "jp",
+      "decision": "新規記事化せず既存記事の改稿対象として継続保留",
+      "rationale": "ai-consul-igai-no-sentakushi、nippo-ai-sakusei-houhou、mitsumorisho-ai-koritsuka、chusho-kigyo-ai-katsuyo-reiで既に扱っており、重複を避けるため新規ではなく加筆で対応する方針を維持。"
+    }
+  ],
+  "publishedSlugs": ["copilot-agent-towa"],
+  "visibilityCheck": "2026年9月27日、website-dataのget_organic_keywords（yamashirogyomukaizen.com、mode=subdomains、country=jp）は空配列を返し、オーガニック流入キーワードは0件のまま。2026年8月24日のベースライン（サイト・ブログともオーガニックキーワード0件／AI Overview・PAAでの引用0件）から変化なし。copilot エージェントとはのSERP（topPositions 10）では、AI Overviewの引用元がbiz.kddi.com、softcreate.co.jp、mouse-jp.co.jp、jbcc.co.jp、jp.ext.hp.com、microsoft.com、learn.microsoft.comの7件で、当事務所ドメインの引用はなし。原因は記事側ではなく配信面にあり、ブログがRunableプレビュードメイン（ai-i2gajxb-preview-4200.runable.site）で配信されていてyamashirogyomukaizen.com配下に接続されておらず、Search Consoleへの登録・サイトマップ送信・被リンクがいずれも未実施のまま。",
+  "notes": "調査窓：2026-09-26 08:00 JST以降。keyword ideas（questions）でAIエージェント系クラスタを確認し、SERP overviewはcopilot エージェントとはとaiエージェントとはの2件に限定して実施。一次情報は当日確認したMicrosoft Learn（Microsoft 365 Copilotのエージェント／課金とライセンス／請求レートと管理）、Microsoft 365 Copilotエージェント紹介ページ、OpenAI料金ページ、Google Cloud Gemini Enterpriseページの6件。gartner.co.jp/ja/articles/ai-agentsはサインイン必須で取得不可のため不使用。cloud.google.com/gemini-enterprise/pricingは404のため製品ページ側の価格表示を使用。X検索（AIエージェント 中小企業）は出典が追えない統計の引用が多く、記事には使用せず。内部リンクはcopilot-studio-towaとmicrosoft-365-copilot-nani-ga-dekiruから新記事へ相互リンクを追加。公開後の記事数は36件。次回候補：copilot studio 料金（600／KD1）、copilot studio 使い方（600／KD1）、google ai studio 文字起こし（800／KD1、既存記事の加筆で対応）、議事録 ai（7200／KD35、内部リンクが溜まるまで保留）。配信面の課題として、独自ドメイン接続とSearch Console登録は事務所側の作業が必要。"
+}

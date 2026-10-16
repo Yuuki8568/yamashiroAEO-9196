@@ -1,0 +1,54 @@
+{
+  "token": "aeo_e67122c7cd4191eee6f9df1d",
+  "targets": [
+    {
+      "keyword": "excel ai 集計",
+      "volume": null,
+      "difficulty": null,
+      "country": "jp",
+      "status": "adopted",
+      "note": "Ahrefsが6日連続403のため検索数・難易度は取得不可。social-dataのYouTube検索「Excel 集計 AI ChatGPT 関数 やり方 業務」(relevance / this_year)で需要を代替確認。上位再生数は652,032/610,516/188,649/162,483/145,276/134,979/26,305/20,234/19,566。8日前・2週間前・3週間前の投稿もあり需要は現在進行形。内容の中心はCopilot in Excel（編集・エージェントモード）、Claude for Excel アドイン、Gemini/ChatGPTに数式やマクロを書かせる方法。既存のexcel-shift-hyo-jido-sakusei（関数・入力規則・条件付き書式・COUNTIFS・ソルバー中心のシフト表記事）とはテーマが重ならないことを見出し比較で確認済み。"
+    },
+    {
+      "keyword": "請求書 ai",
+      "volume": null,
+      "difficulty": null,
+      "country": "jp",
+      "status": "rejected",
+      "note": "9/6・9/7・9/8に続き四度目の見送り。YouTube需要は最大級だが上位は税理士による電子帳簿保存法の法令解説で、保存要件・猶予措置・税務判断が中心。専門外で誤りリスクが高い。扱う場合はAI-OCRで読み取った内容を人がどう確認するかの運用手順に限定する。"
+    },
+    {
+      "keyword": "採用 求人 ai",
+      "volume": null,
+      "difficulty": null,
+      "country": "jp",
+      "status": "rejected",
+      "note": "9/8のYouTube実測が1,455/754/374/…/12/0再生と2桁低く需要不足。職安法5条の3・5条の4、均等法5条の確認コストにも見合わない。"
+    },
+    {
+      "keyword": "在庫管理 ai",
+      "volume": null,
+      "difficulty": null,
+      "country": "jp",
+      "status": "rejected",
+      "note": "業種ごとに前提が違いすぎ、汎用記事だと一般論になる。次回候補としては残すが、扱うなら対象業務を1つに絞る前提で設計する。"
+    },
+    {
+      "keyword": "社内文書 ai",
+      "volume": null,
+      "difficulty": null,
+      "country": "jp",
+      "status": "candidate",
+      "note": "次回候補。規程・通達・社内周知文の下書きと確認手順。既存のgyomu-manual-ai-sakusei（業務マニュアル）とbusiness-mail-ai-shitagaki（メール）と重ならない切り口を設計してから着手する。"
+    }
+  ],
+  "publishedSlugs": [
+    "excel-shukei-ai-katsuyo",
+    "ai-gyomu-koritsuka-doko-kara",
+    "chatgpt-gyomu-katsuyo-tejun",
+    "ai-shiryo-slide-sakusei",
+    "excel-shift-hyo-jido-sakusei"
+  ],
+  "visibilityCheck": "掲載確認は実施できず。website-dataのget_organic_keywordsをyamashirogyomukaizen.com（mode=subdomains, country=jp, limit=10）に対して実行し403 Insufficient plan。記録のためai-i2gajxb-preview-4200.runable.siteでも同条件で実行し同じく403。9/4から9/9まで6日連続で計測不能。8/24のベースラインから9/3までは11日連続でkeywords:[]（掲載0件）だったが、その先の差分は不明であり、0件が継続しているとは記載しない。API復旧後に再計測する語は、業務マニュアル 作成 / 請求書 ai / 議事録 ai / メール 作成 ai / 資料作成 ai / excel ai 集計。あわせて議事録 aiのSERPとAI Overview引用元を復旧後すぐ取得する。",
+  "notes": "Ahrefs系（website-data）は6日連続で403 Insufficient plan。標準手順どおり1回だけ探りを入れ、403を確認した時点でget_keyword_ideas・research_keywords・get_serp_overviewは呼ばずAPIユニットを温存した（get_keyword_ideasのquestions指定は7回連続で使える出力がなく、9/6以降は意図的に不使用）。需要判断はsocial-dataのYouTube検索に切り替え、「Excel 集計 AI ChatGPT 関数 やり方 業務」で上位20件を実測。最高652,032再生、10万超が6本、直近8日以内の投稿もあり需要は強く現在進行形と判断。ただし再生数は検索数ではないため記事本文には一切書いていない。YouTube上位タイトルには「生産性3倍」「爆速」「完全自動化」「10h→10分」といった表現が多いが、方針どおり一切採用せず、削減時間の断定も置いていない。当日確認した出典は3件。①Microsoftサポート「Excel の Copilot に関するよくある質問」＝必要ライセンス4種、編集/計画/チャットの3モードとプラットフォーム別提供、Copilotボタンが出ない場合の確認先（バージョン・ライセンス・ネットワーク・プライバシー設定）、編集は計算オプションが自動の場合のみ、SharePointチェックアウト中とStrict Open XMLは非対応、分析情報・数式・テーブルは不正確な場合があり利用前に確認・編集・検証できる旨、金融/法律/医療の意思決定に使わない注意、主に英語ソースで学習しており他言語では性能が落ちうる旨。②Anthropic「Claude for Excel」＝Pro/Max/Team/Enterpriseで一般提供、Excel on the web・Windowsはビルド16.0.13127.20296以降・Macは16.46以降かつビルド21011600以降、AppSourceからの個人導入と管理センターからの組織導入。③Googleヘルプ「Google スプレッドシートで AI 関数を使用する」＝Trusted TesterプログラムのWorkspace Experimentsとして提供、回答はテキストのみ・他ファイル非参照・元に戻せない・1回の生成は最初の350セルまでという制限。すべての事業者側の記述に「2026年9月9日時点」を付記。カニバリ回避は既存excel-shift-hyo-jido-sakusei（シフト表・関数中心）の見出しを突き合わせて重複なしを確認。内部リンクはai-gyomu-koritsuka-doko-kara、chatgpt-gyomu-katsuyo-tejun、ai-shiryo-slide-sakusei（いずれも箇条書き）とexcel-shift-hyo-jido-sakusei（本文リンク）に往路リンクを追加し4本を再公開。NGワードgrepは0件、bun run lintはNo violations found（0 warnings / 0 errors）、bun run buildは2 tasks successful、http://localhost:4200/posts/excel-shukei-ai-katsuyo は200、sitemap.xmlとllms.txtに新slugを確認、plain-textコピーは19本。累計19本。独自ドメイン接続＋Search Console登録はユーザー判断待ちで未着手のため、掲載件数は引き続き伸びにくい状態。補助金クラスタは対象外を継続。"
+}

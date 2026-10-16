@@ -1,0 +1,14 @@
+{
+  "targets": [
+    {
+      "question": "ChatGPTのプロジェクトとは何ですか。無料での作り方と、メモリ・共有の注意点は？",
+      "keyword": "chatgpt プロジェクトとは",
+      "volume": 1400,
+      "difficulty": 0,
+      "decision": "published: chatgpt-project-towa / how-to。2026-10-15 JSTのjp/questions調査で1400件・KD0。公開前48記事のslugと意図を確認。アーカイブどこ2100・KD0より、継続する業務文書・資料管理との関連が強い本語を優先。汎用的なChatGPT活用やNotebookLM比較とは分け、定義・無料条件・作成・メモリ・共有に集中。KD0は順位保証ではない。"
+    }
+  ],
+  "publishedSlugs": ["chatgpt-project-towa"],
+  "visibilityCheck": "調査・公式確認日は2026-10-15 JST、ログ名は実行開始日のUTC2026-10-14。中断後の検証とログ完了は2026-10-16 JST、新しい記事は追加せず既公開1本を完了。観測窓は2026-10-14 08:00 JST〜2026-10-15 08:00 JST（2026-10-13T23:00:00Z〜2026-10-14T23:00:00Z）。get_keyword_ideasはcountry jp/terms questions、HTTP200、get_related_keywords不使用。get_organic_keywordsは両ドメインjp/subdomainsでHTTP200・keywords空。yamashirogyomukaizen.comとai-i2gajxb-preview-4200.runable.siteは各観測KW0、2026-08-24起点0から差分0、順位データなし。未インデックスの証拠ではない。前回完了run-2026-10-10はAPI403なので前日比を算定できない。選定語の有料SERPは当該調査で1件のみ、HTTP200。AI Overview引用元5件：https://note.com/ohmyweek/n/n323893339937 、https://biz.moneyforward.com/ai/basic/272/ 、https://genai-ai.co.jp/ai-kanri/blog/cc-chatgpt-projects/ 、https://kyozon.net/list/chatgpt-project/ 、https://www.youtube.com/watch?v=kghlia8StZU&t=16 。自社引用0、起点被引用0との差分0は今回クエリ内の観測に限る。PAAは『チャットGPTに聞いてはいけないことは？』『チャットGPTのプロジェクトは無料ですか？』『ChatGPTのプロジェクトは有料ですか？』『ChatGPTのプロジェクトはいくつまで作れます？』で引用URLは全null、引用なしとは断定しない。organic結果ではOpenAI公式2位、note4位、genai-ai5位。前回は別クエリかつ取得失敗で、引用元の増減は比較不能。Xは指定窓/Latest/limit3でHTTP200・返却4件。https://x.com/i/web/status/2110143551736893701 は指示と未確認表示の補助例だけで機能根拠や成果指標にしない。",
+  "notes": "新規公開はこの1本だけ、総49本。既存chatgpt-gyomu-katsuyo-tejunとseisei-ai-guideline-shanai-tsukurikataを逆リンク追加で更新・再公開。回答123字、FAQ5、比較表4、公式出典2。2026-10-15にOpenAI公式ProjectsとData controlsをブラウザで読み、現行の既存プロジェクトmemory変更可・共有時project-only・権限・ファイル上限・学習/保持/共有の違いを確認。requestsで公式ページが以前403だったこととブラウザ確認を区別。出典確認日を2026-10-16へ付け替えていない。禁止表現・太字・実績捏造なしを記事草稿で検査。2026-10-16 JST再開後lintは0警告0エラー、build2タスク成功（キャッシュ、既存module.register非推奨・500KB超chunk警告のみ）。公開URL・新記事plaintext・sitemap・robots・llms・逆リンク2記事・トップの8経路はHTTP200、ローカルトップも200。新slugがsitemap/llmsに入り、逆リンク2本と49plaintext copiesを確認。公開ブラウザでH1、冒頭回答、対象、表4、FAQ5、出典2、ArticleとFAQPageのJSON-LD、CTA両URL、横はみ出しなしを確認。スクリーンショットを保存して閲覧確認。SPAの初期HTMLには記事本文がないため非JSクローラー対応は未解決。公開日時は2026-10-14T23:02:13Zで画面はUTC10月14日、公式確認日はJST10月15日。website deliver完了後にこのログを作成。本サイトHTTP200だが取得初期HTMLにブログホストへのリンクなし。Search Console送信・登録と独自ドメインは未確認。次の優先変更は本サイト→ブログ導線、Search Console/サイトマップとクロール状況の確認、記事本文を初期HTMLへ提供する方法の検討。内部リンクは今回2本追加済み。次語候補はchatgpt アーカイブ どこ2100/KD0を業務利用と重複条件で再評価し、同じプロジェクトクエリの引用結果を再測定する。追加公開・過去欠落日への遡及公開なし。"
+}

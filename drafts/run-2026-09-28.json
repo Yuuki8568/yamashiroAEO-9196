@@ -1,0 +1,51 @@
+{
+  "targets": [
+    {
+      "question": "Copilot Studioの料金はいくらですか。プランの違いと費用の見積もり方",
+      "keyword": "copilot studio 料金",
+      "volume": 600,
+      "difficulty": 1,
+      "decision": "採用。parent_topicが自身（copilot studio 料金）で独立クラスタの頭であり、既存のcopilot-studio-towa（copilot studio とは）およびcopilot-agent-towaと検索意図が重複しない。KD1、CPC120で商用性が高い。SERPはAI Overviewの引用元がMicrosoft公式とエクサウィザーズの2件、関連質問は無償版と有償版の違い・無料で使えるか・CopilotとCopilot Studioの違い・どこまでできるかの4件。8位にDR8のサイトが入っており低権威でも入り込む余地がある。"
+    },
+    {
+      "question": "copilot studio 使い方",
+      "keyword": "copilot studio 使い方",
+      "volume": 600,
+      "difficulty": 1,
+      "decision": "次回以降の候補として保留。parent_topicがcopilot studio とはで既存のcopilot-studio-towaに吸収される可能性があり、手順記事として独立させるかは料金記事の反応を見てから判断する。"
+    },
+    {
+      "question": "copilot studio とは",
+      "keyword": "copilot studio とは",
+      "volume": 1600,
+      "difficulty": 0,
+      "decision": "見送り。既存記事copilot-studio-towaで対応済み。今回は内部リンクの追加のみ。"
+    },
+    {
+      "question": "ai エージェント 作り方",
+      "keyword": "ai エージェント 作り方",
+      "volume": 450,
+      "difficulty": null,
+      "decision": "次回以降の候補。手順型で既存記事との重複が少ないが、KD未取得のためSERP確認が必要。"
+    },
+    {
+      "question": "ai コンサル / 日報 ai / 見積書 ai / 中小企業 ai活用",
+      "keyword": "ai コンサル ほか3件",
+      "volume": null,
+      "difficulty": null,
+      "decision": "新規記事としては見送り。既存のai-consul-igai-no-sentakushi、nippo-ai-sakusei-houhou、mitsumorisho-ai-koritsuka、chusho-kigyo-ai-katsuyo-reiと検索意図が重複するため、加筆改訂の対象として扱う。"
+    },
+    {
+      "question": "議事録 ai",
+      "keyword": "議事録 ai",
+      "volume": 7200,
+      "difficulty": 35,
+      "decision": "継続保留。内部リンクが積み上がるまで着手しない方針を維持。"
+    }
+  ],
+  "publishedSlugs": [
+    "copilot-studio-ryokin"
+  ],
+  "visibilityCheck": "yamashirogyomukaizen.com（mode=subdomains、country=jp）のオーガニックキーワードは0件で、2026年8月24日のベースラインから変化なし。ブログを配信しているai-i2gajxb-preview-4200.runable.siteも同条件で0件。順位・流入・AI Overviewへの引用はいずれも計測されていない。copilot studio 料金のSERPでは、AI Overviewの引用元がmicrosoft.com（ja-jp、Copilot Studio価格ページ）とexawizards.comの2件で、当事務所のドメインは含まれない。関連質問は4件（Copilot Studioの無償版と有償版の違い、無料で使えるか、CopilotとCopilot Studioの違い、どこまでできるか）で、今回の記事はこの4件をFAQと本文で直接扱う構成にした。",
+  "notes": "公開記事は37本。新規はcopilot-studio-ryokin（comparison）。出典はMicrosoft公式価格ページ、Azure価格ページ、Microsoft Learnのライセンスページと請求レートページの4件で、いずれも2026年9月28日に実ページを取得して確認。単価はCopilotクレジット1単位0.01ドル、Microsoft 365 Copilotは1ユーザー月4,497円相当（年払い、税抜）。費用試算は月1,000件の応答という前提を明示した範囲表示（20ドルから120ドル）にとどめ、単一の削減額は記載していない。内部リンクはcopilot-studio-towaとcopilot-agent-towaの関連記事欄に相互リンクを追加し、両記事を再公開。lintとbuildは成功、/、/posts/copilot-studio-ryokin、プレーンテキスト版いずれも200。構造上の課題は前回から変わらず、ブログがyamashirogyomukaizen.com配下で配信されておらず、Search Console登録・サイトマップ送信・被リンクがない。記事本数を増やしても計測可能な露出につながらないため、次の打ち手は独自ドメイン配下への接続とサイトマップ送信。"
+}

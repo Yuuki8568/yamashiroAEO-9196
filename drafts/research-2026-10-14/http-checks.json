@@ -1,0 +1,47 @@
+{
+  "/": {
+    "status": 200,
+    "containsSlug": false,
+    "containsQuestion": false
+  },
+  "/posts/chatgpt-project-towa": {
+    "status": 200,
+    "containsSlug": false,
+    "containsQuestion": false
+  },
+  "/posts/chatgpt-project-towa.md": {
+    "status": 200,
+    "containsSlug": true,
+    "containsQuestion": true
+  },
+  "/sitemap.xml": {
+    "status": 200,
+    "containsSlug": true,
+    "containsQuestion": false
+  },
+  "/robots.txt": {
+    "status": 200,
+    "containsSlug": false,
+    "containsQuestion": false
+  },
+  "/llms.txt": {
+    "status": 200,
+    "containsSlug": true,
+    "containsQuestion": true
+  },
+  "/posts/chatgpt-gyomu-katsuyo-tejun.md": {
+    "status": 200,
+    "containsSlug": true,
+    "containsQuestion": false
+  },
+  "/posts/seisei-ai-guideline-shanai-tsukurikata.md": {
+    "status": 200,
+    "containsSlug": true,
+    "containsQuestion": false
+  },
+  "mainSite": {
+    "status": 200,
+    "blogLinkInInitialHTML": false
+  },
+  "plaintextCopies": 49
+}

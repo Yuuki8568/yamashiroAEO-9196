@@ -1,0 +1,66 @@
+{
+  "token": "aeo_e67122c7cd4191eee6f9df1d",
+  "targets": [
+    {
+      "question": "中小企業が採用業務にAIを使うなら、どこから手をつければいいですか",
+      "keyword": "採用 ai",
+      "volume": 450,
+      "difficulty": 0,
+      "decision": "採用。get_keyword_ideas（keywords: 請求書 ai / 採用 ai / アンケート 集計 ai / ai エージェント 業務、terms=all、jp、limit=40）で採用クラスタを確認し、ai 採用 500/KD0、採用 ai 450/KD0、ai採用 350/KD0 とKD0帯に需要が集中。同バッチの他候補は請求書 ai 150/KD1、アンケート集計 ai 80/KD不明、aiエージェント 業務効率化 90/KD0 と小さく、既存記事との重複も大きい。続けて terms=questions で採用・人事・面接・求人原稿を確認したところ最上位は ai面接とは 3200/KD0 だが、これはAI面接（応募者側の受け方を含む）という狭いサブトピックで、中小企業の採用担当者という読者像から外れるため主KWにはせずFAQで触れる方針とした。get_serp_overview（採用 ai、jp、topPositions=10）では position1 がAI Overviewの枠で、AI Overviewのサイトリンク7本（japan-ai.co.jp/media/4531/、hrpro.co.jp/series_detail.php?t_no=4460、tracom.co.jp/tralog/ai-recruitment/、biz.moneyforward.com/payroll/basic/86552/、jp.indeed.com の what-is-ai-recruiting、motivation-cloud.com/hr2048/c578 ほか）、position4 の枠にPAAが4問（「AIで作った志望動機はバレますか？」「AIを採用している企業は？」「AIに負けない職業ランキングは？」「AIによる採用面接とは？」）。organic 2〜10位は japan-ai.co.jp DR52、nttexc.co.jp DR57、peoplex.jp DR57、workday.com DR87、motivation-cloud.com DR55、levtech.jp DR75、jp.indeed.com DR92、hrpro.co.jp DR74 と、AI採用ツールの比較記事とベンダーの用語解説が中心。上位に不在だったのは、採用工程ごとに「AIに下書きさせてよい範囲」と「人が決めなければならない範囲」を法令根拠付きで線引きした記事で、この差分で切った。既存31記事に採用・人事を主題とする記事はなく重複なし（近接は business-mail-ai-shitagaki＝メール下書き、gyomu-manual-ai-sakusei＝マニュアル作成で、いずれも検索意図が別。11記事のquestion文を実際に照合して確認）。"
+    },
+    {
+      "question": "ai面接とは",
+      "keyword": "ai面接とは",
+      "volume": 3200,
+      "difficulty": 0,
+      "decision": "保留。volume 3200・KD0 で数値だけなら最有力だが、SERPの検索意図が応募者側（AI面接の受け方、志望動機がバレるか等）に寄っており、当事務所の読者像（中小企業の採用責任者）と一致しない。今回は採用 ai を主KWにした広い記事でFAQに吸収し、企業側の導入判断という角度で単独記事化するかは次回以降に判断する。SERP課金を避けるため get_serp_overview は未実行。"
+    },
+    {
+      "question": "請求書 ai",
+      "keyword": "請求書 ai",
+      "volume": 150,
+      "difficulty": 1,
+      "decision": "不採用。volume 150 と小さく、既存記事 mitsumorisho-ai-koritsuka（見積書 ai）および keiri-ai-doko-made（経理）と検索意図が近接するため単独記事の価値が薄い。既存記事への追記で対応する方針。"
+    },
+    {
+      "question": "アンケート集計 ai",
+      "keyword": "アンケート集計 ai",
+      "volume": 80,
+      "difficulty": null,
+      "decision": "不採用。volume 80 でKDも取得できず、既存記事 excel-shukei-ai-katsuyo（Excel集計）と重複する。"
+    },
+    {
+      "question": "aiエージェント 業務効率化",
+      "keyword": "aiエージェント 業務効率化",
+      "volume": 90,
+      "difficulty": 0,
+      "decision": "不採用。volume 90 のロングテールで、既存記事 ai-gyomu-koritsuka-doko-kara のFAQに吸収できる範囲。"
+    },
+    {
+      "question": "ai コンサル",
+      "keyword": "ai コンサル",
+      "volume": 600,
+      "difficulty": 1,
+      "decision": "不採用（継続見送り）。今回も候補として提示されたが、既存記事 ai-consul-igai-no-sentakushi の主KWが ai コンサル であり alternatives カテゴリで押さえている。前回同様、新規記事ではなく既存記事の改稿で対応する方針を維持。"
+    },
+    {
+      "question": "日報 ai / 見積書 ai / 中小企業 ai活用",
+      "keyword": "日報 ai ほか",
+      "volume": null,
+      "difficulty": null,
+      "decision": "不採用。既存記事 nippo-ai-sakusei-houhou、mitsumorisho-ai-koritsuka、chusho-kigyo-ai-katsuyo-rei で既に公開済みのため重複。"
+    },
+    {
+      "question": "議事録 ai",
+      "keyword": "議事録 ai",
+      "volume": 7200,
+      "difficulty": 35,
+      "decision": "継続保留。内部リンクの蓄積が進むまで着手しない方針を維持（今回も指示どおり見送り）。文字起こしクラスタ（文字起こし ai 4600/KD52）も同様に保留。"
+    }
+  ],
+  "publishedSlugs": [
+    "saiyo-gyomu-ai-doko-kara"
+  ],
+  "visibilityCheck": "2026-09-22時点、get_organic_keywords（yamashirogyomukaizen.com、jp、domain）の結果は0件。2026-08-24、2026-09-17、2026-09-18、2026-09-19、2026-09-20、2026-09-21に続き7回連続で0件のままで、順位・AI Overview引用・PAA引用のいずれにも変化なし。配信中のプレビュードメイン（ai-i2gajxb-preview-4200.runable.site）についても get_organic_keywords が0件、get_domain_metrics（jp、subdomains）が org_keywords 0／org_traffic 0／org_keywords_1_3 0／paid_keywords 0 で、計測可能な検索流入は立っていない。原因は記事内容ではなく、ブログがRunableのプレビュードメインで配信されており yamashirogyomukaizen.com 配下に接続されていないこと（および被リンク・インデックスの起点が存在しないこと）。記事追加では解消しない構造的なブロッカーで、プラットフォームUIからの独自ドメイン接続（サブディレクトリまたはサブドメイン）、Search Console登録、sitemap.xml送信が必要。7回連続0件のため、次回以降も記事本数の増加より接続作業の完了を最優先とする。",
+  "notes": "公開: saiyo-gyomu-ai-doko-kara（中小企業が採用業務にAIを使うなら、どこから手をつければいいですか、category=how-to、主KW=採用 ai 450/KD0）。記事構成: 採用業務を9工程に分解した表（募集要項の整理／求人原稿／求人条件の設定／スカウト文／応募者への連絡／応募書類の整理／面接質問の設計／面接記録の整理／選考評価・合否）で、各工程を「AIに下書きさせてよいこと」「人が決めなければならないこと」「関係する法令」の3列で線引き→最初の1か月の進め方（4週）→使ってよい使い方と避ける使い方の10行表→総務省白書の数値による文章下書きからの位置づけ→指示の書き方5点→1か月後に見る指標6項目→社内に広げるときの注意→FAQ6問（「採用AI」が指す範囲／応募書類をChatGPTに読ませてよいか／AIに応募者を点数付けさせてよいか／AIが書いた求人原稿で直すべき点／無料プランでできる範囲／採用管理システム付属のAIと汎用AIの使い分け）。出典7件（すべて2026-09-22に確認）: e-Gov 職業安定法（5条の3＝労働条件等の明示、5条の4＝求人情報の的確な表示・虚偽や誤解を生じさせる表示の禁止と正確・最新の保持、5条の5＝求職者の個人情報は明示した目的の達成に必要な範囲でのみ収集・保管・使用）／厚生労働省「公正な採用選考をめざして　採用選考時に配慮すべき事項」（就職差別につながるおそれのある14項目＝本籍・出生地、住宅状況、家族関係、生活環境・家庭環境、宗教、人生観・生活信条、思想、購読新聞・雑誌・愛読書、支持政党、尊敬する人物、労働組合加入状況、身元調査、不必要な健康診断、適性・能力に無関係な応募書類の使用。令和6年度にハローワークで把握した854件のうち家族に関する質問が多くを占める）／厚生労働省「募集・採用における年齢制限禁止について」（労働施策総合推進法により年齢制限の禁止が義務化、求人票上で年齢不問としながら年齢で選考・判断することも違反）／e-Gov 男女雇用機会均等法（5条＝募集・採用における性別を理由とする差別の禁止、7条＝性別以外の事由を要件とする措置のうち実質的に性別差別となるおそれがあるものは合理的理由なく講じてはならない）／個人情報保護委員会「生成AIサービスの利用に関する注意喚起等について」令和5年6月2日PDF（個人情報取扱事業者向け＝プロンプト入力が利用目的の範囲内か確認すること、本人同意なく個人データを入力し応答生成以外の目的で取り扱われる場合は法違反のおそれ、機械学習に利用されないことをサービス提供者に確認すること／一般利用者向け＝生成結果に不正確な内容が含まれ得る）／OpenAI Help Center「Data controls in ChatGPT」（Improve the model for everyone をオフにすると以降の会話は学習に使われない、Business・Enterprise・Edu等のワークスペースの内容は既定でモデル学習に使用しない）／総務省「令和8年版 情報通信白書」（図表Ⅰ-2-1-7 議事録・メール作成補助は活用率が最も高く効果実感72.3％、社内ヘルプデスクは効果実感42.7％／ハルシネーション・シカファンシー・バイアスのリスク指摘と人間とAIの協働前提の設計）。取得時の失敗: 当初 mhlw.go.jp の kounin_saiyou.html を参照しようとしたが404だったため、kouseisaiyou.mhlw.go.jp/consider.html と年齢制限禁止ページに差し替えた。内部リンク: 新記事から8本（business-mail-ai-shitagaki、seisei-ai-guideline-shanai-tsukurikata、chatgpt-joho-roei-taisaku、ai-gijiroku-tsukurikata、gyomu-manual-ai-sakusei、ai-gyomu-koritsuka-doko-kara、seisei-ai-kenshu-chusho-kigyo、chatgpt-gemini-gyomu-hikaku）、相互リンクとして既存4記事（business-mail-ai-shitagaki、ai-gyomu-koritsuka-doko-kara、chatgpt-joho-roei-taisaku、seisei-ai-guideline-shanai-tsukurikata）に新記事へのリンクを追記して再公開。検証: NGパターン5種（**、完全自動化系、ROI・売上保証系、体験談風、申請代行・採択系）すべて不検出、JSONフロントマターのパース成功、answer本文94文字（40〜160文字の範囲内）、lint違反0（21ファイル・0 warnings 0 errors）、build成功、/posts/saiyo-gyomu-ai-doko-kara が200、sitemap.xmlに1件・llms.txtに2件で新slug反映、公開記事数31→32。時間・コスト削減の単一値の主張、未出典の統計、当事務所の料金提示、競合の否定、地域ターゲティングはいずれもなし。次回候補: ai面接とは（3200/KD0、企業側の導入判断という角度に組み替えるか要検討）、google ai studio 文字起こし（800/KD1）、ai文字起こし（700/KD0）、動画 文字起こし ai（700/KD4）、youtube 文字起こし ai（600/KD1）、aiボイスレコーダー 文字起こし（600/KD0）。文字起こし ai（4600/KD52）と議事録 ai（7200/KD35）は保留継続、ai コンサル（600/KD1）は既存記事の改稿で対応。"
+}

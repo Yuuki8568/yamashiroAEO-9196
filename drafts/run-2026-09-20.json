@@ -1,0 +1,45 @@
+{
+  "token": "aeo_e67122c7cd4191eee6f9df1d",
+  "targets": [
+    {
+      "question": "在庫管理にAIを使うと何ができますか。中小企業での始め方は",
+      "keyword": "在庫管理 ai",
+      "volume": 450,
+      "difficulty": 0,
+      "decision": "採用。get_keyword_ideas（seeds: 人手不足 ai / 採用 ai / 在庫管理 ai / ai エージェント 業務、terms=all、jp）で在庫クラスタを確認（在庫管理 ai 450/KD0、ai 在庫管理 250/KD0、ai在庫管理 150/KD0、ai 在庫管理 事例 100）。get_serp_overview（在庫管理 ai、jp）ではposition1がAI Overview（引用先: aidma-hd.jp、lp.zaico.co.jp、matrixflow.net、TOPPANエッジのYouTube動画）で引用枠が存在し、organicはsmart-logistic.jp DR60、aidma-hd.jp DR70、ibm.com DR93、lp.zaico.co.jp DR52、lline-group.co.jp DR39、monday.com DR91、proactive.jp DR47、musubi.kakehashi.life DR58と中位DRが混在。position3のPAAが「AIで在庫管理を無料でできるツールはありますか？」「AIを活用した在庫管理とは？」「AIに奪われにくい職業は？」「AIに入力してはいけない情報は何ですか？」で、無料ツール有無と定義の2問を記事FAQに吸収。上位は製品訴求とツール紹介が中心で、作業分解＋データ整備の順番という切り口は不在のため差別化可能。既存29記事に在庫領域の記事がなく重複なし。"
+    },
+    {
+      "question": "採用・人手不足領域（採用 ai / 人手不足 ai など）",
+      "keyword": "採用 ai",
+      "volume": 500,
+      "difficulty": 0,
+      "decision": "不採用。同シードのget_keyword_ideasで在庫クラスタと同水準の volume/KD が出たが、採用・人材領域は当事務所の主軸である業務プロセス改善（記録・集計・帳票・判断支援）との接続が弱く、既存29記事が形成しているトピッククラスタからも離れる。SERP課金を避けるためget_serp_overviewは未実行。次回以降の候補として保留。"
+    },
+    {
+      "question": "AI導入の入口に関する質問形キーワード（ai 業務 どこから / ai 導入 失敗 / ai 使いこなす / 社内 ai 浸透）",
+      "keyword": "ai 導入 失敗 ほか",
+      "volume": 30,
+      "difficulty": 0,
+      "decision": "不採用。get_keyword_ideas（terms=questions、jp）の結果がほぼ10〜30のロングテールで、かつ既存記事 ai-gyomu-koritsuka-doko-kara / seisei-ai-koritsuka-jirei と意図が重複。SERP確認の価値がないと判断しget_serp_overviewは未実行。"
+    },
+    {
+      "question": "需要予測（小売・卸）領域",
+      "keyword": "需要予測 ai",
+      "volume": null,
+      "difficulty": null,
+      "decision": "今回は単独記事化せず、在庫記事内のFAQ「需要予測まで任せられますか。データはどのくらい必要ですか」で扱った。中小企業の実データ状況（品目コードの変更、月単位の出荷実績のみ等）では予測より発注点見直しが先という結論になるため、独立記事にすると内容が在庫記事と重複する。次回以降、データが揃っている前提の記事として切り出す余地あり。"
+    },
+    {
+      "question": "議事録 ai",
+      "keyword": "議事録 ai",
+      "volume": 7200,
+      "difficulty": 35,
+      "decision": "継続保留。内部リンクの蓄積が進むまで着手しない方針を維持。"
+    }
+  ],
+  "publishedSlugs": [
+    "zaiko-kanri-ai-dekiru-koto"
+  ],
+  "visibilityCheck": "2026-09-20時点、get_organic_keywords（yamashirogyomukaizen.com、jp）の結果は0件。2026-08-24、2026-09-17、2026-09-18、2026-09-19に続き5回連続で0件のまま、順位・AI Overview引用・PAA引用のいずれにも変化なし。原因は記事内容ではなく配信ドメインにあると考えられる。ブログ本体はRunableのプレビュードメイン（ai-i2gajxb-preview-4200.runable.site）で配信されており、yamashirogyomukaizen.com配下に接続されていない。このため同ドメインを対象とした計測にブログの30記事が一切反映されない。記事を追加しても解消しない構造的なブロッカーであり、プラットフォームUIからの独自ドメイン接続（yamashirogyomukaizen.com のサブディレクトリまたはサブドメイン）、Search Console登録、サイトマップ送信が必要。5回連続0件のため、次回以降も記事本数の増加ではなく接続作業の完了が最優先。",
+  "notes": "公開: zaiko-kanri-ai-dekiru-koto（在庫管理にAIを使うと何ができますか。中小企業での始め方は、category=how-to、主KW=在庫管理 ai 450/KD0）。記事構成: 作業別の任せられる度合い表（8行、紙帳票のデータ化から在庫差異の原因特定まで）→白書数値による位置づけ→先に整えるのは在庫データの置き場所と在庫差異（高瀬金型事例）→入り方3通りの比較表（Excel＋汎用AI／在庫管理サービスのAI機能／自社ツール）→サービスのAI機能の対応範囲と上限→大企業構想（ロート製薬）と内製例（岡田研磨）→手をつける順番5段→1か月後に見る指標6項目→FAQ6問。出典6件（すべて2026-09-20に確認）: 2026年版中小企業白書 第2部第2章第2節（省力化投資のうちAI活用は全体で約3割、第2-2-88図で営業・販売・顧客対応部門とバックオフィス部門が製造・生産管理・物流部門より高い、第2-2-92図で「活用する業務がイメージできていない」が最多、事例2-2-14 岡田研磨＝生成AIで統合管理システムを自作・月5,000〜6,000枚のペーパーレス化・月530時間程度の労働時間削減・外注約8,000万円に対し内製はAI月額利用料のみ・専務が約2年で1,000時間以上の対話、事例2-2-15 高瀬金型＝受注在庫は基幹システム／製造実績は複数Excel／不良率は紙で二重三重の入力が発生、2年でデータ一元管理、生産指示の自動発行まで実装）／総務省令和8年版情報通信白書 図表Ⅰ-2-1-7（調達は7.0＋16.7＋14.3＝38.0％で最低水準、効果実感25.9％、対比として議事録・メール作成補助は活用71.2％・効果実感72.3％）および図表Ⅰ-2-1-12（調達領域のAI活用構想としてロート製薬）／ロート製薬プレスリリース2025年12月1日（富士通のマルチAIエージェント技術＋東京科学大学との共同研究によるCPS、調達管理・在庫管理AIエージェント連携、2026年1月から製造・流通・販売の実データで検証、2022年6月から主力工場でCPS導入）／zaico機能ページ（帳票データ化の対応形式と上限=スターター月7ファイル／ベーシック・プロフェッショナル月1,000ファイル、画像識別の上限=スターター月10回／上位無制限、AIカウントはベータ・iOSのみで2027年2月末まで月100回無償・2027年3月以降は新料金体系へ移行予定、zDASHのABC分析と発注点提案はベーシックでは有料オプション）／zaico料金プラン（スターター月8,980円税込9,878円、ベーシック月49,800円税込54,780円、プロフェッショナル月150,000円税込165,000円から、フルユーザー追加はスターター月1,500円・ベーシック月4,500円）／ロジクラ料金プラン（Lite年契約月12,800円・月契約14,800円で月300件まで無料、Premium年契約月40,000円・月契約49,000円で月2,000件まで無料、いずれも税抜、1年経過後に年間保守費用30,000円、導入時初期費用あり）。取得失敗: 経済産業省「AI導入ガイドブック 需要予測（小売り、卸業）」は https://www.meti.go.jp/policy/it_policy/jinzai/AIutilization.html と https://www.meti.go.jp/press/2022/04/20220408001/20220408001.html の両方がページ不存在を返したため使用せず、一次統計は2026年版中小企業白書に差し替え。内部リンク: 新記事から8本（ai-ocr-chusho-kigyo-hajimekata、excel-shukei-ai-katsuyo、gyomu-manual-ai-sakusei、mitsumorisho-ai-koritsuka、rpa-ai-chigai-dochira、chusho-kigyo-ai-katsuyo-rei、ai-gyomu-koritsuka-doko-kara、seisei-ai-koritsuka-jirei）、相互リンクとして既存4記事（ai-ocr-chusho-kigyo-hajimekata、excel-shukei-ai-katsuyo、chusho-kigyo-ai-katsuyo-rei、rpa-ai-chigai-dochira）の関連記事欄に追記し再公開。検証: NGパターン5種（**、完全自動化系、ROI・売上保証系、体験談風、申請代行・採択系）すべて不検出、lint違反0（21ファイル・0 warnings 0 errors）、build成功、/posts/zaiko-kanri-ai-dekiru-koto が200、sitemap.xmlとllms.txtに新slug反映、公開記事数29→30。次回候補: 採用 ai（500/KD0、ただし当事務所の主軸との接続を要検討）、需要予測 ai（データが揃っている前提での単独記事）、ai 在庫管理 事例（100）、棚卸関連の質問形キーワード。議事録 ai（7200/KD35）は引き続き保留。"
+}

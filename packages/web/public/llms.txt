@@ -1,0 +1,214 @@
+# 山代業務改善事務所 AI業務改善ブログ
+
+> 中小企業のAI業務改善について、実際に検索されている質問にひとつずつ答えるブログ。運営は山代業務改善事務所（代表 山代 悠生／AI業務改善コンサルティング／オンラインで全国対応）。1記事＝1つの質問で、答えを冒頭で言い切ってから根拠と比較を置く構成に固定しています。
+
+運営者について
+- 屋号: 山代業務改善事務所（代表 山代 悠生）
+- 業務: AI導入支援（業務の棚卸し・AI適性診断・導入計画）、事務ワークフローのツール化（見積書・日報・シフト表・議事録・データ転記）、保守管理つき伴走支援
+- 特徴: 診断から実装、保守までを1人で担当。簡単な業務課題なら10〜30分でプロトタイプを提示できるケースがある。Google・Google Cloud提供のAI講座 修了証4件（Coursera・2026年3月）
+- 対応: オンラインで全国対応。費用はヒアリング後にお見積り
+- 本サイト: https://yamashirogyomukaizen.com/
+- AI業務診断ツール（無料・約2分・分岐式9問）: https://ai-gyoumu-shindan.pages.dev/
+- 無料相談: https://calendar.app.google/EmoGevH38APT6JUw8
+
+記事一覧（質問と答え）
+- [手順] ChatGPTのプロジェクトとは何ですか。無料での作り方と、メモリ・共有の注意点は？
+  答え: ChatGPTのプロジェクトは、関連するチャット・資料・指示をまとめ、継続する作業で使う機能です。無料プランでも利用できますが、ファイル数などに上限があります。業務では資料の版、メモリの参照範囲、共有相手を確認し、回答の事実は元資料と照合します。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/chatgpt-project-towa
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/chatgpt-project-towa.md
+- [手順] Gemini Canvasとは何ですか。無料での使い方と、文書編集・共有の注意点は？
+  答え: Gemini Canvasは、Geminiと対話しながら文書やアプリ、コードなどを作成・編集する作業スペースです。無料プランにも含まれ、文章を直接直したり、選択した部分の修正を頼んだりできます。業務では元資料との照合と、公開リンクで見せる情報の確認が必要です。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/gemini-canvas-towa
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/gemini-canvas-towa.md
+- [手順] Claude Codeの使い方は？初心者がデスクトップで始める手順と、権限・料金の注意点は？
+  答え: Claude Codeは、コードを読み、ファイルの編集やコマンド実行を支援するAIツールです。初心者は公式デスクトップアプリのCodeタブで、機密情報のない練習用フォルダを選び、権限を確認して小さな変更を頼みます。変更差分と動作を人が点検し、本番への反映は別に判断します。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/claude-code-tsukaikata
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/claude-code-tsukaikata.md
+- [ベスト] Geminiでは何ができますか。中小企業の仕事で試す用途5つと、無料版の制限は？
+  答え: Geminiでは、メールの下書き、会議メモや資料の要点整理、作業計画、表やファイルのたたき台作成などを試せます。無料プランもありますが、利用上限と情報の扱いを確認し、価格・期限・数字などの事実は人が照合します。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/gemini-nani-ga-dekiru
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/gemini-nani-ga-dekiru.md
+- [手順] GeminiのGemとは何ですか。無料での作り方と、スキルへの移行・共有の注意点は？
+  答え: GeminiのGemは、役割や指示を保存して繰り返し使う機能です。無料プランにも含まれますが、利用上限と情報の扱いを確認します。個人アカウントでは2026年11月からスキルへの移行が予定されており、会社では共有権限と移行後の動作確認も必要です。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/gemini-gem-towa
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/gemini-gem-towa.md
+- [FAQ] Claudeとは何ですか。無料でできること、料金、ChatGPTやClaude Codeとの違いは？
+  答え: Claude（クロード）とは、Anthropicが提供するAIアシスタントです。文章の下書きや資料の整理などを言葉で頼めます。無料プランもありますが、利用上限やデータの扱いを確認し、回答は人が点検して使います。Claude Codeは開発作業を支援する別のツールです。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/claude-towa
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/claude-towa.md
+- [FAQ] プロンプトとは何ですか。意味とChatGPTへの指示の書き方を、仕事の例でわかりやすく
+  答え: プロンプトとは、生成AIに渡す質問や指示、回答の材料となる情報のことです。日本語では「指示文」や「入力」と考えると分かりやすく、目的・材料・条件・出力形式をそろえると、依頼したい仕事を伝えやすくなります。ただし、回答の正しさは人が確認します。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/prompt-towa
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/prompt-towa.md
+- [FAQ] DXとは何ですか。意味、IT化との違い、中小企業が何から始めればよいかをわかりやすく
+  答え: DXとは、データとデジタル技術を使って、製品やサービス、仕事の進め方、組織や企業文化まで変え、競争力を高める取り組みです。紙を電子化するIT化やデジタル化はその途中の段階で、ツールを入れること自体はDXの目的ではありません。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/dx-towa
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/dx-towa.md
+- [FAQ] 生成AIとは何ですか。AIやChatGPTとの違いと、仕事でどう使えるかをわかりやすく
+  答え: 生成AIとは、文章、画像、プログラムなどを新しく作り出せるAIの総称です。従来のAIが予測や判定を中心にしていたのに対し、言葉で指示するだけで下書きや要約、画像を作れる点が違います。ChatGPTやGeminiは、この生成AIを使った具体的なサービスの名前です。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/seisei-ai-towa
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/seisei-ai-towa.md
+- [FAQ] NotebookLMとは何ですか。無料でどこまで使えて、ChatGPTと何が違うのか
+  答え: NotebookLMは、自分で追加した資料（ソース）を根拠に、質問への回答や要約、音声解説などを作るGoogleのAIリサーチツールです。2026年7月からGemini Notebookに名称が変わりましたが同じ製品で、Gmailアカウントがあれば無料で使い始められます。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/notebooklm-towa
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/notebooklm-towa.md
+- [FAQ] AIエージェントとは何ですか。生成AIやChatGPTとの違いをわかりやすく
+  答え: AIエージェントは、人が決めた目標に向けて、手順を自分で組み立て、外部のツールやデータを呼び出して処理を進めるソフトウェアです。生成AIが質問に答える道具だとすると、エージェントは答えを使って作業まで進める仕組みです。厳密な定義はまだ確立していません。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/ai-agent-towa
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/ai-agent-towa.md
+- [手順] AIエージェントの作り方は？中小企業が自社で作るときの3つの方法と手順
+  答え: 作り方は3通りです。使っている汎用AIのカスタム機能で作る、ノーコードのエージェント基盤で作る、コードで開発する。中小企業が最初に選ぶなら、すでに契約しているツールの中で1業務だけ作るのが最短です。手順は業務の切り出し、指示文、知識源、テスト、公開の5段階です。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/ai-agent-tsukurikata
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/ai-agent-tsukurikata.md
+- [比較] Copilot Studioの料金はいくらですか。プランの違いと費用の見積もり方
+  答え: 料金の形は3通りです。Microsoft 365 Copilotのライセンス（公開ページ表示で1ユーザー月あたり4,497円相当・年払い・税抜）に含む形、従量課金制、1年前払いの購入前プランです。従量課金制はCopilotクレジット1単位0.01ドルで、使った量だけ増えます。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/copilot-studio-ryokin
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/copilot-studio-ryokin.md
+- [FAQ] Copilotエージェントとは何ですか。標準のCopilotとの違いと無料で使える範囲
+  答え: Copilotエージェントは、指示・知識・アクションを与えて特定の業務に特化させたCopilotの拡張です。公式が用意した組み込みエージェントはCopilotライセンスの範囲で使え、自社用のエージェントを作って公開・運用する段階から有償の枠とCopilotクレジットの消費が関わります。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/copilot-agent-towa
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/copilot-agent-towa.md
+- [FAQ] Copilot Studioとは何ですか。Microsoft 365 Copilotとの違いと中小企業での判断基準
+  答え: Copilot Studioは、AIエージェントとワークフローをローコードで作り、公開して運用するためのMicrosoftのツールです。Microsoft 365 Copilotが既製のアシスタントを使う側、Copilot Studioは自社用のエージェントを作る側、という位置づけの違いがあります。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/copilot-studio-towa
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/copilot-studio-towa.md
+- [FAQ] Microsoft 365 Copilotでは何ができますか。中小企業が導入を判断する基準は
+  答え: WordやExcel、Outlook、Teamsの中で、自社のメールや文書、会議記録を根拠にした下書き・要約・検索・データ分析ができます。対象プランがあればチャットは追加費用なしで使えますが、アプリの中のCopilotは有料の追加ライセンスが必要です。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/microsoft-365-copilot-nani-ga-dekiru
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/microsoft-365-copilot-nani-ga-dekiru.md
+- [FAQ] Google AI Studioでは何ができますか。業務で使うときの注意点は
+  答え: Geminiの各モデルを画面上で試し、プロンプトの調整、APIキーの発行、簡単なアプリの作成までを1か所で行える開発者向けの作業場です。無料で使える範囲では入力内容がGoogleのサービス改善に使われる扱いのため、社内の非公開情報を入れる用途には向きません。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/google-ai-studio-nani-ga-dekiru
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/google-ai-studio-nani-ga-dekiru.md
+- [手順] 中小企業が採用業務にAIを使うなら、どこから手をつければいいですか
+  答え: 求人原稿やスカウト文、応募者への連絡文といった文章の下書きから始めるのが安全です。合否の判断そのものをAIに任せる使い方は、法令上の線引きと説明責任の問題が残るため、後回しにしてください。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/saiyo-gyomu-ai-doko-kara
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/saiyo-gyomu-ai-doko-kara.md
+- [比較] PDFや長文資料をAIで要約するには、どのAIをどう使えばいいですか
+  答え: 資料のページ数と、図表を読ませる必要があるかで決まります。100ページ以内で図表も読ませたいならClaude、数十本の資料を横断して繰り返し参照したいならNotebookLM、形式を問わず手元で使うならChatGPTが向きます。上限はサービスごとに違います。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/pdf-yoyaku-ai-tsukaiwake
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/pdf-yoyaku-ai-tsukaiwake.md
+- [手順] 在庫管理にAIを使うと何ができますか。中小企業での始め方は
+  答え: できることは大きく3つです。写真や帳票から在庫データを作る、在庫データを分析して発注点を提案させる、在庫差異や滞留在庫を早めに見つける、の3つです。前提は在庫数が正しく記録されていることで、紙とExcelと基幹システムに数字が分かれたままでは、予測も提案も成り立ちません。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/zaiko-kanri-ai-dekiru-koto
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/zaiko-kanri-ai-dekiru-koto.md
+- [手順] 営業の仕事にAIをどう活用すればいいですか
+  答え: 商談前の情報整理、メールと提案書の下書き、商談後の記録と要約の3つから始めるのが現実的です。価格の判断、条件の交渉、関係づくりは人に残ります。AIが下書きを作り、人が確認して出す形に組み替えると、1件あたりの準備時間を削りやすくなります。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/eigyo-ai-katsuyo-houhou
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/eigyo-ai-katsuyo-houhou.md
+- [FAQ] 経理の仕事はAIでどこまで任せられますか。経理の仕事はなくなりますか
+  答え: 読み取り、仕訳の候補出し、明細の突き合わせ、社内ルールとの照合といった繰り返しの処理はAIに任せられる部分が広がっています。一方で、勘定科目の最終判断、税務上の処理の決定、税務署へ出す書類の作成は人と税理士の領域です。経理の仕事がなくなるというより、入力中心から確認と判断中心に寄っていくと捉えるのが実態に近いです。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/keiri-ai-doko-made
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/keiri-ai-doko-made.md
+- [比較] 社内チャットボットの費用はいくらかかりますか。専用サービスと汎用AIの使い分けは
+  答え: 専用のチャットボットサービスは月額1,500円から8万円程度が中心で、上位プランでは月額13万円前後の例もあります。汎用AIの法人プランを社内で共有する形なら1人あたり月20ドル前後です。よくある質問と回答が確定しているなら専用サービス、まだ整理できていないなら汎用AIが出発点になります。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/shanai-chatbot-hiyo-hikaku
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/shanai-chatbot-hiyo-hikaku.md
+- [比較] 電話対応はAIにどこまで任せられますか。中小企業での切り分け方は
+  答え: 一次受けまでは実用段階です。名前と用件の聞き取り、担当者への取次ぎ、折り返し依頼、営業電話の切り分けはAIに任せられます。判断や交渉、クレームは人が引き継ぐ前提で、まず2週間の入電記録を取り、自動応答に回せる件数を確かめてから選ぶ順番が現実的です（2026年9月16日時点）。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/ai-denwa-taio-doko-made
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/ai-denwa-taio-doko-made.md
+- [手順] 生成AIの社内ガイドラインには何を書けばいいですか
+  答え: 国や自治体のガイドラインを写す必要はありません。社内版に必要なのは7項目です。目的、対象者と対象ツール、入力してよい情報と禁止する情報、出力の確認責任、著作権と個人情報の扱い、守れなかったときの扱い、見直しの頻度。A4で1枚に収め、四半期ごとに実態と合っているかを見る形が現実的です（2026年9月15日時点の公表資料にもとづく整理）。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/seisei-ai-guideline-shanai-tsukurikata
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/seisei-ai-guideline-shanai-tsukurikata.md
+- [FAQ] ChatGPTで情報漏洩は起きますか。会社として何を決めればよいですか
+  答え: 起こり得ます。ただし経路は3つに絞れます。入力内容がモデルの学習に使われる経路、サービス側の不具合で他のユーザーに見えてしまう経路、社内の運用ミスです。会社として決めるべきことも3つで、入れてよい情報の線引き、使うプランとアカウントの形、出力を誰が確認するかです（2026年9月14日時点の各公式情報にもとづく整理）。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/chatgpt-joho-roei-taisaku
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/chatgpt-joho-roei-taisaku.md
+- [比較] RPAとAIの違いは何ですか。自社の繰り返し作業はどちらで自動化すべきですか
+  答え: RPAは人が決めた手順どおりにパソコン操作を繰り返す仕組み、生成AIは文章や読み取り、判断が絡む作業の下書きを作る仕組みです。手順が毎回同じで件数が多い作業はRPA、手順が毎回変わり文章が中心の作業は生成AIが向きます。費用の桁も年間で数十万円台から百万円台と月数千円規模とで大きく違うため、先に対象の作業を1つ決めてから選ぶ順番が無駄になりません。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/rpa-ai-chigai-dochira
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/rpa-ai-chigai-dochira.md
+- [比較] ChatGPTとGeminiは、業務で使うならどちらを選ぶべきですか
+  答え: 性能の優劣ではなく、社内でいま使っているツールで決めるのが最も確実です。Google Workspaceを使っている会社はGemini、Microsoft 365中心か特定のツールに縛られていない会社はChatGPTが素直な選択になります。長い文書の読み込みが中心ならClaudeも候補に入ります。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/chatgpt-gemini-gyomu-hikaku
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/chatgpt-gemini-gyomu-hikaku.md
+- [FAQ] 自社の契約書のチェックに、ChatGPTなどの生成AIを使っても問題ありませんか
+  答え: 自社が当事者の契約書を、社内の下読みとして使う範囲であれば問題になりません。弁護士法第72条が規制しているのは、報酬を得る目的で他人の法律事件に関する法律事務を業として取り扱う行為だからです。ただし、入力してよい情報の線引きと、すでに揉めている案件は弁護士に回すという線引きを先に決めておく必要があります。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/keiyakusho-check-ai
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/keiyakusho-check-ai.md
+- [比較] 社内にある資料をAIで探せるようにするには、どの方法が合っていますか
+  答え: 探す対象が決まった資料の束なら、資料を選んで読み込ませるノートブック型のAIが向いています。社内のファイル全体を横断して探したいなら、既存のアクセス権をそのまま使う業務スイート内蔵のAIが向いています。この2つは仕組みも前提条件も違うため、どちらが合うかは資料の置き場所と権限の状態で決まります。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/shanai-shiryo-ai-kensaku
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/shanai-shiryo-ai-kensaku.md
+- [手順] Excelの集計や分析をAIに任せるにはどうすればいいですか
+  答え: まず自社の契約で使えるのがどれかを確かめ、対象の表を1つに絞って試すのが確実です。数式の組み立てや手順の提案、異常値の指摘はAIに任せられますが、入力データの正しさと最終的な検算は人が持ちます。Excel内で動く機能はいずれも契約プランやアプリのビルドに条件があります。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/excel-shukei-ai-katsuyo
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/excel-shukei-ai-katsuyo.md
+- [手順] AIで資料（スライド）を作るにはどうすればいいですか
+  答え: いきなり完成形のスライドを出させるのではなく、まず構成と各ページの文章をテキストで作らせ、人が直してからスライドの形にします。スライドを直接生成する機能はCopilotもGeminiも契約プランや提供状況に条件があるため、自社で使える範囲を先に確かめてから進めるのが確実です。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/ai-shiryo-slide-sakusei
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/ai-shiryo-slide-sakusei.md
+- [手順] ビジネスメールの下書きをAIに任せるにはどうすればいいですか
+  答え: 伝えたい要点を箇条書きで渡し、宛先・用件・トーン・分量の4点を指定して下書きを出させ、事実にあたる部分だけ人が確認してから送ります。ただしOutlookとGmailでは使うための条件が異なるため、自社の環境で使える状態かを先に確かめる必要があります。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/business-mail-ai-shitagaki
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/business-mail-ai-shitagaki.md
+- [手順] 業務マニュアルをAIで作るにはどうすればいいですか
+  答え: 対象を1つの作業に絞り、その作業をやりながら音声か画面を記録し、記録をAIに読み込ませて手順の形に整えさせ、最後に人が確認する。この4工程で進めます。白紙からAIに書かせるより、実際の作業記録を素材にした方が現場で使える内容になります。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/gyomu-manual-ai-sakusei
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/gyomu-manual-ai-sakusei.md
+- [手順] AIで議事録を作るにはどうすればいいですか
+  答え: 録音、文字起こし、要約、人の確認という4工程に分けるのが基本です。新しいツールを契約する前に、すでに使っている会議ツールに文字起こしや要約の機能が含まれていないかを先に確認してください。Google MeetやZoomは、対応するエディションやプランであれば追加契約なしで使える場合があります。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/ai-gijiroku-tsukurikata
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/ai-gijiroku-tsukurikata.md
+- [ベスト] 中小企業のAI活用にはどんな例がありますか
+  答え: 最も多いのは文書作成・要約・校正と、繰り返し作業の効率化です。2026年版中小企業白書では、AI活用に取り組む中小企業は全体で約3割、部門別ではバックオフィスと営業・顧客対応部門で活用が進んでいると報告されています。自社の候補は、この2部門の繰り返し業務から探すのが現実的です。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/chusho-kigyo-ai-katsuyo-rei
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/chusho-kigyo-ai-katsuyo-rei.md
+- [手順] 問い合わせ対応にAIを使うには何から始めればいいですか
+  答え: 返信文の草案づくりから始めるのが現実的です。よくある問い合わせを20件書き出し、自社の回答の型を先に決めてからAIに草案を作らせ、送信前に人が確認する。この形なら新しいシステムを入れずに今週から試せます。チャットボットの設置は、型が固まったあとの選択肢です。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/ai-toiawase-taio-hajimekata
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/ai-toiawase-taio-hajimekata.md
+- [手順] ChatGPTを業務で活用するにはどうすればいいですか
+  答え: 順番は3つです。まず入れてよい情報と入れない情報の線を決める、次に文章が成果物になる業務を1つだけ選んで型（プロンプト）を作る、最後に使う人数に合わせてプランを決める。この順番を守ると、無料版のまま1人で試して、うまくいった型だけを社内に広げる形で進められます。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/chatgpt-gyomu-katsuyo-tejun
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/chatgpt-gyomu-katsuyo-tejun.md
+- [FAQ] 生成AI研修は中小企業にも必要ですか。費用相場と選び方は
+  答え: 必要かどうかは規模ではなく、社内に「AIを何にどこまで使ってよいか」の判断基準があるかで決まります。基準がない状態で研修だけ入れても使われ方がばらつきます。費用は形式でほぼ決まり、公開講座は1日3万円台から、2日間の実践系は3.8万円台から11万円台、eラーニングの概論なら2時間強で1.7万円台が目安です（2026年8月31日時点の各社公式ページ）。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/seisei-ai-kenshu-chusho-kigyo
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/seisei-ai-kenshu-chusho-kigyo.md
+- [FAQ] AI議事録は無料でどこまで使えますか
+  答え: 無料でも議事録づくりは実用になります。ただし無料枠は月あたりの文字起こし時間、1回の録音の長さ、AI要約の回数に上限があるのが一般的で、30分を超える会議や複数人での共有が前提になると足りなくなります。短い定例会議を1人が記録する用途なら無料のまま回せます。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/ai-gijiroku-muryo-doko-made
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/ai-gijiroku-muryo-doko-made.md
+- [手順] 生成AIで業務効率化した事例は、どこで探して、自社にどう当てはめればいいですか？
+  答え: まず公的調査で「どの業務で実際に使われているか」を確認し、次に個別事例を業務の型・件数・確認体制の3点に分解して自社と突き合わせます。総務省の令和7年版情報通信白書では、日本企業で何らかの業務に生成AIを使用している割合は55.2％、メールや議事録、資料作成等の補助は47.3％でした。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/seisei-ai-koritsuka-jirei
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/seisei-ai-koritsuka-jirei.md
+- [ベスト] AIで業務効率化を始めるなら、どの業務から手をつければいいですか？
+  答え: 毎日発生し、書式が決まっていて、間違えても取り返しがつく事務作業から始めます。議事録、日報、定型メール、紙書類の入力、見積書の文章部分の5つが該当します。判断や交渉、対外的な責任が伴う業務は後回しにしてください。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/ai-gyomu-koritsuka-doko-kara
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/ai-gyomu-koritsuka-doko-kara.md
+- [比較] 見積書の作成をAIで効率化するなら、汎用AI・見積ソフト・自社ツールのどれがいいですか？
+  答え: 月に何件つくるか、単価の決め方が式で書けるかで決まります。件数が少なく文章の手直しが主なら汎用AI、件数が多く帳票の体裁や履歴管理が要るなら見積ソフト、単価の計算ルールが自社独自で表計算に散っているなら自社ツールが向きます。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/mitsumorisho-ai-koritsuka
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/mitsumorisho-ai-koritsuka.md
+- [手順] 中小企業がAI-OCRで紙の書類をデータ化するには、何から始めればいいですか？
+  答え: 書類の種類を1つに絞り、その1種類だけを月に何枚処理しているかを数えることから始めます。枚数と項目数が決まらないとツールも費用も決められません。まずは手元にあるツールで10枚を試し、読み取り精度と修正時間を測ってから、専用サービスを入れるか自社仕様で作るかを判断します。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/ai-ocr-chusho-kigyo-hajimekata
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/ai-ocr-chusho-kigyo-hajimekata.md
+- [ベスト] 日報作成をAIで楽にするには、どの方法がいいですか？
+  答え: 現実的な方法は5つです。汎用AIに貼って整形する、定型プロンプトを固定する、音声で話して文字起こしから整形する、すでに契約しているツールのAI機能を使う、自社フォーマット専用のツールを作る。書く時間より「集計して読める形にする時間」が長い会社は、後の2つが向いています。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/nippo-ai-sakusei-houhou
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/nippo-ai-sakusei-houhou.md
+- [代替案] AIコンサルに依頼する以外の選択肢はありますか？
+  答え: あります。実務上の選択肢は、公的機関の無料相談、汎用AIの有料プランを自社で使う、既に契約しているツールのAI機能を使う、月額の顧問型、大手SI・コンサルファーム、単一業務のツール制作の6つです。分かれ目は「助言が欲しいのか、動くものが手元に残ってほしいのか」です。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/ai-consul-igai-no-sentakushi
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/ai-consul-igai-no-sentakushi.md
+- [手順] エクセルでシフト表を自動作成するにはどうすればいいですか？
+  答え: エクセルだけで自動化できるのは、①日付と曜日の自動生成 ②入力規則でシフト記号を統一 ③条件付き書式で人員不足や連勤違反を色で出す ④COUNTIFSで人数と時間を自動集計、の4段階までです。人の割り当てそのものを解かせたい場合はソルバーを使いますが、変数セルの上限が200のため15人×31日＝465マスは1枚では解けません。その規模からは個別ツールに切り替える判断になります。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/excel-shift-hyo-jido-sakusei
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/excel-shift-hyo-jido-sakusei.md
+- [比較] AI議事録ツールはどう選べばいいですか？従業員10〜50名・情シスなしの判断基準
+  答え: 先に決めるのは料金ではなく「月に何時間の会議を文字起こしするか」「文字起こし時間は個人単位か全社共有か」「録音データを学習に使われない条件か」の3点です。月3時間程度なら低価格の従量プラン、会議がZoom中心なら既契約の内蔵AIで足りることが多く、独自フォーマットの議事録を毎回そろえたい場合は個別のツール制作が現実的です。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/ai-gijiroku-tool-erabikata
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/ai-gijiroku-tool-erabikata.md
+- [FAQ] AI導入支援とは何ですか？中小企業が実際に頼める範囲と頼めない範囲
+  答え: AI導入支援とは、業務の棚卸しと「どの作業をAIに任せるか」の判断、ツールの選定・設定、運用ルールづくりまでを外部が引き受けるサービスの総称です。中小企業が実際に頼めるのは、業務の切り分け・初期設定・動くツールの制作・導入後の保守まで。効果の保証と、官公署へ提出する書類の作成は範囲外です。
+  URL: https://ai-i2gajxb-preview-4200.runable.site/posts/ai-donyu-shien-towa
+  全文（テキスト）: https://ai-i2gajxb-preview-4200.runable.site/posts/ai-donyu-shien-towa.md
+
+引用時の注意
+- 記事内の他社サービスの料金・機能は各記事に記載した確認時点の公開情報です。
+- 当事務所の費用は個別見積りのため、金額を伴う記載はありません。

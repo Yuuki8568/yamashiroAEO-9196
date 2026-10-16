@@ -1,0 +1,70 @@
+{
+  "token": "aeo_e67122c7cd4191eee6f9df1d",
+  "targets": [
+    {
+      "keyword": "契約書 ai",
+      "volume": 300,
+      "difficulty": 6,
+      "country": "jp",
+      "status": "adopted",
+      "note": "website-dataが本日は正常稼働し、get_keyword_ideas（ai 電話 対応 / ai 採用 選考 / ai 契約書、country=jp、terms=all、limit=25）で最良の指標を確認。月間検索数300、KD6、トラフィックポテンシャル1400で、本日取得した候補の中でポテンシャルが最も高い。get_serp_overview（topPositions=10）で上位はリーガルテックSaaS（LeCHECK/lisse-law.com、LegalOn Technologies、LegalForce、houmu-pro.com、aspicjapan.org、moneyforward）とベンダー比較メディアが占有し、AI Overviewも同種を引用。PAAに「契約書にAIがチェックするのは違法ですか？」「AIで契約書を作成できますか？」「契約書チェックAIは無料ですか？」「契約書チェックにChatGPTは使えますか？」が並び、製品比較ではなく適法性と社内運用への疑問が未充足と判断。差別化の軸は、他者に提供するAI法務サービス（弁護士法72条の検討対象）と、自社の契約書を自社で確認する社内利用を分けて説明する点に置いた。既存20本とのカニバリはgrep -rl 契約書 で確認し、該当はchusho-kigyo-ai-katsuyo-rei 81行目の「契約書類」という例示の一言のみで実質的な重複なし。カテゴリは既存分布（how-to 10 / best-of 3 / faq 3 / comparison 2 / alternatives 1）を踏まえ、PAA起点のテーマ性に合わせてfaqを選択。"
+    },
+    {
+      "keyword": "ai 電話対応",
+      "volume": 500,
+      "difficulty": 5,
+      "country": "jp",
+      "status": "candidate",
+      "note": "本日の次点。検索数500・KD5と数値は契約書 aiより検索数が多いが、SERPがボイスボットベンダーの比較メディアで固まっており、当方の承認済み製品名リストに電話対応系ベンダーが無いため、製品比較では勝ち筋が立たない。単独記事にする場合は、導入判断の前段（どの電話が何件あり、どれを自動応答に回せるかを1〜2週間記録して切り分ける手順）に軸を置き、製品名を出さずに構成できるか検討してから着手する。"
+    },
+    {
+      "keyword": "生成ai 社内ルール",
+      "volume": null,
+      "difficulty": null,
+      "country": "jp",
+      "status": "rejected",
+      "note": "9/10に続き二度目の見送り。本日はwebsite-dataが復旧したためget_keyword_ideasで実数を確認できたが、関連語を含めて最大70と低く、単独記事の投資対効果が見合わない。社内規程の要点は引き続き他記事の一節として扱う方針を維持。"
+    },
+    {
+      "keyword": "ai 中小企業",
+      "volume": null,
+      "difficulty": null,
+      "country": "jp",
+      "status": "rejected",
+      "note": "get_keyword_ideasで派生語を確認したが、いずれも既存のchusho-kigyo-ai-katsuyo-reiおよびai-gyomu-koritsuka-doko-karaの守備範囲と重なる。新規記事を足すより既存記事の内部リンクを厚くする方が適切と判断。"
+    },
+    {
+      "keyword": "日報 ai",
+      "volume": null,
+      "difficulty": null,
+      "country": "jp",
+      "status": "rejected",
+      "note": "既存nippo-ai-sakusei-houhouで対応済み。派生語も同記事の見出しでカバーされており、新規記事は自社内カニバリになる。"
+    },
+    {
+      "keyword": "見積書 ai",
+      "volume": null,
+      "difficulty": null,
+      "country": "jp",
+      "status": "rejected",
+      "note": "既存mitsumorisho-ai-koritsukaで対応済み。本日は新規記事を立てず、同記事から契約書記事への内部リンクを追加する形で見積〜契約の導線を補強した。"
+    },
+    {
+      "keyword": "請求書 ai",
+      "volume": null,
+      "difficulty": null,
+      "country": "jp",
+      "status": "rejected",
+      "note": "9/6・9/7・9/8・9/9・9/10に続き六度目の見送り。方針は不変で、扱う場合はAI-OCRの読み取り結果を人がどう確認するかの運用手順に限定し、電子帳簿保存法の保存要件・猶予措置・税務判断には踏み込まない。"
+    }
+  ],
+  "publishedSlugs": [
+    "keiyakusho-check-ai",
+    "chatgpt-gyomu-katsuyo-tejun",
+    "shanai-shiryo-ai-kensaku",
+    "business-mail-ai-shitagaki",
+    "mitsumorisho-ai-koritsuka"
+  ],
+  "visibilityCheck": "本日はwebsite-dataコネクタが復旧し、get_organic_keywords（yamashirogyomukaizen.com、およびプレビュードメイン）を実行できた。結果は双方とも keywords:[] で掲載0件。9/4〜9/9はAhrefs APIの403 Insufficient plan、9/10はコネクタ切断で計測不能だったため、実測が取れたのは9/3以来8日ぶりとなる。8/24のベースラインから9/3までの11日連続0件と合わせ、掲載0件が継続していることを実測で再確認した。原因は記事側ではなく、独自ドメイン接続とSearch Console登録が未着手のまま（ユーザー側の判断待ち）である点が最大要因と見ている。次回以降も同じ語（業務マニュアル 作成 / 議事録 ai / メール 作成 ai / 資料作成 ai / excel ai 集計 / 社内資料 ai 検索 / 契約書 ai）で継続計測する。",
+  "notes": "本日の公開は契約書チェックにおける生成AI利用（slug: keiyakusho-check-ai、カテゴリfaq、H1「自社の契約書のチェックに、ChatGPTなどの生成AIを使っても問題ありませんか」）。ニュースフックは法務省が令和8年8月21日（2026-08-21、本日時点で約3週間前）に公表した、AI等を用いた契約書等関連業務支援サービスと弁護士法第72条の関係についてのガイドライン（令和5年8月版を補完するもの）。一次情報はPDFを直接取得して読み込んだ。①https://www.moj.go.jp/content/001469039.pdf（令和8年8月 ガイドライン概要）②https://www.moj.go.jp/content/001400675.pdf（令和5年8月 ガイドライン本文、事件性の判断および契約書等の作成・審査・管理業務の該当性の節）③https://www.moj.go.jp/housei/shihouseido/housei10_00134.html（公表日と関連PDF一覧の確認）。なお法務省PDFはヘッダなしのcurlでは919バイトの非PDFが返るため、User-AgentとRefererを付与して再取得しpdftotext -enc UTF-8で抽出した。④OpenAIのデータ利用ポリシー（https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance）＝個人向けChatGPTは設定→データ コントロールの「すべてのユーザーのためにモデルを改善する」をオフにしない限り学習に利用され得ること、一時チャットは学習対象外、ChatGPT Business/Enterprise/APIは既定で学習対象外であること。⑤個人情報保護委員会「生成AIサービスの利用に関する注意喚起等」（令和5年6月2日、https://www.ppc.go.jp/files/pdf/230602_alert_generative_AI_service.pdf）は前記事からの再掲で、本日あらためて参照日を2026-09-11として引用。記事の構成は、事件性の考え方の表、入力前に確認する3点、社内確認のやり方4通りの比較表、令和8年ガイドラインのガバナンス観点に沿ったサービス選定チェックリスト、2週間の進め方、関連記事、事務所紹介。方針どおり、法的判断を当事務所が行うとは書かず、個別の判断は弁護士等の専門家に確認する旨を明記した。承認済み製品名リストに契約書レビュー専用ベンダーが無いため、具体名は推奨として一切出さず「契約書レビューの専用サービス」という一般名詞で扱った。削減額・削減時間の単一値は記載せず、記録してから比較する枠組みで統一。内部リンクはchatgpt-gyomu-katsuyo-tejun、shanai-shiryo-ai-kensaku、business-mail-ai-shitagaki（いずれも関連記事の箇条書きに追記）とmitsumorisho-ai-koritsuka（本文の段落リンク）に往路リンクを追加し、計4本を再公開した。検収はNGワードgrep 0件、bun run lint はNo violations found（0 warnings / 0 errors、21ファイル）、bun run build は2 tasks successful（web ✓ built in 3.66s）、http://localhost:4200/posts/keiyakusho-check-ai は200、sitemap.xmlとllms.txtに新slugを確認、packages/web/public/posts配下は21本。累計21本、カテゴリ分布はhow-to 10 / best-of 3 / faq 4 / comparison 2 / alternatives 1。補助金クラスタは引き続き対象外。次回はai 電話対応を製品名なしの切り口で成立させられるか検討し、あわせて掲載計測を継続する。"
+}

@@ -1,0 +1,44 @@
+{
+  "token": "aeo_e67122c7cd4191eee6f9df1d",
+  "targets": [
+    {
+      "question": "中小企業のAI活用にはどんな例がありますか",
+      "keyword": "中小企業 ai活用",
+      "volume": 100,
+      "difficulty": null,
+      "format": "best-of",
+      "decision": "採用。既存13本に部門別の活用例を横断で並べたインデックス記事が無く、重複しない。需要は前回実行時の計測値（月間100・KD取得不可）を採用しており、当日の research_keywords は 403 Insufficient plan で再確認できていない。角度は「どこから手をつけるか」ではなく「どの業務に当てはまるか」に固定。2026年版中小企業白書がAIを使わない最大の理由として『活用する業務がイメージできていない』を挙げているため、部門別の具体例を並べる構成にした。既存記事8本への内部リンクのハブとしても機能させる。"
+    },
+    {
+      "question": "AI活用の事例を業種別に知りたい",
+      "keyword": "ai 活用 事例",
+      "volume": null,
+      "difficulty": null,
+      "format": "best-of",
+      "decision": "見送り。当日の research_keywords が 403 で需要を確認できず。また既存の seisei-ai-koritsuka-jirei と主旨が重なるため優先度が低い。"
+    },
+    {
+      "question": "請求書処理はAIでどこまで自動化できますか",
+      "keyword": "請求書 ai",
+      "volume": null,
+      "difficulty": null,
+      "format": "how-to",
+      "decision": "見送り。当日の research_keywords が 403 で需要を確認できず。テーマとしては ai-ocr-chusho-kigyo-hajimekata の隣接領域で有望なため、Ahrefs 復旧後に再計測して次回以降の候補に残す。"
+    },
+    {
+      "question": "議事録をAIで作るツールは何が違いますか",
+      "keyword": "議事録 ai",
+      "volume": 7200,
+      "difficulty": 35,
+      "format": "comparison",
+      "decision": "継続保留。月間7,200・KD35で本命だが、単体で挑むには内部リンクと記事本数が不足している。今回の best-of 記事で ai-gijiroku-tool-erabikata への導線を1本増やしたため、蓄積を進めてから着手する。"
+    }
+  ],
+  "publishedSlugs": [
+    "chusho-kigyo-ai-katsuyo-rei",
+    "ai-gyomu-koritsuka-doko-kara",
+    "seisei-ai-koritsuka-jirei"
+  ],
+  "visibilityCheck": "実施できず。get_organic_keywords を yamashirogyomukaizen.com と ai-i2gajxb-preview-4200.runable.site の両方（mode=subdomains, country=jp, limit=10）で叩いたが、いずれも 403 Insufficient plan を返した。よって本日の掲載件数は不明で、8/24起点から9/3まで11日連続0件だった記録に本日分を積み増すことはできない。SERP overview も同じ理由で取得できず、AI Overview および PAA の引用元は本日分の観測なし。過去の観測から続いている傾向は次の2点。(1) persol-group.co.jp が3つの異なる対象語で、japan-ai.co.jp が2語で引用元・上位に登場しており、カテゴリ全体を面で押さえている。(2) remoba.biz（DR33）、proskilll.com（DR36）、coopel.ai（DR35・被リンク0）といった低権威ページが3日分の観測で上位8位以内に入っており、質問に正面から答える構成であれば権威差を越えられる余地が残っている。",
+  "notes": "Ahrefs系エンドポイントは本日すべて 403 Insufficient plan。get_organic_keywords（2ドメイン）、research_keywords（中小企業 ai活用／請求書 ai）がいずれも失敗し、当日の新規キーワードデータ・SERPデータはゼロ。採用語の需要値は前回計測値の流用であり、記事本文にはこの数値を一切書いていない。get_keyword_ideas（terms=questions）は本日を含め6回連続で日本語の使える語を返しておらず、質問語の発掘手段としては機能していないと判断する。get_related_keywords は日本語で常に空のため使用せず。代替として2026年版中小企業白書の2ページを mb go + mb text で当日確認し、記事の根拠をすべてここから取った（第2部第2章第2節 労働投入量の最適化、第1部第1章第5節 デジタル化・DX、いずれも checkedAt 2026-09-04）。これまで多用してきた総務省 情報通信白書から出典を切り替え、公的統計の多様化を1歩進めた形。白書の同ページにある補助金コラムは対象外方針のため記事内で一切触れていない。FAQ5問はPAAデータが取れなかったため検索意図から起こしており、実データ由来ではない。内部リンクは新記事から既存8本（hub, seisei-ai-koritsuka-jirei, ai-toiawase-taio-hajimekata, nippo-ai-sakusei-houhou, ai-gijiroku-tool-erabikata, ai-ocr-chusho-kigyo-hajimekata, mitsumorisho-ai-koritsuka, excel-shift-hyo-jido-sakusei, seisei-ai-kenshu-chusho-kigyo）へ発信し、戻り線として ai-gyomu-koritsuka-doko-kara の関連記事に1行追加、seisei-ai-koritsuka-jirei には関連記事セクション自体が無かったため新設して4本を掲載した。検証結果は lint 違反0・エラー0、build 2タスク成功、/posts/chusho-kigyo-ai-katsuyo-rei が HTTP 200、sitemap.xml と llms.txt に新slug反映、plain-text コピーは14本。公開記事は累計14本。9/2は実行なし。独自ドメイン＋Search Console の登録はユーザー判断待ちで、決まるまで掲載件数は0のまま推移する見込み。"
+}

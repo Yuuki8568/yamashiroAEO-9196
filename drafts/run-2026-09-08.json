@@ -1,0 +1,45 @@
+{
+  "token": "aeo_e67122c7cd4191eee6f9df1d",
+  "targets": [
+    {
+      "keyword": "資料作成 ai",
+      "volume": null,
+      "difficulty": null,
+      "country": "jp",
+      "decision": "採用",
+      "reason": "Ahrefsが5日連続403のため、social-dataのYouTube検索で需要を確認。「AI 資料作成 パワーポイント 時短 ビジネス」で398,722／269,770／214,712／193,376／147,825／144,377／124,482／105,163／99,906／96,356／88,312回再生などが並び、直近3週間〜3か月の投稿も含まれるため一過性ではないと判断。既存17記事のいずれとも見出しレベルで重複せず（chatgpt-gyomu-katsuyo-tejun／gyomu-manual-ai-sakusei／ai-gyomu-koritsuka-doko-kara の見出しを確認済み）。角度は「どのツールが編集できるスライドを出せるのか、使うための条件は何か」に限定。"
+    },
+    {
+      "keyword": "excel 集計 ai",
+      "volume": null,
+      "difficulty": null,
+      "country": "jp",
+      "decision": "次回候補として保留",
+      "reason": "YouTube「Excel データ 集計 AI 自動化 業務効率化」は779,737／609,876／340,649／260,692／187,913／162,145／134,806回再生などで需要は十分。ただし既存の excel-shift-hyo-jido-sakusei と一部重なること、上位動画が「生産性3倍」「10倍」といった単一値の効果訴求に寄っており当方の表現ルールと相性が悪いことから、今回は資料作成を優先。次回の最有力候補として保持。"
+    },
+    {
+      "keyword": "求人票 ai",
+      "volume": null,
+      "difficulty": null,
+      "country": "jp",
+      "decision": "見送り",
+      "reason": "YouTube「求人票 求人原稿 AI 作成 採用 中小企業」の再生数は1,455／754／374／286／156／147／94／81／75／72／50／41／35／18／12／1／0と、採用テーマの他候補より2桁低い。既存動画も応募が来ない理由の解説が中心でAI活用の需要とは言えない。加えて職安法5条の3・5条の4、均等法5条の確認コストが必要で、需要に見合わないため見送り。"
+    },
+    {
+      "keyword": "請求書 ai",
+      "volume": null,
+      "difficulty": null,
+      "country": "jp",
+      "decision": "継続見送り",
+      "reason": "需要は最大級だが、上位が税理士による電子帳簿保存法の要件解説で、保存要件や猶予措置の税務判断が中心になる。専門外で誤りリスクが高いため9/6・9/7に続き見送り。扱うならAI-OCRの読み取り結果を人がどう確認するかの運用手順に限定する。"
+    }
+  ],
+  "publishedSlugs": [
+    "ai-shiryo-slide-sakusei",
+    "ai-gyomu-koritsuka-doko-kara",
+    "chatgpt-gyomu-katsuyo-tejun",
+    "business-mail-ai-shitagaki"
+  ],
+  "visibilityCheck": "get_organic_keywords を yamashirogyomukaizen.com（mode=subdomains, country=jp）に対して実行したところ 403 Insufficient plan。記録のため ai-i2gajxb-preview-4200.runable.site でも実行し同じく 403。これで9/4・9/5・9/6・9/7・9/8の5日連続で計測不能。8/24の基準日から9/3までは両ドメインとも keywords: [] （11日連続で掲載0件）だったが、9/4以降は差分が不明であり、0件の連続記録を延長して報告することはしない。API復旧後に再計測する語は 業務マニュアル 作成 / 請求書 ai / 議事録 ai / メール 作成 ai / 資料作成 ai。",
+  "notes": "Ahrefs系は5日連続で403 Insufficient plan。標準手順どおり1回だけ探りを入れ、403を確認した時点で get_keyword_ideas・research_keywords・get_serp_overview は呼ばずに打ち切り（get_keyword_ideas の questions は7回連続で使えるデータが返らなかったため呼び出しを停止中。API単位の節約も兼ねる）。代替として social-data の search_youtube で3クエリ（求人票系／資料作成系／Excel集計系）を実測し、再生数の桁で需要を判断。再生数は補助的な根拠であり検索ボリュームではないため、記事本文には一切書いていない。当日確認した出典は3件。(1) Microsoft サポート「PowerPoint の Copilot を使用して新しいプレゼンテーションを作成する」＝Copilotが表示されない場合はサブスクリプションに含まれないか組織設定による、エージェントモードでアウトライン生成→スライド生成、Word文書から作る際は見出しスタイル・画像・組織テンプレート・24MB未満が有効。(2) Google ヘルプ「Gemini in Google スライドでスライドを生成する」＝対象のGoogle WorkspaceまたはGoogle AIプランが必要、現在はパソコンでのみ英語提供、一度に生成できるスライドは1つのみ、生成後は編集可、別プレゼンのビジュアルスタイルに合わせる操作あり。(3) 2026年版中小企業白書 第2部第2章第2節＝AIの具体的な活用方法は業種を問わず「文書作成、要約、校正」と「業務自動化・効率化」が多い、AI活用の目的は業務時間の節減が8割超、活用しない理由の最多は「活用する業務がイメージできていない」。直近数回の出典がGoogle/Microsoftのヘルプに偏っていたため、今回は白書を1件加えて多様化した。FAQ5問はすべて上記3出典の記載内容に対応させ、推測での回答は置いていない。効果は単一値で書かず、2週間の記録を取る前提の書き方に統一。カニバリ回避は既存3記事の ## 見出しを実際に読んで重複がないことを確認。内部リンクは ai-gyomu-koritsuka-doko-kara（ハブ）／chatgpt-gyomu-katsuyo-tejun／business-mail-ai-shitagaki の3記事に往復リンクを追加して再公開。NGワードのgrepは一致0件。bun run lint は No violations found（0 warnings / 0 errors）、bun run build は2タスク成功、/posts/ai-shiryo-slide-sakusei は HTTP 200、sitemap.xml と llms.txt に反映、プレーンテキスト複製は18本。累計公開18本。独自ドメイン接続とSearch Console登録はユーザーの判断待ちで、これが決まるまで掲載測定は外部データに依存する。"
+}

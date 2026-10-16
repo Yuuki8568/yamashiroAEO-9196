@@ -1,0 +1,47 @@
+URL: https://gemini.google/overview/productivity/
+HTTP: 200
+Checked: 2026-10-07
+Gemini skills: custom AI shortcuts & productivity
+Skip to main content
+Try Gemini
+Skills
+Your custom shortcuts in Gemini.
+Turn frequent requests into custom skills, so you can skip repetitive prompting and jump straight to the results.
+Try skills in Gemini
+Less prompting, more
+doing.
+Create custom instructions.
+To create a custom skill, simply describe what you want it to do in the prompt bar or in your skills page and Gemini will take care of the rest.
+Stack your skills.
+You can combine multiple Gemini skills in a single prompt (for example, layering
+/match-my-writing-style
+and
+/prep-for-meetings
+) to complete complex, multi-step workflow automations seamlessly.
+Give more context.
+Add files when uploading a skill.md file to add more context that Gemini can reference each time you use the skill.
+Creating a skill is
+easy.
+Turn anything you do more than once into a reusable skill. Gemini can automatically trigger the right workflow based on the context of your work. Not sure where to start? Choose from premade skills.
+Ace the agenda.
+Get ready for your next call using the premade
+/prep-for-meetings
+skill. Use Gemini skills to create a detailed and personalized brief using key context from your Workspace Apps including Google Calendar.
+Own your tone.
+Use the premade
+/match-my-writing-style
+skill to write faster while maintaining your unique voice and tone. Gemini skills learn from your real writing across Workspace apps to create a custom voice card.
+Frequently asked questions
+When should I use Gems vs skills?
+Gems and skills are used for similar purposes to customize your Gemini experience for things you do time and again. Later this year, we’re transitioning from gems to skills to give you an even better, more flexible way to customize Gemini. skills will let you do more, like using them right in your current chat without having to switch tabs or stacking multiple skills together, to create even more customized workflows.
+Learn more about the Gems to skills migration
+.
+Will Gems migrate to skills?
+As we bring more functionality to skills, we will remove support for Gems starting in November for individuals with personal accounts, March 2027 for Workspace business, enterprise, and nonprofit customers, and June 2027 for Workspace education customers.To make this transition seamless, we will automatically migrate your Gems into skills when Gems go away. You can learn more about how to transition your Gems into skills by visiting our
+help center
+.
+How do I create a new skill?
+You can create a skill in two easy ways: simply ask Gemini in regular chat (e.g., "Create a skill that formats my weekly status reports"), or build, upload, or customize skills directly in the skills Manager in settings.
+Can I bring skills I made in other platforms to use in chat?
+Yes, you can upload skill.md files directly to Gemini to instantly import the skill. To upload, go to Settings > skills > Upload.
+Check responses. Availability varies. 18+

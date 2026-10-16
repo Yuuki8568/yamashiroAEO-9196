@@ -1,0 +1,44 @@
+{
+  "targets": [
+    {
+      "question": "GeminiのGemとは何ですか。無料での作り方と、スキルへの移行・共有の注意点は？",
+      "keyword": "gemini gemとは",
+      "volume": 1900,
+      "difficulty": 0,
+      "decision": "published: gemini-gem-towa（how-to）。未公開の検索意図。定型指示の保存、公式移行予定、共有範囲に焦点。KD0は順位獲得保証ではない。"
+    },
+    {
+      "question": "Geminiとは何ですか",
+      "keyword": "geminiとは",
+      "volume": 31000,
+      "difficulty": 11,
+      "decision": "next candidate: geminiとは無料3400/KD16は同一記事の節に統合。既存比較・今回のGem手順と意図を分けて定義記事を検討。"
+    },
+    {
+      "question": "Gemとは何ですか",
+      "keyword": "gemとは",
+      "volume": 3400,
+      "difficulty": 1,
+      "decision": "hold: gem とは2100/KD0も意味が曖昧。宝石等の別意図が混在しうるため、今回のGemini限定語と検索数を合算しない。"
+    },
+    {
+      "question": "GeminiとChatGPTはどちらがよいですか",
+      "keyword": "gemini chatgpt どっちがいい",
+      "volume": 1500,
+      "difficulty": 0,
+      "decision": "existing: chatgpt-gemini-gyomu-hikakuと重複するため新規を作らない。文字化け箇所を発見。後続で公式再確認と合わせて既存記事を修正する候補。"
+    },
+    {
+      "question": "Geminiには何ができますか",
+      "keyword": "gemini 何ができる",
+      "volume": 1200,
+      "difficulty": 0,
+      "decision": "candidate: Gemini定義記事の用途節に統合を検討。"
+    }
+  ],
+  "publishedSlugs": [
+    "gemini-gem-towa"
+  ],
+  "visibilityCheck": "2026-10-07確認。研究対象時間は2026-10-06 08:00 JST〜2026-10-07 08:00 JST。検索数・KD・SERP・organic keywordsは取得時の最新利用可能スナップショットであり、24時間限定の増減ではない。get_organic_keywords（jp/subdomains）: yamashirogyomukaizen.com と ai-i2gajxb-preview-4200.runable.site は両方keywords: []。観測KW0件、2026-08-24起点0から差分0。順位データなし。未インデックスの証明ではない。選定語gemini gemとはのAIO引用5URL: https://cloudpack.jp/column/generative-ai/gemini-gem-custom-instructions.html ; https://note.com/google_gemini/n/na91ee2428d76 ; https://biz.moneyforward.com/ai/basic/2772/ ; https://www.cadian.jp/techinfo/detail/71 ; https://shift-ai.co.jp/blog/6802/。自社は引用に含まれない。観測自社引用0件。前回とは選定語が異なり同一語の引用増減比較不可。PAA4問: GeminiのGEMは無料ですか？／Gemini Gemはいつ消えますか？／Gemini Gemはいくらですか？／Gemini Gemの無料版にはどんな制限がありますか？。回答引用URLはすべてnullで確認不可。SERP取得は選定語1回のみ。",
+  "notes": "新規1記事gemini-gem-towaのみ公開、総45本。回答122字、本文6553字、FAQ5、当日公式出典8。Gemの無料プラン掲載と月額0円、個人の5時間/週の利用上限、Gem共有で指示・知識ファイルも閲覧できる条件、個人/Workspaceの情報保護を区別。公式移行予告: 個人2026年11月、Workspace事業者等2027年3月、教育2027年6月。スキルは現在の提供資格と未対応機能・共有等の提供予定を区別して記載。全機能互換や固定削減時間を主張しない。Xは1投稿を補助確認（2026-10-05T23:07:05Zで対象期間内、移行ガイド言及）。第三者PDFは製品仕様の根拠に採用せず公式案内を直接確認。相互リンクをprompt-towa、gyomu-manual-ai-sakusei、seisei-ai-guideline-shanai-tsukurikataに追加・再公開。lint0エラー、build成功（既存500KB超の警告あり）。ローカル/公開ドメインのトップ・記事・本文md・sitemap・robots・llmsの12チェック全200、3逆リンクも外部HTTP200。ブラウザでH1・答え・対象読者・比較表・FAQ・出典・CTA確認。本サイトHTMLにブログホストのリンクなし。Search Console管理画面は未確認。次は本サイトからブログへの導線、独自ドメインとSearch Consoleの登録/サイトマップ送信状態の確認を優先。次回の新規はgeminiとは31000/KD11を候補にして今回記事へリンク。既存比較記事の文字化けは当日公式再確認と合わせて修正候補。"
+}
