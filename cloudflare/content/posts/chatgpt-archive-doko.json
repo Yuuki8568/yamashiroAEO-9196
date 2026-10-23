@@ -1,0 +1,62 @@
+{
+  "id": 50,
+  "slug": "chatgpt-archive-doko",
+  "question": "ChatGPTのアーカイブはどこにありますか。スマホでの見つけ方と戻し方は？",
+  "category": "how-to",
+  "answer": "ChatGPTのアーカイブは「設定」→「データコントロール」→「アーカイブ済みのチャット」から確認します。端末により表示名は異なり、管理画面でアーカイブを解除すると通常の履歴に戻せます。アーカイブは削除ではなく、検索でも会話を探せます。",
+  "body": "## アーカイブは「設定」のデータコントロールにある\n\n2026年10月17日時点の[OpenAI公式ヘルプ](https://help.openai.com/en/articles/8809935-deleting-and-archiving-chats-in-chatgpt)では、アーカイブは会話を通常のサイドバーから外し、アカウント内には残す機能です。会話を削除する操作とは違います。\n\n「一覧から消えた」だけで、会話や文書が削除されたとは限りません。業務で使った下書きを見つけたい場合、まずアーカイブ管理と検索を確認します。これは文書の保管場所を整理する手順であり、回答内容の正確さを保証するものではありません。\n\n### パソコンで開く手順\n\n同日の[公式操作案内](https://help.openai.com/en/articles/8809935-deleting-and-archiving-chats-in-chatgpt)と[Data controlsの説明](https://help.openai.com/en/articles/7730893-data-controls-in-chatgpt)に基づく順番です。\n\n1. ChatGPTにログインし、アカウントメニューからSettings（設定）を開く。\n2. Data controls（データコントロール）を選ぶ。\n3. Archived chatsまたはView archived chatsを開く。Manage（管理）が表示された場合は選ぶ。\n4. 対象の会話を確認し、通常の履歴へ戻したい場合はUnarchive（アーカイブ解除）を選ぶ。\n\n表示名は端末・環境で異なります。「Manageがないから機能がない」と決めつけず、アーカイブ済みチャットの項目そのものを確認してください。Delete（削除）は解除とは別です。\n\n### スマホで開く手順\n\n2026年10月17日確認の[Data controls公式ヘルプ](https://help.openai.com/en/articles/7730893-data-controls-in-chatgpt)では、iOS・Androidはサイドバーからプロフィールアイコンを開き、Settingsへ進みます。その後、Data controls内のアーカイブ管理へ進む操作は[アーカイブ公式案内](https://help.openai.com/en/articles/8809935-deleting-and-archiving-chats-in-chatgpt)を参照します。\n\n1. サイドバーを開く。\n2. プロフィールアイコンから設定へ進む。\n3. データコントロール内のアーカイブ済みチャットを開く。\n4. 対象の会話でアーカイブ解除を選ぶ。\n\nスマホで項目を見つけにくいときも、削除を試す必要はありません。同じアカウント・ワークスペースでログインしたパソコン側の設定や、次の検索から確認する方法があります。\n\n## アーカイブした会話は検索でも探せる\n\n2026年10月17日時点の[検索の公式ヘルプ](https://help.openai.com/en/articles/10056348-finding-your-chats-projects-and-files-in-chatgpt)では、サイドバー検索はログイン済みユーザー向けにWeb・iOS・Androidで利用できます。検索結果の種類やフィルターは環境で変わります。\n\n- サイドバーのSearchを開き、会話のタイトルや本文にあった語句を入力する。\n- フィルターがあればChatsを試し、見つからなければAllへ戻す。\n- WebではWindowsのCtrl＋K、macOSのCmd＋Kでも検索を開ける。\n- 通常の会話とアーカイブした会話は検索対象になり、削除した会話は戻せない。\n\nこの検索は自分の保存内容を探すもので、Web検索とは別です。たとえば「架空の週報：手順書の見直し案」という説明用の会話を作ったなら、「見直し案」など、その会話に含まれた語を試します。実在する顧客名を新たなプロンプトへ入力して再生成する前に、保存済みの会話を探してください。\n\n## アーカイブ・削除・学習設定の違い\n\n以下は2026年10月17日確認の[アーカイブ](https://help.openai.com/en/articles/8809935-deleting-and-archiving-chats-in-chatgpt)、[保持期間](https://help.openai.com/en/articles/8983778-chat-and-file-retention-in-chatgpt)、[Data controls](https://help.openai.com/en/articles/7730893-data-controls-in-chatgpt)の公式説明を整理した表です。\n\n| 操作 | 会話の扱い | 戻せるか・確認事項 |\n| --- | --- | --- |\n| アーカイブ | 通常のサイドバーから外す。保存・検索は続く | アーカイブ解除で通常の履歴へ戻せる |\n| チャット削除 | アカウント画面からすぐ消える | ChatGPTやサポート経由で復元できない |\n| Improve the model for everyoneをオフ | その後の新しい会話の学習利用を止める | 保存済み会話を隠したり削除したりする操作ではない |\n\nアーカイブでは保持期間が変わらず、自分で削除するか、適用されるワークスペースの保持ポリシーで除かれるまで保存されます。「アーカイブすると30日で消える」は、この公式説明とは違います。\n\n削除した保存チャットは原則として30日以内のシステム上の恒久削除が予定されます。ただし、すでに匿名化されアカウントと切り離された場合や、セキュリティ・法的義務による長期保持の例外があります。削除後30日間は自分で復元できる、という意味ではありません。\n\nまた、アーカイブしても学習利用の設定は変わりません。メモリによる回答の個別化、学習利用、会社の保存・アクセスルールも別の確認事項です。会社の入力許可は[ChatGPTの情報漏洩対策](/posts/chatgpt-joho-roei-taisaku)と[生成AIの社内ガイドライン](/posts/seisei-ai-guideline-shanai-tsukurikata)を参照してください。\n\n## 見つからないときに確認する5項目\n\n2026年10月17日確認の[公式トラブルシューティング](https://help.openai.com/en/articles/8809935-deleting-and-archiving-chats-in-chatgpt)に沿って、次の順に点検します。\n\n| 確認項目 | 点検する内容 |\n| --- | --- |\n| 1. アカウント | 正しいメールアドレス・ログイン方法・ワークスペースか |\n| 2. 検索 | タイトルや本文の別の語句、Allフィルターを試したか |\n| 3. アーカイブ管理 | 通常の履歴だけを見ていないか |\n| 4. 表示・障害 | 画面更新、再ログイン、OpenAI Statusの障害情報を確認したか |\n| 5. 保持・削除 | 削除や組織の保持ポリシーの対象ではないか |\n\n対象アカウントで利用可能ならデータエクスポートで現在ひも付くデータを点検する方法も公式案内にあります。ただし、削除した会話の復元方法ではありません。サポートへ連絡する際は、ログイン方法、ワークスペース名、見つからない会話のおおよその日付、実施済みの確認をまとめます。公開の投稿へアカウント情報や顧客資料を載せないでください。\n\n## 業務では「履歴整理」と「承認済み文書の保存」を分ける\n\nここからは当事務所の運用提案です。会話が残っていることと、正式な週報・見積書・手順書として承認されていることは別です。元資料と数字・日付・担当者を照合し、承認済み文書は会社が決めた保存先へ置いてください。\n\n整理時の注意は次の3つです。\n\n- 「Archive all chats」「Delete all chats」は一括操作で、公式案内ではプロジェクト内の会話にも影響し得ます。個別の履歴整理を目的に一括削除しないでください。\n- Libraryに別保存されたファイルは、チャット削除だけでは削除されません。元の連携アプリのデータもチャット削除とは別です。\n- 公式案内では、スケジュールされたタスクの結果用チャットをアーカイブすると、後の実行でタスクが停止する場合があります。定期処理の結果を受け取る会話を整理する際は、タスクへの影響も確認します。\n\nこれらの機能上の根拠は2026年10月17日確認の[アーカイブ公式ヘルプ](https://help.openai.com/en/articles/8809935-deleting-and-archiving-chats-in-chatgpt)と[保持期間の公式ヘルプ](https://help.openai.com/en/articles/8983778-chat-and-file-retention-in-chatgpt)です。\n\n関連する会話と資料を同じ作業単位にまとめる場合は、[ChatGPTのプロジェクトとは](/posts/chatgpt-project-towa)も参照してください。アーカイブは一覧の整理、プロジェクトは作業の文脈をまとめる機能として目的を分けます。業務の始め方は[ChatGPTを業務で活用する手順](/posts/chatgpt-gyomu-katsuyo-tejun)にまとめています。\n\n履歴に保存しない会話と、保存後の設定変更を整理したい場合は、[ChatGPTの一時チャットとは。履歴・メモリ・学習利用の違い](/posts/chatgpt-ichiji-chat-towa)をご覧ください。\n\n## この記事を書いた事務所について\n\n山代業務改善事務所（代表 山代 悠生）は、中小企業のAI業務改善を支援しています。ツールありきではなく業務の棚卸しから設計し、診断・実装・保守を1人で担当します。提案書だけでなく実際に動くツールをお渡しし、導入後の保守まで伴走します。\n\n簡単な課題で条件が合えば、10〜30分でプロトタイプを提示できる場合があります。Google・Google Cloud提供のAI講座の修了証4件を取得しています（Coursera・2026年3月）。オンラインで全国対応し、相談だけでも構いません。費用はヒアリング後にお見積りします。\n\n会話と正式な文書の保存先を整理したい方は、無料・約2分・分岐式9問の[AI業務診断](https://ai-gyoumu-shindan.pages.dev/)をご利用ください。業務の棚卸しから相談したい方は、[無料相談の予約ページ](https://calendar.app.google/EmoGevH38APT6JUw8)へどうぞ。",
+  "audience": "ChatGPTで作った業務文書の下書きや検討履歴が見つからず、削除せずに整理・再確認したい中小企業の経営者・事務担当者",
+  "keyword": {
+    "keyword": "chatgpt アーカイブ どこ",
+    "volume": 2100,
+    "difficulty": 0,
+    "country": "jp"
+  },
+  "faq": [
+    {
+      "q": "ChatGPTのアーカイブはどこにありますか？",
+      "a": "2026年10月17日時点のOpenAI公式ヘルプでは、Settings→Data controls→Archived chatsまたはView archived chatsから開き、Manageがあれば選択します。端末で表示名が違うため、データコントロール内のアーカイブ管理を探してください。"
+    },
+    {
+      "q": "スマホでアーカイブしたチャットを戻すには？",
+      "a": "2026年10月17日確認の公式案内では、スマホのサイドバーからプロフィールを開いて設定へ進み、データコントロール内のアーカイブ管理で対象のUnarchiveを選びます。削除ではなくアーカイブ解除を選ぶと通常の履歴に戻ります。"
+    },
+    {
+      "q": "アーカイブが表示されないのはなぜですか？",
+      "a": "アーカイブは通常のサイドバーから会話を外す操作です。2026年10月17日確認の公式案内に沿って、アーカイブ管理と検索を確認し、正しいアカウント・ワークスペースかも点検します。表示されないだけで削除と決めつけず、更新・再ログイン・障害情報も確認します。"
+    },
+    {
+      "q": "ChatGPTのアーカイブはいつまで保存されますか？",
+      "a": "2026年10月17日時点の公式案内では、通常の保存チャットと同じく、自分で削除するか適用されるワークスペース保持ポリシーで除かれるまで保存されます。アーカイブで保持期間は変わりません。削除後の原則30日以内のシステム削除とは別です。"
+    },
+    {
+      "q": "アーカイブすれば学習に使われなくなりますか？",
+      "a": "いいえ。2026年10月17日時点のData controls公式ヘルプは、アーカイブしても学習利用の条件は変わらず、Improve the model for everyoneの設定が引き続き適用されるとしています。保存・メモリ・学習・アクセスの確認を別々に行ってください。"
+    }
+  ],
+  "sources": [
+    {
+      "label": "OpenAI公式：Deleting and archiving chats in ChatGPT（操作・解除・削除・不明な履歴の確認）",
+      "url": "https://help.openai.com/en/articles/8809935-deleting-and-archiving-chats-in-chatgpt",
+      "checkedAt": "2026-10-17"
+    },
+    {
+      "label": "OpenAI公式：Finding your chats, projects, and files in ChatGPT（検索・端末・アーカイブ検索）",
+      "url": "https://help.openai.com/en/articles/10056348-finding-your-chats-projects-and-files-in-chatgpt",
+      "checkedAt": "2026-10-17"
+    },
+    {
+      "label": "OpenAI公式：Chat and file retention in ChatGPT（保持期間・Libraryファイル）",
+      "url": "https://help.openai.com/en/articles/8983778-chat-and-file-retention-in-chatgpt",
+      "checkedAt": "2026-10-17"
+    },
+    {
+      "label": "OpenAI公式：Data controls in ChatGPT（スマホの設定・学習利用と保存の区別）",
+      "url": "https://help.openai.com/en/articles/7730893-data-controls-in-chatgpt",
+      "checkedAt": "2026-10-17"
+    }
+  ],
+  "status": "published",
+  "publishedAt": "2026-10-16T23:03:25.000Z",
+  "updatedAt": "2026-10-17T23:03:36.000Z"
+}

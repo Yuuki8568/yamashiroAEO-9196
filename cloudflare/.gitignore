@@ -1,0 +1,9 @@
+dist/
+.private/
+node_modules/
+.wrangler/
+.dev.vars
+.env*
+
+# Private source-audit inventory must never enter the public release.
+source-manifest.json
