@@ -1,0 +1,27 @@
+// Stage exactly one reviewed new public article; never mutate current content.
+import {readFile,writeFile,mkdir,cp} from 'node:fs/promises';
+import {resolve} from 'node:path';
+import {loadContent,validateRows} from './content.mjs';
+import {sha} from './snapshot.mjs';
+const [source,candidate,target,expectedAggregate,approval]=process.argv.slice(2);
+if(!source||!candidate||!target||!expectedAggregate||approval!=='--approved')throw new Error('Usage: node stage-append.mjs CURRENT_CONTENT APPROVED_ARTICLE_JSON NEW_STAGE CURRENT_AGGREGATE_SHA --approved');
+if(resolve(target)===resolve(source)||resolve(target).startsWith(resolve(source)+'/'))throw new Error('Stage must be outside current content');
+const {manifest,posts}=await loadContent(resolve(source));
+if(manifest.publishedFileSha256!==expectedAggregate)throw new Error('Source changed; reread/review before staging');
+const p=JSON.parse(await readFile(candidate,'utf8'));validateRows([...posts,p]);
+const normalize=s=>s.normalize('NFKC').toLowerCase().replace(/[\s\p{P}\p{S}]/gu,'');
+if(posts.some(old=>normalize(old.question)===normalize(p.question)))throw new Error('Duplicate normalized question');
+const keyword=v=>typeof v==='string'?JSON.parse(v):v;
+const key=keyword(p.keyword)?.keyword;if(!key)throw new Error('Primary keyword required');
+if(posts.some(old=>normalize(keyword(old.keyword)?.keyword||'')===normalize(key)))throw new Error('Duplicate primary keyword; review existing article instead');
+if(!Array.isArray(p.sources)||!p.sources.length||p.sources.some(s=>!s.label||!/^https:\/\//.test(s.url)||!Number.isFinite(Date.parse(s.checkedAt))))throw new Error('Verified HTTPS sources and check dates required');
+if(/10[〜～~–-]30|10分から30分|Coursera|修了証|引き継ぎのロスがなく/.test(p.body))throw new Error('Unsupported promotional claim requires separate review');
+await mkdir(resolve(target),{recursive:false});await cp(resolve(source),resolve(target),{recursive:true});
+const text=JSON.stringify(p,null,2)+'\n',file=`posts/${p.slug}.json`;
+await writeFile(resolve(target,file),text,{flag:'wx'});
+manifest.rows.push({id:p.id,slug:p.slug,publishedAt:p.publishedAt,updatedAt:p.updatedAt,sha256:sha(JSON.stringify(p)),file,bytes:Buffer.byteLength(text),fileSha256:sha(text)});
+manifest.count=posts.length+1;
+manifest.publicationHistory=[...(manifest.publicationHistory||[]),{slug:p.slug,previousAggregateSha256:expectedAggregate,articleSha256:sha(JSON.stringify(p))}];
+manifest.publishedFileSha256=sha(JSON.stringify([...posts,p],null,2)+'\n');
+await writeFile(resolve(target,'import-receipt.json'),JSON.stringify(manifest,null,2)+'\n');
+await loadContent(resolve(target));console.log('One approved article staged and verified. Current content untouched; intent review, build, tests and authorized publication still required.');
