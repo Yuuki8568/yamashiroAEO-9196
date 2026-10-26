@@ -2,7 +2,7 @@
   "format": "per-article-json-v1",
   "scope": "Published-only API export; complete database including drafts/runs remains unverified",
   "inputSha256": "4b27937d3c5a568f7e3bbbc7969b25ac1ea073a1b569db6df659b6caef63ee1c",
-  "count": 54,
+  "count": 55,
   "rows": [
     {
       "id": 52,
@@ -699,9 +699,19 @@
       "file": "posts/csv-shohin-code-sento-zero-mamoru.json",
       "bytes": 11131,
       "fileSha256": "a324e4d7e68ee205e36c07ed764fe8e95a1b797a0a897dec7375076aa981a7fa"
+    },
+    {
+      "id": 55,
+      "slug": "jidoka-koka-kosu-kakunin-shusei",
+      "publishedAt": "2026-10-25T23:59:53.241141Z",
+      "updatedAt": "2026-10-25T23:59:53.241156Z",
+      "sha256": "9ffb6ed79740a34843c6336d23ddaafebdfe62a61f70d311fc4442d192b7cdaa",
+      "file": "posts/jidoka-koka-kosu-kakunin-shusei.json",
+      "bytes": 12231,
+      "fileSha256": "3fd6dc7be434c7ea69b14f20b8024d38af65671d2814b837f2369b657665c079"
     }
   ],
-  "publishedFileSha256": "3d65f76ed6c5dcb129a2b2b01087ededd2cb96a5c6866d623514cc05e556ef01",
+  "publishedFileSha256": "3a9b289297e99004d820cb159fda9967d5ace687dd030b238a1deaba34b5937d",
   "sourcePublishedFileSha256": "538161fc59c0236b37ffa78b791e84944cd51c90049dbb569bcdf31fc557ed64",
   "editorialRevision": {
     "appliedAt": "2026-10-23T23:16:09.682Z",
@@ -720,6 +730,11 @@
       "slug": "csv-shohin-code-sento-zero-mamoru",
       "previousAggregateSha256": "a0f517cfae4a2182cc28a752cd1e6df804527b5a61df01ec9773ed0baa4ff4d8",
       "articleSha256": "77a7cc27a9072d1477b3085f9d5f771ff854c03f8a18d8d239c89b6ee63fd820"
+    },
+    {
+      "slug": "jidoka-koka-kosu-kakunin-shusei",
+      "previousAggregateSha256": "3d65f76ed6c5dcb129a2b2b01087ededd2cb96a5c6866d623514cc05e556ef01",
+      "articleSha256": "9ffb6ed79740a34843c6336d23ddaafebdfe62a61f70d311fc4442d192b7cdaa"
     }
   ]
 }
