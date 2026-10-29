@@ -2,7 +2,7 @@
   "format": "per-article-json-v1",
   "scope": "Published-only API export; complete database including drafts/runs remains unverified",
   "inputSha256": "4b27937d3c5a568f7e3bbbc7969b25ac1ea073a1b569db6df659b6caef63ee1c",
-  "count": 57,
+  "count": 58,
   "rows": [
     {
       "id": 52,
@@ -729,9 +729,19 @@
       "file": "posts/backup-fukugen-test-kakunin.json",
       "bytes": 10577,
       "fileSha256": "2617fd3c2859eb92312fda47940588b75e3a53ac66e251077530eb472a12c605"
+    },
+    {
+      "id": 58,
+      "slug": "ai-skill-plugin-donyu-mae-kakunin",
+      "publishedAt": "2026-10-28T23:51:11.777Z",
+      "updatedAt": "2026-10-28T23:51:11.777Z",
+      "sha256": "2a05172b919d0f2919db02145bdfb1de7fdc3eecb7116c1accb61a363324d7c7",
+      "file": "posts/ai-skill-plugin-donyu-mae-kakunin.json",
+      "bytes": 9839,
+      "fileSha256": "8758eab4b0c2626f01cba3f155afba54897dc05a1aae8f58b583d337cfaafeda"
     }
   ],
-  "publishedFileSha256": "5605cde85425eed649cebd9eb052db3efd5371e3a183c8c846624bc3127cc433",
+  "publishedFileSha256": "2d224e9620b41070f2263670e344c22476a68bdb26593db0a1cc298549af6467",
   "sourcePublishedFileSha256": "538161fc59c0236b37ffa78b791e84944cd51c90049dbb569bcdf31fc557ed64",
   "editorialRevision": {
     "appliedAt": "2026-10-23T23:16:09.682Z",
@@ -765,6 +775,11 @@
       "slug": "backup-fukugen-test-kakunin",
       "previousAggregateSha256": "d3f557a5001acc1434fd6a23a155bf0fcde5b402083c407e1bc9d94f35c98fd3",
       "articleSha256": "04bbf01d03ef46761dfe1ba8776d4a137d48bc01556d9c4181ecc31ddceb5cea"
+    },
+    {
+      "slug": "ai-skill-plugin-donyu-mae-kakunin",
+      "previousAggregateSha256": "5605cde85425eed649cebd9eb052db3efd5371e3a183c8c846624bc3127cc433",
+      "articleSha256": "2a05172b919d0f2919db02145bdfb1de7fdc3eecb7116c1accb61a363324d7c7"
     }
   ]
 }
