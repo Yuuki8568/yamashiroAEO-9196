@@ -2,7 +2,7 @@
   "format": "per-article-json-v1",
   "scope": "Published-only API export; complete database including drafts/runs remains unverified",
   "inputSha256": "4b27937d3c5a568f7e3bbbc7969b25ac1ea073a1b569db6df659b6caef63ee1c",
-  "count": 59,
+  "count": 60,
   "rows": [
     {
       "id": 52,
@@ -749,9 +749,19 @@
       "file": "posts/ai-chushutsu-ketsuraku-mujun-test.json",
       "bytes": 10100,
       "fileSha256": "f8e00c988dd663771d20ded70be2684ff26edb745924c48595a14b3cc0dcecbf"
+    },
+    {
+      "id": 60,
+      "slug": "teirei-kaigi-kimaranai-gidai-sekkei",
+      "publishedAt": "2026-10-30T23:36:51.886Z",
+      "updatedAt": "2026-10-30T23:36:51.886Z",
+      "sha256": "a7ca188c0b79d4ef7079a4c8aa6d44e1d98f5e67af9980aa10a29dd6965f3096",
+      "file": "posts/teirei-kaigi-kimaranai-gidai-sekkei.json",
+      "bytes": 9794,
+      "fileSha256": "6db31f5da09e3e85b639a2d351fc65983be2ed22f4d4bf15bcd227d2c62c3dc5"
     }
   ],
-  "publishedFileSha256": "13d68292879e24ee082dea6b4f6aa834808f75715ac95ddfbba7273fac3f2ccf",
+  "publishedFileSha256": "825494cf89b7b961057bc60fd8e6e1b3570b5aad2e8718dd2e8fbaf9015039b9",
   "sourcePublishedFileSha256": "538161fc59c0236b37ffa78b791e84944cd51c90049dbb569bcdf31fc557ed64",
   "editorialRevision": {
     "appliedAt": "2026-10-23T23:16:09.682Z",
@@ -795,6 +805,11 @@
       "slug": "ai-chushutsu-ketsuraku-mujun-test",
       "previousAggregateSha256": "2d224e9620b41070f2263670e344c22476a68bdb26593db0a1cc298549af6467",
       "articleSha256": "96f1f74655af04257005c1d6b4e5f862be937500000aa59e06355e20276a17f7"
+    },
+    {
+      "slug": "teirei-kaigi-kimaranai-gidai-sekkei",
+      "previousAggregateSha256": "13d68292879e24ee082dea6b4f6aa834808f75715ac95ddfbba7273fac3f2ccf",
+      "articleSha256": "a7ca188c0b79d4ef7079a4c8aa6d44e1d98f5e67af9980aa10a29dd6965f3096"
     }
   ]
 }
