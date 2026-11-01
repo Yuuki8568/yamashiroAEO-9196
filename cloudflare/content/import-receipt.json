@@ -2,7 +2,7 @@
   "format": "per-article-json-v1",
   "scope": "Published-only API export; complete database including drafts/runs remains unverified",
   "inputSha256": "4b27937d3c5a568f7e3bbbc7969b25ac1ea073a1b569db6df659b6caef63ee1c",
-  "count": 61,
+  "count": 62,
   "rows": [
     {
       "id": 52,
@@ -769,9 +769,19 @@
       "file": "posts/juchu-shukka-matomewatashi-machi.json",
       "bytes": 10728,
       "fileSha256": "d7a6c00f98e5868d6dcfafc608d8071e69e671178bc1a5205b713e808c33aff5"
+    },
+    {
+      "id": 62,
+      "slug": "mitsumori-shonin-machi-handan-kijun",
+      "publishedAt": "2026-11-01T23:22:22.139Z",
+      "updatedAt": "2026-11-01T23:22:22.139Z",
+      "sha256": "abd3139ebee29497329832486b451956ae54bc578b43567d2d82bbc958833634",
+      "file": "posts/mitsumori-shonin-machi-handan-kijun.json",
+      "bytes": 10110,
+      "fileSha256": "e73e7433edc74d36db5b7d60c1d03e95357b4f4e9ea0e2f9ccbf4ed7cadd97dd"
     }
   ],
-  "publishedFileSha256": "632798d1e11e44271f0e4489ccbff8cfb2a279004bdbafd3c03d50025088a1e4",
+  "publishedFileSha256": "e9c6c634f9bfb9a80490863c0271e7af4f548fe11725b95557e8fa449af51d3c",
   "sourcePublishedFileSha256": "538161fc59c0236b37ffa78b791e84944cd51c90049dbb569bcdf31fc557ed64",
   "editorialRevision": {
     "appliedAt": "2026-10-23T23:16:09.682Z",
@@ -825,6 +835,11 @@
       "slug": "juchu-shukka-matomewatashi-machi",
       "previousAggregateSha256": "825494cf89b7b961057bc60fd8e6e1b3570b5aad2e8718dd2e8fbaf9015039b9",
       "articleSha256": "bb2376d2d3b6b48c8d1f09a45be515989155fae2cf8bdf50453a4970b1046224"
+    },
+    {
+      "slug": "mitsumori-shonin-machi-handan-kijun",
+      "previousAggregateSha256": "632798d1e11e44271f0e4489ccbff8cfb2a279004bdbafd3c03d50025088a1e4",
+      "articleSha256": "abd3139ebee29497329832486b451956ae54bc578b43567d2d82bbc958833634"
     }
   ]
 }
