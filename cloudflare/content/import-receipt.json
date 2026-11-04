@@ -2,7 +2,7 @@
   "format": "per-article-json-v1",
   "scope": "Published-only API export; complete database including drafts/runs remains unverified",
   "inputSha256": "4b27937d3c5a568f7e3bbbc7969b25ac1ea073a1b569db6df659b6caef63ee1c",
-  "count": 64,
+  "count": 65,
   "rows": [
     {
       "id": 52,
@@ -799,9 +799,19 @@
       "file": "posts/teirei-hokoku-shiryo-yameru-mae.json",
       "bytes": 10990,
       "fileSha256": "227dc0fe36274d0cec31ec68a1f880efc534f86574d8d18aee8b67b2400acc45"
+    },
+    {
+      "id": 65,
+      "slug": "irai-form-hissu-komoku-minaoshi",
+      "publishedAt": "2026-11-04T23:10:44.786Z",
+      "updatedAt": "2026-11-04T23:10:44.786Z",
+      "sha256": "a81066e68fcf799dd04d231f39cb3ff6bac6898bd40a2ce13db10624306f7c2a",
+      "file": "posts/irai-form-hissu-komoku-minaoshi.json",
+      "bytes": 12063,
+      "fileSha256": "03cac34839c1613661735aa18b7d3dad9edf44404080a11eabe77889eb678f50"
     }
   ],
-  "publishedFileSha256": "703a2ca3d9d8d68aca2226b0ff3b662ac20398ac6484fa4c16cdaa8661258942",
+  "publishedFileSha256": "152112e60369008a00631a6ca9bd81d07d0f8b0a595e2deb9f716bcad66c38af",
   "sourcePublishedFileSha256": "538161fc59c0236b37ffa78b791e84944cd51c90049dbb569bcdf31fc557ed64",
   "editorialRevision": {
     "appliedAt": "2026-10-23T23:16:09.682Z",
@@ -870,6 +880,11 @@
       "slug": "teirei-hokoku-shiryo-yameru-mae",
       "previousAggregateSha256": "a9d7d4ebe29efe61958021e38c39edd4dbfb540d30b76a326f2ccc9ff05eebfc",
       "articleSha256": "b40571bddee72aeb79f0cc5a75024e70b932de84382e40a8f68a85564eeae323"
+    },
+    {
+      "slug": "irai-form-hissu-komoku-minaoshi",
+      "previousAggregateSha256": "703a2ca3d9d8d68aca2226b0ff3b662ac20398ac6484fa4c16cdaa8661258942",
+      "articleSha256": "a81066e68fcf799dd04d231f39cb3ff6bac6898bd40a2ce13db10624306f7c2a"
     }
   ]
 }
