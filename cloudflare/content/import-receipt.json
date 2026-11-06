@@ -2,7 +2,7 @@
   "format": "per-article-json-v1",
   "scope": "Published-only API export; complete database including drafts/runs remains unverified",
   "inputSha256": "4b27937d3c5a568f7e3bbbc7969b25ac1ea073a1b569db6df659b6caef63ee1c",
-  "count": 66,
+  "count": 67,
   "rows": [
     {
       "id": 52,
@@ -819,9 +819,19 @@
       "file": "posts/uketsuke-tsuchi-kurikaeshi-toiawase.json",
       "bytes": 12817,
       "fileSha256": "4e359e9e2e2fa2f19c42c500668126f0b7cc16ee18b9606daa56134dae59a83f"
+    },
+    {
+      "id": 67,
+      "slug": "getsuji-shukei-jizen-junbi",
+      "publishedAt": "2026-11-06T23:32:17.905Z",
+      "updatedAt": "2026-11-06T23:32:17.905Z",
+      "sha256": "faed95c53767d26311315d7f47a357edafbef8049500ca415f575f4291b8d4b8",
+      "file": "posts/getsuji-shukei-jizen-junbi.json",
+      "bytes": 14265,
+      "fileSha256": "28a22626183999a17d6efe6c329202412cd81824f94c888e38b7aaaadd84cd7d"
     }
   ],
-  "publishedFileSha256": "7990023c6bcfd80f822a4643173079abac7e295bd34965c4ccf4f8782e4a9c67",
+  "publishedFileSha256": "64bcec1123d4f73ffa9b5c7ddd9d86e0ffd2e594905d87e26fefec0f3585bccb",
   "sourcePublishedFileSha256": "538161fc59c0236b37ffa78b791e84944cd51c90049dbb569bcdf31fc557ed64",
   "editorialRevision": {
     "appliedAt": "2026-10-23T23:16:09.682Z",
@@ -900,6 +910,11 @@
       "slug": "uketsuke-tsuchi-kurikaeshi-toiawase",
       "previousAggregateSha256": "152112e60369008a00631a6ca9bd81d07d0f8b0a595e2deb9f716bcad66c38af",
       "articleSha256": "090dabace3a98abf8217375734930654737df6102bd1842c21ef5b5d55d6892e"
+    },
+    {
+      "slug": "getsuji-shukei-jizen-junbi",
+      "previousAggregateSha256": "7990023c6bcfd80f822a4643173079abac7e295bd34965c4ccf4f8782e4a9c67",
+      "articleSha256": "faed95c53767d26311315d7f47a357edafbef8049500ca415f575f4291b8d4b8"
     }
   ]
 }
