@@ -2,7 +2,7 @@
   "format": "per-article-json-v1",
   "scope": "Published-only API export; complete database including drafts/runs remains unverified",
   "inputSha256": "4b27937d3c5a568f7e3bbbc7969b25ac1ea073a1b569db6df659b6caef63ee1c",
-  "count": 67,
+  "count": 68,
   "rows": [
     {
       "id": 52,
@@ -829,9 +829,19 @@
       "file": "posts/getsuji-shukei-jizen-junbi.json",
       "bytes": 14265,
       "fileSha256": "28a22626183999a17d6efe6c329202412cd81824f94c888e38b7aaaadd84cd7d"
+    },
+    {
+      "id": 68,
+      "slug": "chiiki-tanto-henko-settei-bunri",
+      "publishedAt": "2026-11-07T23:49:57.947Z",
+      "updatedAt": "2026-11-07T23:49:57.947Z",
+      "sha256": "03702a0e8cf1aaffe9f9315240e96887ab1832ff45957f800fde1be8f63344c5",
+      "file": "posts/chiiki-tanto-henko-settei-bunri.json",
+      "bytes": 18350,
+      "fileSha256": "f04672de0e23d17e48b127519031cbe560c35194cd1e136775135d3fde956ff8"
     }
   ],
-  "publishedFileSha256": "64bcec1123d4f73ffa9b5c7ddd9d86e0ffd2e594905d87e26fefec0f3585bccb",
+  "publishedFileSha256": "c19690f84ad9d90640ab9b8204bb578d448a7547bbf8adae07b24cf7457960a1",
   "sourcePublishedFileSha256": "538161fc59c0236b37ffa78b791e84944cd51c90049dbb569bcdf31fc557ed64",
   "editorialRevision": {
     "appliedAt": "2026-10-23T23:16:09.682Z",
@@ -915,6 +925,11 @@
       "slug": "getsuji-shukei-jizen-junbi",
       "previousAggregateSha256": "7990023c6bcfd80f822a4643173079abac7e295bd34965c4ccf4f8782e4a9c67",
       "articleSha256": "faed95c53767d26311315d7f47a357edafbef8049500ca415f575f4291b8d4b8"
+    },
+    {
+      "slug": "chiiki-tanto-henko-settei-bunri",
+      "previousAggregateSha256": "64bcec1123d4f73ffa9b5c7ddd9d86e0ffd2e594905d87e26fefec0f3585bccb",
+      "articleSha256": "03702a0e8cf1aaffe9f9315240e96887ab1832ff45957f800fde1be8f63344c5"
     }
   ]
 }
