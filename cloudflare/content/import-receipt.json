@@ -2,7 +2,7 @@
   "format": "per-article-json-v1",
   "scope": "Published-only API export; complete database including drafts/runs remains unverified",
   "inputSha256": "4b27937d3c5a568f7e3bbbc7969b25ac1ea073a1b569db6df659b6caef63ee1c",
-  "count": 68,
+  "count": 69,
   "rows": [
     {
       "id": 52,
@@ -839,9 +839,19 @@
       "file": "posts/chiiki-tanto-henko-settei-bunri.json",
       "bytes": 18350,
       "fileSha256": "f04672de0e23d17e48b127519031cbe560c35194cd1e136775135d3fde956ff8"
+    },
+    {
+      "id": 69,
+      "slug": "jidoka-seiko-torikomi-more-shogo",
+      "publishedAt": "2026-11-08T23:27:41.435Z",
+      "updatedAt": "2026-11-08T23:27:41.435Z",
+      "sha256": "30a9cafb2e0f6c2e694bac75b1cef315a2bb88dcbd57150e868fc73ac85d3203",
+      "file": "posts/jidoka-seiko-torikomi-more-shogo.json",
+      "bytes": 14226,
+      "fileSha256": "8b999c87fa07516b3b128e917a8595e151dd999671e0e07299a7f1eb246de849"
     }
   ],
-  "publishedFileSha256": "c19690f84ad9d90640ab9b8204bb578d448a7547bbf8adae07b24cf7457960a1",
+  "publishedFileSha256": "55c83c6dca7c58ef262f87f84880684f18182e2cbc96b246b9c478c642831578",
   "sourcePublishedFileSha256": "538161fc59c0236b37ffa78b791e84944cd51c90049dbb569bcdf31fc557ed64",
   "editorialRevision": {
     "appliedAt": "2026-10-23T23:16:09.682Z",
@@ -930,6 +940,11 @@
       "slug": "chiiki-tanto-henko-settei-bunri",
       "previousAggregateSha256": "64bcec1123d4f73ffa9b5c7ddd9d86e0ffd2e594905d87e26fefec0f3585bccb",
       "articleSha256": "03702a0e8cf1aaffe9f9315240e96887ab1832ff45957f800fde1be8f63344c5"
+    },
+    {
+      "slug": "jidoka-seiko-torikomi-more-shogo",
+      "previousAggregateSha256": "c19690f84ad9d90640ab9b8204bb578d448a7547bbf8adae07b24cf7457960a1",
+      "articleSha256": "30a9cafb2e0f6c2e694bac75b1cef315a2bb88dcbd57150e868fc73ac85d3203"
     }
   ]
 }
