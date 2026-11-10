@@ -2,7 +2,7 @@
   "format": "per-article-json-v1",
   "scope": "Published-only API export; complete database including drafts/runs remains unverified",
   "inputSha256": "4b27937d3c5a568f7e3bbbc7969b25ac1ea073a1b569db6df659b6caef63ee1c",
-  "count": 70,
+  "count": 71,
   "rows": [
     {
       "id": 52,
@@ -859,9 +859,19 @@
       "file": "posts/kyoyu-excel-jidoka-uwagaki-kyogo.json",
       "bytes": 14946,
       "fileSha256": "84bfb5b146482afff7d7313efd7d44be447e6cdd9ba5d094c3b99cedb738fcfb"
+    },
+    {
+      "id": 71,
+      "slug": "csv-export-sushiki-jikko-fusegu",
+      "publishedAt": "2026-11-11T08:23:57.445+09:00",
+      "updatedAt": "2026-11-11T08:23:57.445+09:00",
+      "sha256": "a654ca2f942d48705516c6cadb1e10e3aad756fcfe1fe9b04f7416fad809d009",
+      "file": "posts/csv-export-sushiki-jikko-fusegu.json",
+      "bytes": 10911,
+      "fileSha256": "33c27a92676a4a0786d02cf5d3998e3bd2074783906c03ab453dca4e04f2a0e3"
     }
   ],
-  "publishedFileSha256": "eeffb284b62c2e7da80f44c1e96c9a6f304f86a61cbd5b1ea483016271188cab",
+  "publishedFileSha256": "d156e526100b8c590b1871734b094ac0f7c2d8407a24a33f3645e3e8437f1181",
   "sourcePublishedFileSha256": "538161fc59c0236b37ffa78b791e84944cd51c90049dbb569bcdf31fc557ed64",
   "editorialRevision": {
     "appliedAt": "2026-10-23T23:16:09.682Z",
@@ -960,6 +970,11 @@
       "slug": "kyoyu-excel-jidoka-uwagaki-kyogo",
       "previousAggregateSha256": "55c83c6dca7c58ef262f87f84880684f18182e2cbc96b246b9c478c642831578",
       "articleSha256": "16cb37f479bc8340b4f011f5def3cd1fea47ff9442dce75c8f5822e14a1b2ad0"
+    },
+    {
+      "slug": "csv-export-sushiki-jikko-fusegu",
+      "previousAggregateSha256": "eeffb284b62c2e7da80f44c1e96c9a6f304f86a61cbd5b1ea483016271188cab",
+      "articleSha256": "a654ca2f942d48705516c6cadb1e10e3aad756fcfe1fe9b04f7416fad809d009"
     }
   ]
 }
